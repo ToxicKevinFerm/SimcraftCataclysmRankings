@@ -12,14 +12,14 @@ Player Druid_Feral_T11H unable to find glyph shred
 Generating reports...
 
 DPS Ranking:
-  28425 100.0%  Raid
-  28425  100.0%  Druid_Feral_T11H
+  28398 100.0%  Raid
+  28398  100.0%  Druid_Feral_T11H
 
 HPS Ranking:
       0 100.0%  Raid
 
 Player: Druid_Feral_T11H worgen druid feral 85
-  DPS: 28425.2  DPS-Error=39.2/0.1% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=1952/6.9%  DPS-Convergence=70.7%  DPR=1834.4  RPS-Out=15.5 RPS-In=15.3  Resource=(energy) Waiting=46.1 ApM=34.8
+  DPS: 28398.0  DPS-Error=37.9/0.1% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=1948/6.9%  DPS-Convergence=70.7%  DPR=1831.5  RPS-Out=15.5 RPS-In=15.3  Resource=(energy) Waiting=46.0 ApM=34.8
   Origin: http://chardev.org/?profile=35492
   Talents: http://www.wowhead.com/talent#druid-000000000000000000002320322312011221202301020301000000000000000
   Core Stats:  strength=701|119(20)  agility=7051|5457(5366)  stamina=7572|5953(5847)  intellect=191|182(20)  spirit=192|192(20)  mastery=19.98|19.98(2148)  health=145281|122615  mana=26526|24245
@@ -51,16 +51,16 @@ Player: Druid_Feral_T11H worgen druid feral 85
     ravage,if=buff.stampede_cat.up&!buff.omen_of_clarity.react&buff.tigers_fury.up
     shred
   Actions:
-    berserk         Count=  2.8|196.55sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    cat_melee       Count=545.7| 0.83sec  DPE=  4907|21%  DPET=  5945  DPR=   0.0  pDPS=5944  Miss=4.35%  Hit=3607|1905|4535  Crit= 7461| 3924| 9342|49.5%  Glance=2714|24.0%  Dodge=6.5%
-    ferocious_bite  Count=  9.6|10.35sec  DPE= 36594| 3%  DPET= 35289  DPR=1147.9  pDPS= 777  Miss=4.15%  Hit=22803|3269|38225  Crit=47000| 6525|78744|67.3%  Dodge=6.8%
-    fury_swipes     Count= 52.0| 8.60sec  DPE=  8560| 3%  DPET=     0  DPR=   0.0  pDPS= 988  Miss=4.37%  Hit=6305|5905|7810  Crit=13042|12164|16090|43.8%  Dodge=6.6%
-    mangle_cat      Count= 22.1|21.69sec  DPE= 15827| 3%  DPET= 15261  DPR= 490.7  pDPS= 778  Miss=4.34%  Hit=11567|10517|13871  Crit=23872|21665|28574|44.9%  Dodge=6.6%
-    rake            Count= 33.3|13.56sec  DPE= 81433|21%  DPET= 78529  DPR=2715.5  pDPS=6018  Miss=4.14%  Hit=9313|8728|11756  Crit=19320|17980|24218|44.4%  Dodge=6.3%  TickCount=146  MissTick=0.0%  Tick=10242|9601|12932  CritTick=21204|19778|26640|49.4%  UpTime=97.2%
-    ravage          Count=  1.0| 0.00sec  DPE= 35109| 0%  DPET= 33858  DPR=   0.0  pDPS=  79  Miss=4.40%  Hit=24360|21220|24403  Crit=50232|43713|50270|52.0%  Dodge=6.7%
-    rip             Count= 23.1|17.47sec  DPE=130669|24%  DPET=126016  DPR=5019.2  pDPS=6706  Miss=4.40%  Dodge=6.3%  TickCount=201  MissTick=0.0%  Tick=9817|9068|11977  CritTick=20321|18681|24672|49.8%  UpTime=89.0%
-    savage_roar     Count= 13.5|34.19sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    shred           Count=132.4| 3.35sec  DPE= 24268|25%  DPET= 23402  DPR= 798.2  pDPS=7135  Miss=4.37%  Hit=17781|16753|21639  Crit=36759|34511|44576|44.3%  Dodge=6.5%
+    berserk         Count=  2.8|196.62sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    cat_melee       Count=546.3| 0.83sec  DPE=  4906|21%  DPET=  5943  DPR=   0.0  pDPS=5941  Miss=4.34%  Hit=3608|1905|4535  Crit= 7464| 3924| 9342|49.4%  Glance=2715|24.0%  Dodge=6.5%
+    ferocious_bite  Count=  9.6|10.46sec  DPE= 36560| 3%  DPET= 35258  DPR=1148.3  pDPS= 775  Miss=4.39%  Hit=22673|3257|38225  Crit=46851| 6567|78744|67.5%  Dodge=6.3%
+    fury_swipes     Count= 51.7| 8.65sec  DPE=  8569| 3%  DPET=     0  DPR=   0.0  pDPS= 982  Miss=4.35%  Hit=6300|5905|7810  Crit=13040|12164|16090|43.9%  Dodge=6.6%
+    mangle_cat      Count= 22.1|21.70sec  DPE= 15825| 3%  DPET= 15259  DPR= 491.6  pDPS= 778  Miss=4.31%  Hit=11550|10517|13871  Crit=23814|21665|28574|44.9%  Dodge=6.4%
+    rake            Count= 33.5|13.49sec  DPE= 81045|21%  DPET= 78157  DPR=2698.1  pDPS=6018  Miss=4.37%  Hit=9317|8728|11756  Crit=19306|17980|24218|44.1%  Dodge=6.7%  TickCount=146  MissTick=0.0%  Tick=10242|9601|12932  CritTick=21209|19778|26640|49.6%  UpTime=97.1%
+    ravage          Count=  1.0| 0.00sec  DPE= 36089| 0%  DPET= 34810  DPR=   0.0  pDPS=  81  Miss=4.30%  Hit=24349|21220|24403  Crit=50222|43713|50270|54.6%  Dodge=5.5%
+    rip             Count= 23.2|17.48sec  DPE=130337|24%  DPET=125691  DPR=5012.5  pDPS=6693  Miss=4.50%  Dodge=6.3%  TickCount=201  MissTick=0.0%  Tick=9816|9068|11977  CritTick=20320|18681|24672|49.5%  UpTime=89.1%
+    savage_roar     Count= 13.6|34.14sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    shred           Count=132.5| 3.35sec  DPE= 24259|25%  DPET= 23393  DPR= 797.3  pDPS=7128  Miss=4.41%  Hit=17777|16753|21639  Crit=36776|34511|44576|44.3%  Dodge=6.5%
     tigers_fury     Count= 16.4|28.14sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
   Constant Buffs: abominations_might/arcane_brilliance/arcane_tactics/battle_shout/blessing_of_kings/blessing_of_might
   Constant Buffs: blessing_of_might_regen/cat_form/communion/demonic_pact/devotion_aura/elemental_oath/fel_intelligence
@@ -68,32 +68,32 @@ Player: Druid_Feral_T11H worgen druid feral 85
   Constant Buffs: improved_icy_talons/leader_of_the_pack/mana_spring_totem/mark_of_the_wild/moonkin/qiraji_fortitude/rampage
   Constant Buffs: replenishment/roar_of_courage/strength_of_earth/trueshot/unleashed_rage/windfury_totem/wrath_of_air
   Dynamic Buffs:
-    berserk                          : start=2.8  refresh=0.0   interval=196.5 trigger=196.5 uptime= 9%
+    berserk                          : start=2.8  refresh=0.0   interval=196.6 trigger=196.6 uptime= 9%
     bloodlust                        : start=1.0  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 9%  benefit=10%
-    essence_of_the_cyclone           : start=8.4  refresh=0.0   interval= 56.7 trigger=56.7  uptime=18%
-    omen_of_clarity                  : start=28.3 refresh=0.3   interval= 15.4 trigger=15.2  uptime= 3%  benefit= 4%
+    essence_of_the_cyclone           : start=8.4  refresh=0.0   interval= 56.5 trigger=56.5  uptime=18%
+    omen_of_clarity                  : start=28.3 refresh=0.3   interval= 15.5 trigger=15.3  uptime= 3%  benefit= 4%
     prestors_talisman_of_machination : start=6.0  refresh=0.0   interval= 81.7 trigger=81.7  uptime=20%
     primal_madness_cat               : start=19.2 refresh=0.0   interval= 23.9 trigger=23.9  uptime=31%
-    savage_roar                      : start=4.8  refresh=8.8   interval=107.0 trigger=34.2  uptime=97%  benefit=97%
+    savage_roar                      : start=4.7  refresh=8.9   interval=109.0 trigger=34.1  uptime=97%  benefit=97%
     stampede_cat                     : start=1.0  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 1%  benefit= 0%
-    t11_4pc_melee                    : start=1.6  refresh=18.0  interval=208.6 trigger=24.5  uptime=100%
+    t11_4pc_melee                    : start=1.7  refresh=18.1  interval=202.6 trigger=24.4  uptime=100%
     tigers_fury                      : start=16.4 refresh=0.0   interval= 28.1 trigger=28.1  uptime=22%  benefit=28%
-    tolvir_potion                    : start=2.0  refresh=0.0   interval=354.1 trigger=0.0   uptime=10%
+    tolvir_potion                    : start=2.0  refresh=0.0   interval=354.5 trigger=0.0   uptime=10%
   Benefits:
       0.0% : energy_cap                    
   Up-Times:
       0.0% : energy_cap                    
   Procs:
-     56.1 |  10.17sec : combo_points_wasted
-     52.0 |   8.60sec : fury_swipes
+     56.0 |  10.18sec : combo_points_wasted
+     51.7 |   8.65sec : fury_swipes
      84.0 |   5.38sec : primal_fury
   Gains:
-       565.4 : energy_refund  
-      4963.4 : energy_regen   
+       571.8 : energy_refund  
+      4969.2 : energy_regen   
          0.0 : lotp_health      (overflow=100.0%)
          0.0 : lotp_mana        (overflow=100.0%)
-      1073.3 : omen_of_clarity
-       985.6 : tigers_fury    
+      1072.2 : omen_of_clarity
+       986.2 : tigers_fury    
 
 
  *** Targets *** 
@@ -101,7 +101,7 @@ Player: Druid_Feral_T11H worgen druid feral 85
 
 Target: Fluffy_Pillow humanoid enemy Unknown 88
   DPS: 0.0  DPS-Error=0.0/0.0% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=0/0.0%  DPS-Convergence=0.0%
-  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|15323907  mana=0|0
+  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|15310475  mana=0|0
   Spell Stats:  power=0|0(0)  hit=0.00%|0.00%(0)  crit=0.00%|0.00%(0)  penetration=0|0(0)  haste=0.00%|0.00%(0)  mp5=0|0(0)
   Attack Stats  power=0|0(0)  hit=0.00%|0.00%(0)  crit=5.00%|5.00%(0)  expertise=0.00|0.00(0)  haste=0.00%|0.00%(0)  speed=0.00%|0.00%(0)
   Defense Stats:  armor=10540|11977(0) miss=0.00%|0.00%  dodge=0.00%|0.00%(0)  parry=0.00%|0.00%(0)  block=5.00%|5.00%(0) crit=0.00%|0.00%
@@ -117,18 +117,18 @@ Target: Fluffy_Pillow humanoid enemy Unknown 88
   Constant Buffs: replenishment/roar_of_courage/savage_combat/scarlet_fever/shadow_and_flame/strength_of_earth/sunder_armor
   Constant Buffs: tailspin/tear_armor/tendon_rip/thunder_clap/trueshot/unleashed_rage/vindication/windfury_totem/wrath_of_air
   Dynamic Buffs:
-    combo_points:Druid_Feral_T11H : start=43.2 refresh=153.1 interval= 10.6 trigger=2.3   uptime=78%  benefit=72%
+    combo_points:Druid_Feral_T11H : start=43.2 refresh=153.2 interval= 10.6 trigger=2.3   uptime=78%  benefit=72%
 
 Waiting:
-    46.1% : Druid_Feral_T11H
+    46.0% : Druid_Feral_T11H
 
 Baseline Performance:
-  TotalEvents   = 4801541
+  TotalEvents   = 4806524
   MaxEventQueue = 19
-  TargetHealth  = 15323907
-  SimSeconds    = 450895
-  CpuSeconds    = 2.953
-  SpeedUp       = 152690
+  TargetHealth  = 15310475
+  SimSeconds    = 451441
+  CpuSeconds    = 2.782
+  SpeedUp       = 162272
 
-RNG global Actual/Expected Roll=1.003172 Range=1.000000 Gauss=0.991018
+RNG global Actual/Expected Roll=1.001251 Range=1.000000 Gauss=1.001949
 
