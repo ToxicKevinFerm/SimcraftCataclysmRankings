@@ -3,8 +3,8 @@
 I made a simple project to take the latest version (that I could find) of Simcraft for Cataclysm, and apply them to the T11 BIS sims.
 Should be the closest approximation we can get pre-beta.
 
-Everything is simmed on SimulationCraft 433-2
-for World of Warcraft 4.3.3 Live (build level 15354)
+Everything is simmed on **SimulationCraft 433-2
+for World of Warcraft 4.3.3 Live (build level 15354)**
 
 ## Simulation Results
 
