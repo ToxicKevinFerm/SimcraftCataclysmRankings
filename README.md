@@ -17,6 +17,8 @@ If you want to modify the sim for your class, please make a PR with the changes.
 ## Requirements
 * Bring your own version of Simcraft
 * You need an appsettings.json with the following format:
+```json
+{
   "SimcraftOptions": {
     "SimcPath": "",
     "InputPath": "",
