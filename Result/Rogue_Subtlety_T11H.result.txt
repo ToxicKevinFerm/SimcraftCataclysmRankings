@@ -11,14 +11,14 @@ Rogue_Subtlety_T11H tricks_of_the_trade: Unable to locate target 'if=set_bonus.t
 Generating reports...
 
 DPS Ranking:
-  30310 100.0%  Raid
-  30310  100.0%  Rogue_Subtlety_T11H
+  30331 100.0%  Raid
+  30331  100.0%  Rogue_Subtlety_T11H
 
 HPS Ranking:
       0 100.0%  Raid
 
 Player: Rogue_Subtlety_T11H troll rogue subtlety 85
-  DPS: 30309.6  DPS-Error=35.9/0.1% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=1659/5.5%  DPS-Convergence=70.6%  DPR=1368.6  RPS-Out=22.1 RPS-In=22.0  Resource=(energy) Waiting=32.8 ApM=48.5
+  DPS: 30331.3  DPS-Error=35.8/0.1% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=1769/5.8%  DPS-Convergence=70.6%  DPR=1369.6  RPS-Out=22.1 RPS-In=22.0  Resource=(energy) Waiting=32.8 ApM=48.5
   Origin: http://chardev.org/?profile=36352
   Talents: http://www.wowhead.com/talent#rogue-023003000000000000000200000000000000000332031321310012321
   Core Stats:  strength=726|143(20)  agility=8522|6835(4799)  stamina=7515|5899(5785)  intellect=65|62(20)  spirit=92|92(20)  mastery=11.50|11.50(628)  health=145479|122855  mana=2246|120
@@ -46,16 +46,16 @@ Player: Rogue_Subtlety_T11H troll rogue subtlety 85
     backstab,if=combo_points<4&energy>40&energy<75
     backstab,if=combo_points<5&energy>80
   Actions:
-    ambush           Count= 40.4|11.34sec  DPE= 40081|12%  DPET= 38648  DPR=1002.0  pDPS=3578  Miss=0.00%  Hit=18923|15917|26386  Crit=40789|31266|60287|96.8%  Dodge=0.0%
-    backstab         Count=141.5| 3.11sec  DPE= 29216|30%  DPET= 28174  DPR= 730.4  pDPS=9129  Miss=0.00%  Hit=14869|13134|21611  Crit=35465|31233|51392|69.7%  Dodge=0.1%
-    deadly_poison    Count=167.8| 2.69sec  DPE=  5958| 7%  DPET=     0  DPR=   0.0  pDPS=2205  Miss=0.00%  TickCount=147  MissTick=0.0%  Tick=6228|1213|8406  CritTick=9610|1874|12987|16.5%  UpTime=97.5%
-    eviscerate       Count= 49.3| 9.00sec  DPE= 30500|11%  DPET= 29412  DPR= 871.4  pDPS=3320  Miss=0.00%  Hit=20491|17068|28682  Crit=42394|35160|59084|45.7%  Dodge=0.1%
-    instant_poison   Count=315.7| 1.43sec  DPE=  3510| 8%  DPET=     0  DPR=   0.0  pDPS=2448  Miss=3.55%  Hit=3338|3126|4483  Crit= 5160| 4830| 6927|16.0%
-    melee_main_hand  Count=511.8| 0.89sec  DPE=  4716|18%  DPET=  5329  DPR=   0.0  pDPS=5331  Miss=15.06%  Hit=4021|3449|6033  Crit= 8386| 7105|12429|35.2%  Glance=3036|24.0%  Dodge=0.1%
-    melee_off_hand   Count=657.4| 0.69sec  DPE=  1835| 9%  DPET=  2662  DPR=   0.0  pDPS=2664  Miss=15.06%  Hit=1563|1342|2347  Crit= 3263| 2764| 4835|35.3%  Glance=1181|23.9%  Dodge=0.1%
+    ambush           Count= 40.4|11.33sec  DPE= 40048|12%  DPET= 38618  DPR=1001.2  pDPS=3578  Miss=0.00%  Hit=18986|15917|26386  Crit=40792|32326|60287|96.6%  Dodge=0.0%
+    backstab         Count=141.5| 3.11sec  DPE= 29238|30%  DPET= 28195  DPR= 731.0  pDPS=9137  Miss=0.00%  Hit=14864|13134|21611  Crit=35493|31233|51392|69.7%  Dodge=0.0%
+    deadly_poison    Count=167.9| 2.69sec  DPE=  5959| 7%  DPET=     0  DPR=   0.0  pDPS=2208  Miss=0.00%  TickCount=147  MissTick=0.0%  Tick=6227|1213|8406  CritTick=9636|1874|13448|16.5%  UpTime=97.5%
+    eviscerate       Count= 49.1| 9.03sec  DPE= 30614|11%  DPET= 29523  DPR= 874.7  pDPS=3321  Miss=0.00%  Hit=20482|17068|28682  Crit=42457|35160|59084|46.2%  Dodge=0.1%
+    instant_poison   Count=316.1| 1.43sec  DPE=  3507| 8%  DPET=     0  DPR=   0.0  pDPS=2448  Miss=3.57%  Hit=3338|3126|4483  Crit= 5155| 4830| 6927|15.9%
+    melee_main_hand  Count=511.6| 0.89sec  DPE=  4723|18%  DPET=  5337  DPR=   0.0  pDPS=5339  Miss=15.01%  Hit=4017|3449|6033  Crit= 8393| 7105|12429|35.3%  Glance=3040|23.9%  Dodge=0.1%
+    melee_off_hand   Count=657.1| 0.69sec  DPE=  1837| 9%  DPET=  2666  DPR=   0.0  pDPS=2667  Miss=14.99%  Hit=1564|1342|2347  Crit= 3263| 2764| 4835|35.3%  Glance=1182|24.0%  Dodge=0.1%
     recuperate       Count= 14.8|31.16sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    rupture          Count=  5.8|82.46sec  DPE=128569| 5%  DPET=123975  DPR=5142.7  pDPS=1635  Miss=0.00%  Dodge=0.1%  TickCount=221  MissTick=0.0%  Tick=2442|2300|3231  CritTick=5051|4737|6656|35.2%  UpTime=97.3%
-    slice_and_dice   Count= 17.6|26.47sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    rupture          Count=  6.0|79.69sec  DPE=124316| 5%  DPET=119875  DPR=4972.6  pDPS=1634  Miss=0.00%  Dodge=0.1%  TickCount=220  MissTick=0.0%  Tick=2443|2300|3231  CritTick=5050|4737|6656|35.2%  UpTime=97.2%
+    slice_and_dice   Count= 17.6|26.48sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
   Constant Buffs: abominations_might/arcane_brilliance/arcane_tactics/battle_shout/blessing_of_kings/blessing_of_might
   Constant Buffs: blessing_of_might_regen/communion/demonic_pact/devotion_aura/elemental_oath/fel_intelligence
   Constant Buffs: ferocious_inspiration/flametongue_totem/fortitude/honor_among_thieves/horn_of_winter/hunting_party
@@ -64,37 +64,35 @@ Player: Rogue_Subtlety_T11H troll rogue subtlety 85
   Dynamic Buffs:
     berserking                       : start=2.9  refresh=0.0   interval=191.7 trigger=191.7 uptime= 6%  benefit= 7%
     bloodlust                        : start=1.0  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 9%  benefit=10%
-    deadly_proc                      : start=143.6 refresh=0.0   interval=  3.0 trigger=3.0   uptime= 0%
-    find_weakness                    : start=13.0 refresh=27.4  interval= 36.2 trigger=11.3  uptime=39%  benefit=41%
-    fluid_death                      : start=1.0  refresh=734.2 interval=  0.0 trigger=0.6   uptime=100%
-    landslide_mh                     : start=12.1 refresh=7.8   interval= 36.6 trigger=21.6  uptime=41%  benefit=41%
-    landslide_oh                     : start=9.2  refresh=3.7   interval= 46.3 trigger=32.0  uptime=29%  benefit=29%
+    deadly_proc                      : start=143.9 refresh=0.0   interval=  3.0 trigger=3.0   uptime= 0%
+    find_weakness                    : start=13.0 refresh=27.4  interval= 36.2 trigger=11.3  uptime=40%  benefit=41%
+    fluid_death                      : start=1.0  refresh=734.1 interval=  0.0 trigger=0.6   uptime=100%
+    landslide_mh                     : start=12.0 refresh=8.0   interval= 36.8 trigger=21.6  uptime=41%  benefit=41%
+    landslide_oh                     : start=9.3  refresh=3.7   interval= 46.2 trigger=32.2  uptime=29%  benefit=29%
     master_of_subtlety               : start=6.4  refresh=0.0   interval= 73.9 trigger=84.5  uptime= 8%
-    prestors_talisman_of_machination : start=6.2  refresh=0.0   interval= 78.9 trigger=78.9  uptime=20%
-    recuperate                       : start=7.9  refresh=6.9   interval= 58.2 trigger=31.2  uptime=94%
+    prestors_talisman_of_machination : start=6.2  refresh=0.0   interval= 79.0 trigger=79.0  uptime=20%
+    recuperate                       : start=7.9  refresh=6.9   interval= 58.1 trigger=31.2  uptime=94%
     shadow_dance                     : start=7.6  refresh=0.0   interval= 63.9 trigger=63.9  uptime=13%
-    shadowstep                       : start=8.1  refresh=0.0   interval= 60.2 trigger=59.1  uptime= 0%  benefit=20%
-    slice_and_dice                   : start=7.1  refresh=10.5  interval= 64.7 trigger=26.5  uptime=98%
+    shadowstep                       : start=8.1  refresh=0.0   interval= 60.2 trigger=59.2  uptime= 0%  benefit=20%
+    slice_and_dice                   : start=7.1  refresh=10.5  interval= 64.5 trigger=26.5  uptime=98%
     stealthed                        : start=1.0  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 0%
-    synapse_springs                  : start=7.6  refresh=0.0   interval= 63.9 trigger=63.9  uptime=16%
-    tier11_4pc                       : start=8.8  refresh=1.1   interval= 47.1 trigger=41.5  uptime=11%  benefit=17%
-    tolvir_potion                    : start=2.0  refresh=0.0   interval=350.0 trigger=0.0   uptime=10%
+    synapse_springs                  : start=7.6  refresh=0.0   interval= 63.9 trigger=63.9  uptime=17%
+    tier11_4pc                       : start=8.9  refresh=1.1   interval= 45.8 trigger=40.3  uptime=11%  benefit=17%
+    tolvir_potion                    : start=2.0  refresh=0.0   interval=350.2 trigger=0.0   uptime=10%
     vanish                           : start=5.4  refresh=0.0   interval= 84.5 trigger=84.5  uptime= 0%
   Benefits:
       0.0% : energy_cap                    
-  Up-Times:
-      0.0% : energy_cap                    
   Procs:
-    167.8 |   2.69sec : deadly_poisons
-    237.9 |   1.91sec : hat_donor
-    205.7 |   2.21sec : honor_among_thieves
-     49.2 |   9.01sec : serrated_blades
+    167.9 |   2.69sec : deadly_poisons
+    237.8 |   1.91sec : hat_donor
+    205.6 |   2.21sec : honor_among_thieves
+     49.0 |   9.04sec : serrated_blades
   Gains:
        493.2 : backstab_glyph    
-         4.1 : energy_refund     
-      5570.5 : energy_regen      
-      1703.7 : recuperate        
-      2184.2 : relentless_strikes
+         3.8 : energy_refund     
+      5568.3 : energy_regen      
+      1702.6 : recuperate        
+      2183.4 : relentless_strikes
 
 
  *** Targets *** 
@@ -102,7 +100,7 @@ Player: Rogue_Subtlety_T11H troll rogue subtlety 85
 
 Target: Fluffy_Pillow humanoid enemy Unknown 88
   DPS: 0.0  DPS-Error=0.0/0.0% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=0/0.0%  DPS-Convergence=0.0%
-  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|16342137  mana=0|0
+  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|16354563  mana=0|0
   Spell Stats:  power=0|0(0)  hit=0.00%|0.00%(0)  crit=0.00%|0.00%(0)  penetration=0|0(0)  haste=0.00%|0.00%(0)  mp5=0|0(0)
   Attack Stats  power=0|0(0)  hit=0.00%|0.00%(0)  crit=5.00%|5.00%(0)  expertise=0.00|0.00(0)  haste=0.00%|0.00%(0)  speed=0.00%|0.00%(0)
   Defense Stats:  armor=10540|11977(0) miss=0.00%|0.00%  dodge=0.00%|0.00%(0)  parry=0.00%|0.00%(0)  block=5.00%|5.00%(0) crit=0.00%|0.00%
@@ -118,10 +116,10 @@ Target: Fluffy_Pillow humanoid enemy Unknown 88
   Constant Buffs: replenishment/roar_of_courage/savage_combat/scarlet_fever/shadow_and_flame/strength_of_earth/sunder_armor
   Constant Buffs: tailspin/tear_armor/tendon_rip/thunder_clap/trueshot/unleashed_rage/vindication/windfury_totem/wrath_of_air
   Dynamic Buffs:
-    poison_doses:Rogue_Subtlety_T11H : start=3.7  refresh=157.9 interval=111.7 trigger=2.8   uptime=98%
+    poison_doses:Rogue_Subtlety_T11H : start=3.7  refresh=158.2 interval=112.3 trigger=2.8   uptime=98%
   Procs:
-    471.8 |   1.25sec : combo_points
-     32.5 |  16.63sec : combo_points_wasted
+    471.6 |   1.25sec : combo_points
+     32.4 |  16.58sec : combo_points_wasted
 
 Honor Among Thieves Donor Report:
   1.91sec | 0.524cps : Rogue_Subtlety_T11H
@@ -130,12 +128,12 @@ Waiting:
     32.8% : Rogue_Subtlety_T11H
 
 Baseline Performance:
-  TotalEvents   = 6929783
-  MaxEventQueue = 25
-  TargetHealth  = 16342137
-  SimSeconds    = 453379
-  CpuSeconds    = 3.586
-  SpeedUp       = 126430
+  TotalEvents   = 6927267
+  MaxEventQueue = 24
+  TargetHealth  = 16354563
+  SimSeconds    = 453196
+  CpuSeconds    = 3.663
+  SpeedUp       = 123723
 
-RNG global Actual/Expected Roll=0.999296 Range=1.000410 Gauss=1.001452
+RNG global Actual/Expected Roll=0.999552 Range=0.999561 Gauss=0.999259
 

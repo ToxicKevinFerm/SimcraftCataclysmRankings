@@ -9,14 +9,14 @@ Generating baseline...
 Generating reports...
 
 DPS Ranking:
-  30167 100.0%  Raid
-  30167  100.0%  Shaman_Enh_T11H.simc
+  30178 100.0%  Raid
+  30178  100.0%  Shaman_Enh_T11H.simc
 
 HPS Ranking:
       0 100.0%  Raid
 
 Player: Shaman_Enh_T11H.simc orc shaman enhancement 85
-  DPS: 30167.1  DPS-Error=36.6/0.1% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=1861/6.2%  DPS-Convergence=70.7%  DPR=39.0  RPS-Out=754.4 RPS-In=752.5  Resource=(mana) Waiting=17.8 ApM=36.6
+  DPS: 30177.5  DPS-Error=35.5/0.1% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=1760/5.8%  DPS-Convergence=70.6%  DPR=39.0  RPS-Out=754.8 RPS-In=752.8  Resource=(mana) Waiting=17.9 ApM=36.6
   Origin: http://chardev.org/?profile=39863
   Talents: http://www.wowhead.com/talent#shaman-3022003000000000000230332001302301232100000000000000000000
   Core Stats:  strength=738|154(20)  agility=7775|5075(4756)  stamina=7541|5924(5775)  intellect=163|156(20)  spirit=178|178(20)  mastery=17.20|17.20(1650)  health=142411|119773  mana=27721|25490
@@ -37,29 +37,29 @@ Player: Shaman_Enh_T11H.simc orc shaman enhancement 85
     spiritwalkers_grace,moving=1
     lightning_bolt,if=buff.maelstrom_weapon.stack=4&buff.maelstrom_weapon.react
   Actions:
-    darkmoon_card_hurricane  Count= 31.8|13.91sec  DPE=  7560| 2%  DPET=     0  DPR=   0.0  pDPS= 533  Miss=0.00%  Hit=7560|7560|7560
-    earth_shock              Count= 38.6|11.54sec  DPE= 11860| 3%  DPET=  8683  DPR=  11.2  pDPS=1014  Miss=0.09%  Hit=9092|8563|11264  Crit=14051|13230|17403|56.0%
-    flame_shock              Count= 23.1|19.77sec  DPE= 27090| 5%  DPET= 19792  DPR=  27.2  pDPS=1387  Miss=0.10%  Hit=6248|4774|8081  Crit= 9643| 7376|12485|21.4%  TickCount=155  MissTick=0.0%  Tick=2687|2039|3529  CritTick=4149|3151|5453|21.0%  UpTime=91.0%
-    flametongue_oh           Count=347.7| 1.30sec  DPE=  3423| 9%  DPET=     0  DPR=   9.7  pDPS=2641  Miss=0.10%  Hit=3073|2880|3876  Crit= 4749| 4450| 5989|21.1%
-    lava_lash                Count= 43.1|10.58sec  DPE= 49685|16%  DPET= 32327  DPR=  53.0  pDPS=4754  Miss=0.00%  Hit=34389|22042|42282  Crit=71117|45406|87102|41.7%  Dodge=0.1%
-    lightning_bolt           Count= 69.0| 6.48sec  DPE= 20471|10%  DPET= 15025  DPR= 214.5  pDPS=3134  Miss=0.08%  Hit=15087|14103|19100  Crit=23283|21789|29509|65.9%
-    lightning_shield         Count= 52.9| 8.65sec  DPE=  7144| 3%  DPET=     0  DPR=   0.0  pDPS= 838  Miss=0.11%  Hit=5596|5252|7048  Crit= 8635| 8114|10890|54.6%
-    melee_main_hand          Count=277.1| 1.63sec  DPE=  4914|10%  DPET=  3085  DPR=   0.0  pDPS=3021  Miss=6.82%  Hit=3733|3547|4536  Crit= 7709| 7307| 9344|41.8%  Glance=2805|24.0%  Dodge=0.1%
-    melee_off_hand           Count=277.1| 1.63sec  DPE=  2458| 5%  DPET=  1542  DPR=   0.0  pDPS=1511  Miss=6.85%  Hit=1867|1774|2268  Crit= 3856| 3654| 4672|41.8%  Glance=1402|24.0%  Dodge=0.1%
-    searing_flames           Count=278.5| 1.62sec  DPE=  1340| 3%  DPET=     0  DPR=   0.0  pDPS= 828  Miss=0.00%  TickCount=122  MissTick=0.0%  Tick=2809|730|5000  CritTick=4340|1128|7725|16.3%  UpTime=81.2%
-    searing_totem            Count=  8.0|59.81sec  DPE=150864| 9%  DPET=145462  DPR= 515.3  pDPS=2690  Miss=0.00%  TickCount=279  MissTick=0.0%  Tick=3907|3650|4999  CritTick=6041|5640|7723|21.1%  UpTime=98.9%
+    darkmoon_card_hurricane  Count= 31.5|14.01sec  DPE=  7560| 2%  DPET=     0  DPR=   0.0  pDPS= 528  Miss=0.00%  Hit=7560|7560|7560
+    earth_shock              Count= 38.6|11.53sec  DPE= 11869| 3%  DPET=  8689  DPR=  11.3  pDPS=1016  Miss=0.10%  Hit=9090|8563|11264  Crit=14059|13230|17403|56.1%
+    flame_shock              Count= 23.1|19.77sec  DPE= 27079| 5%  DPET= 19781  DPR=  27.2  pDPS=1387  Miss=0.09%  Hit=6241|4774|8081  Crit= 9653| 7376|12485|21.0%  TickCount=155  MissTick=0.0%  Tick=2686|2039|3529  CritTick=4152|3151|5453|21.1%  UpTime=91.1%
+    flametongue_oh           Count=348.4| 1.29sec  DPE=  3424| 9%  DPET=     0  DPR=   9.7  pDPS=2645  Miss=0.10%  Hit=3073|2880|3876  Crit= 4746| 4450| 5989|21.1%
+    lava_lash                Count= 43.2|10.58sec  DPE= 49743|16%  DPET= 32365  DPR=  53.1  pDPS=4762  Miss=0.00%  Hit=34394|22042|42282  Crit=71088|45406|87102|41.9%  Dodge=0.1%
+    lightning_bolt           Count= 68.9| 6.49sec  DPE= 20446|10%  DPET= 15006  DPR= 215.2  pDPS=3123  Miss=0.08%  Hit=15091|14103|19100  Crit=23270|21789|29509|65.6%
+    lightning_shield         Count= 53.2| 8.61sec  DPE=  7147| 3%  DPET=     0  DPR=   0.0  pDPS= 843  Miss=0.11%  Hit=5599|5252|7048  Crit= 8635| 8114|10890|54.6%
+    melee_main_hand          Count=277.5| 1.63sec  DPE=  4922|10%  DPET=  3091  DPR=   0.0  pDPS=3029  Miss=6.69%  Hit=3735|3547|4536  Crit= 7709| 7307| 9344|41.9%  Glance=2805|24.0%  Dodge=0.1%
+    melee_off_hand           Count=277.4| 1.63sec  DPE=  2460| 5%  DPET=  1544  DPR=   0.0  pDPS=1513  Miss=6.76%  Hit=1867|1774|2268  Crit= 3856| 3654| 4672|41.8%  Glance=1402|23.9%  Dodge=0.1%
+    searing_flames           Count=278.7| 1.62sec  DPE=  1339| 3%  DPET=     0  DPR=   0.0  pDPS= 827  Miss=0.00%  TickCount=122  MissTick=0.0%  Tick=2811|730|5000  CritTick=4319|1128|7725|16.3%  UpTime=81.1%
+    searing_totem            Count=  8.1|59.81sec  DPE=150718| 9%  DPET=145342  DPR= 514.8  pDPS=2689  Miss=0.00%  TickCount=279  MissTick=0.0%  Tick=3907|3650|4999  CritTick=6040|5640|7723|21.0%  UpTime=98.9%
     spirit_wolf              Count=  4.1|123.12sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    stormstrike              Count= 46.8| 9.63sec  DPE= 28924|10%  DPET= 18819  DPR=  15.4  pDPS=3001  Miss=0.00%  Dodge=0.1%
-    stormstrike_mh           Count= 46.7| 9.63sec  DPE= 19298| 7%  DPET=     0  DPR=   0.0  pDPS=2001  Miss=0.00%  Hit=13396|12730|16278  Crit=27620|26225|33533|41.5%
-    stormstrike_oh           Count= 46.7| 9.63sec  DPE=  9649| 3%  DPET=     0  DPR=   0.0  pDPS=1000  Miss=0.00%  Hit=6696|6365|8139  Crit=13816|13112|16766|41.5%
-    unleash_elements         Count= 28.4|16.09sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    unleash_flame            Count= 28.4|16.09sec  DPE= 10955| 2%  DPET=     0  DPR=   0.0  pDPS= 690  Miss=0.12%  Hit=9850|9297|12183  Crit=15219|14363|18823|20.8%
-    unleash_wind             Count= 28.4|16.09sec  DPE=  9420| 2%  DPET=     0  DPR=   0.0  pDPS= 593  Miss=0.00%  Hit=6538|6208|7938  Crit=13474|12788|16352|41.7%
-    windfury_mh              Count=138.0| 9.64sec  DPE=  9067| 9%  DPET=     0  DPR=   0.0  pDPS=2778  Miss=0.00%  Hit=6284|6021|7404  Crit=12960|12402|15253|41.8%  Dodge=0.1%
-   spirit_wolf  (DPS=2271.7)
-    wolf_melee               Count= 88.3| 4.69sec  DPE=  3058| 2%  DPET=  2264  DPR=   0.0  pDPS=2272  Miss=0.00%  Hit=3244|3085|3803  Crit= 6453| 6169| 7358|0.2%  Glance=2434|23.7%
-   earth_elemental  (DPS=576.6)
-    earth_melee              Count= 59.0| 2.00sec  DPE=  1173| 1%  DPET=   586  DPR=   0.0  pDPS= 577  Miss=0.00%  Hit=1211|1000|1280  Crit= 2425| 2096| 2560|2.9%  Glance= 908|24.1%  Dodge=0.0%
+    stormstrike              Count= 46.8| 9.62sec  DPE= 28942|10%  DPET= 18830  DPR=  15.4  pDPS=3004  Miss=0.00%  Dodge=0.1%
+    stormstrike_mh           Count= 46.8| 9.63sec  DPE= 19300| 7%  DPET=     0  DPR=   0.0  pDPS=2002  Miss=0.00%  Hit=13399|12730|16278  Crit=27619|26225|33533|41.5%
+    stormstrike_oh           Count= 46.8| 9.63sec  DPE=  9669| 3%  DPET=     0  DPR=   0.0  pDPS=1003  Miss=0.00%  Hit=6695|6365|8139  Crit=13822|13112|16766|41.7%
+    unleash_elements         Count= 28.4|16.08sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    unleash_flame            Count= 28.4|16.08sec  DPE= 10983| 2%  DPET=     0  DPR=   0.0  pDPS= 692  Miss=0.10%  Hit=9850|9297|12183  Crit=15233|14363|18437|21.2%
+    unleash_wind             Count= 28.4|16.08sec  DPE=  9486| 2%  DPET=     0  DPR=   0.0  pDPS= 598  Miss=0.00%  Hit=6538|6208|7938  Crit=13481|12788|16352|42.6%
+    windfury_mh              Count=137.5| 9.69sec  DPE=  9076| 9%  DPET=     0  DPR=   0.0  pDPS=2767  Miss=0.00%  Hit=6283|6021|7404  Crit=12957|12402|15253|41.9%  Dodge=0.1%
+   spirit_wolf  (DPS=2271.5)
+    wolf_melee               Count= 88.4| 4.69sec  DPE=  3057| 2%  DPET=  2264  DPR=   0.0  pDPS=2272  Miss=0.00%  Hit=3244|3085|3803  Crit= 6496| 6169| 7606|0.2%  Glance=2435|24.1%
+   earth_elemental  (DPS=578.1)
+    earth_melee              Count= 59.0| 2.00sec  DPE=  1176| 1%  DPET=   588  DPR=   0.0  pDPS= 578  Miss=0.00%  Hit=1213|1127|1280  Crit= 2424| 2255| 2560|2.9%  Glance= 910|24.0%  Dodge=0.0%
   Constant Buffs: abominations_might/arcane_brilliance/arcane_tactics/battle_shout/blessing_of_kings/blessing_of_might
   Constant Buffs: blessing_of_might_regen/communion/demonic_pact/devotion_aura/elemental_oath/fel_intelligence
   Constant Buffs: ferocious_inspiration/flametongue_totem/fortitude/honor_among_thieves/horn_of_winter/hunting_party
@@ -71,33 +71,33 @@ Player: Shaman_Enh_T11H.simc orc shaman enhancement 85
     blood_fury_sp         : start=4.3  refresh=0.0   interval=120.7 trigger=120.7 uptime=14%
     bloodlust             : start=1.0  refresh=0.8   interval=  0.0 trigger=0.8   uptime= 9%  benefit=10%
     earth_elemental       : start=1.0  refresh=0.0   interval=  0.0 trigger=0.0   uptime=27%
-    elemental_devastation : start=7.6  refresh=93.0  interval= 58.3 trigger=4.4   uptime=94%  benefit=94%
-    fluid_death           : start=1.0  refresh=429.1 interval=  0.0 trigger=1.0   uptime=100%
-    flurry                : start=62.3 refresh=210.2 interval=  7.2 trigger=1.7   uptime=86%  benefit=76%
-    landslide_mh          : start=10.8 refresh=5.4   interval= 40.0 trigger=26.0  uptime=35%  benefit=34%
-    landslide_oh          : start=10.3 refresh=4.7   interval= 41.8 trigger=28.1  uptime=33%  benefit=32%
-    maelstrom_weapon      : start=69.7 refresh=199.9 interval=  6.5 trigger=1.7   uptime=78%  benefit=86%
-    stormstrike           : start=1.2  refresh=45.5  interval=223.5 trigger=9.6   uptime=99%  benefit=98%
-    tolvir_potion         : start=2.0  refresh=0.0   interval=345.2 trigger=0.0   uptime=10%
-    unleash_flame         : start=28.4 refresh=0.0   interval= 16.1 trigger=16.1  uptime=34%  benefit=81%
-    unleash_wind          : start=28.4 refresh=0.0   interval= 16.1 trigger=16.1  uptime=22%  benefit=30%
-    spirit_wolf-bloodlust : start=0.3  refresh=0.2   interval=  0.0 trigger=0.7   uptime= 3%  benefit= 4%
+    elemental_devastation : start=7.7  refresh=92.8  interval= 57.7 trigger=4.4   uptime=94%  benefit=94%
+    fluid_death           : start=1.0  refresh=428.5 interval=  0.0 trigger=1.1   uptime=100%
+    flurry                : start=62.2 refresh=210.7 interval=  7.3 trigger=1.6   uptime=86%  benefit=76%
+    landslide_mh          : start=10.9 refresh=5.5   interval= 39.9 trigger=25.9  uptime=36%  benefit=34%
+    landslide_oh          : start=10.3 refresh=4.8   interval= 42.0 trigger=27.9  uptime=33%  benefit=32%
+    maelstrom_weapon      : start=69.6 refresh=199.6 interval=  6.5 trigger=1.7   uptime=78%  benefit=86%
+    stormstrike           : start=1.2  refresh=45.6  interval=238.0 trigger=9.6   uptime=99%  benefit=98%
+    tolvir_potion         : start=2.0  refresh=0.0   interval=345.4 trigger=0.0   uptime=10%
+    unleash_flame         : start=28.4 refresh=0.0   interval= 16.1 trigger=16.1  uptime=34%  benefit=80%
+    unleash_wind          : start=28.4 refresh=0.0   interval= 16.1 trigger=16.1  uptime=22%  benefit=31%
+    spirit_wolf-bloodlust : start=0.3  refresh=0.2   interval=  0.0 trigger=0.8   uptime= 3%  benefit= 4%
   Up-Times:
-      6.2% : mana_cap                      
+      8.1% : mana_cap                      
   Procs:
-     31.8 |  13.91sec : darkmoon_card_hurricane
-    355.2 |   1.39sec : maelstrom_weapon
-     23.4 |  18.27sec : maelstrom_weapon_stack_4
-     45.6 |   9.81sec : maelstrom_weapon_stack_5
-     51.9 |   8.65sec : static_shock
-     24.6 |  18.80sec : wasted_maelstrom_weapon
-     46.0 |   9.64sec : windfury
+     31.5 |  14.01sec : darkmoon_card_hurricane
+    354.7 |   1.39sec : maelstrom_weapon
+     23.3 |  18.35sec : maelstrom_weapon_stack_4
+     45.6 |   9.79sec : maelstrom_weapon_stack_5
+     52.2 |   8.61sec : static_shock
+     24.6 |  18.82sec : wasted_maelstrom_weapon
+     45.8 |   9.69sec : windfury
   Gains:
-     19780.2 : blessing_of_might  (overflow=32.7%)
+     19721.6 : blessing_of_might  (overflow=33.0%)
      27721.4 : initial_mana     
-     72812.6 : mp5_regen          (overflow=31.0%)
-    238399.9 : primal_wisdom      (overflow=37.8%)
-      8453.6 : replenishment      (overflow=32.4%)
+     72631.4 : mp5_regen          (overflow=31.3%)
+    239016.5 : primal_wisdom      (overflow=37.8%)
+      8429.6 : replenishment      (overflow=32.6%)
 
 
  *** Targets *** 
@@ -105,7 +105,7 @@ Player: Shaman_Enh_T11H.simc orc shaman enhancement 85
 
 Target: Fluffy_Pillow humanoid enemy Unknown 88
   DPS: 0.0  DPS-Error=0.0/0.0% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=0/0.0%  DPS-Convergence=0.0%
-  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|16263688  mana=0|0
+  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|16270320  mana=0|0
   Spell Stats:  power=0|0(0)  hit=0.00%|0.00%(0)  crit=0.00%|0.00%(0)  penetration=0|0(0)  haste=0.00%|0.00%(0)  mp5=0|0(0)
   Attack Stats  power=0|0(0)  hit=0.00%|0.00%(0)  crit=5.00%|5.00%(0)  expertise=0.00|0.00(0)  haste=0.00%|0.00%(0)  speed=0.00%|0.00%(0)
   Defense Stats:  armor=10540|11977(0) miss=0.00%|0.00%  dodge=0.00%|0.00%(0)  parry=0.00%|0.00%(0)  block=5.00%|5.00%(0) crit=0.00%|0.00%
@@ -122,15 +122,15 @@ Target: Fluffy_Pillow humanoid enemy Unknown 88
   Constant Buffs: tailspin/tear_armor/tendon_rip/thunder_clap/trueshot/unleashed_rage/vindication/windfury_totem/wrath_of_air
 
 Waiting:
-    17.8% : Shaman_Enh_T11H.simc
+    17.9% : Shaman_Enh_T11H.simc
 
 Baseline Performance:
-  TotalEvents   = 7684532
+  TotalEvents   = 7688140
   MaxEventQueue = 40
-  TargetHealth  = 16263688
-  SimSeconds    = 451104
-  CpuSeconds    = 3.303
-  SpeedUp       = 136574
+  TargetHealth  = 16270320
+  SimSeconds    = 451406
+  CpuSeconds    = 3.612
+  SpeedUp       = 124974
 
-RNG global Actual/Expected Roll=0.999868 Range=1.175626 Gauss=0.999921
+RNG global Actual/Expected Roll=0.999751 Range=1.242133 Gauss=0.999428
 

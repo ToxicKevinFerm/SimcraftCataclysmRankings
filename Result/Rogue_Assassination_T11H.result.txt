@@ -11,14 +11,14 @@ Rogue_Assassination_T11H tricks_of_the_trade: Unable to locate target 'if=set_bo
 Generating reports...
 
 DPS Ranking:
-  30877 100.0%  Raid
-  30877  100.0%  Rogue_Assassination_T11H
+  30874 100.0%  Raid
+  30874  100.0%  Rogue_Assassination_T11H
 
 HPS Ranking:
       0 100.0%  Raid
 
 Player: Rogue_Assassination_T11H troll rogue assassination 85
-  DPS: 30877.1  DPS-Error=42.5/0.1% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=2423/7.8%  DPS-Convergence=70.5%  DPR=1176.0  RPS-Out=26.2 RPS-In=26.1  Resource=(energy) Waiting=42.1 ApM=35.8
+  DPS: 30873.6  DPS-Error=42.6/0.1% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=2134/6.9%  DPS-Convergence=70.6%  DPR=1176.2  RPS-Out=26.2 RPS-In=26.1  Resource=(energy) Waiting=42.1 ApM=35.8
   Origin: http://chardev.org/?profile=36311
   Talents: http://www.wowhead.com/talent#rogue-033323011302211032100200000000000000002030030000000000000
   Core Stats:  strength=726|143(20)  agility=6597|5297(4837)  stamina=7515|5899(5785)  intellect=65|62(20)  spirit=92|92(20)  mastery=17.76|17.76(1749)  health=145479|122855  mana=2246|120
@@ -39,19 +39,18 @@ Player: Rogue_Assassination_T11H troll rogue assassination 85
     backstab,if=combo_points<5&target.health_pct<35
     mutilate,if=combo_points<4&target.health_pct>=35/vanish,if=time>30&energy>50
   Actions:
-    backstab         Count= 71.0| 1.94sec  DPE= 16253| 8%  DPET= 15673  DPR= 270.9  pDPS=2557  Miss=0.00%  Hit=9165|8283|11873  Crit=21866|19696|28233|59.4%  Dodge=4.9%
-    deadly_poison    Count=346.0| 1.30sec  DPE=  4377|11%  DPET=     0  DPR=   0.0  pDPS=3352  Miss=0.00%  TickCount=150  MissTick=0.0%  Tick=9362|1876|12737  CritTick=14459|3478|19679|14.9%  UpTime=99.3%
-    envenom          Count= 62.1| 7.24sec  DPE= 31850|14%  DPET= 30714  DPR= 910.0  pDPS=4383  Miss=0.00%  Hit=22921|9612|34579  Crit=48706|18720|71233|39.0%  Dodge=4.9%
-    garrote          Count=  3.8|183.05sec  DPE= 20764| 1%  DPET= 20018  DPR= 461.4  pDPS= 174  Miss=0.00%  Dodge=4.5%  TickCount=21  MissTick=0.0%  Tick=2830|2532|3704  CritTick=5866|5217|7012|27.9%  UpTime=14.2%
-    instant_poison   Count=669.8| 0.70sec  DPE=  5256|25%  DPET=     0  DPR=   0.0  pDPS=7802  Miss=0.00%  Hit=4862|4364|6564  Crit= 7512| 6742|10141|14.9%
-    melee_main_hand  Count=460.2| 0.98sec  DPE=  3494|12%  DPET=  3563  DPR=   0.0  pDPS=3563  Miss=11.92%  Hit=3298|2989|4374  Crit= 6826| 6157| 9010|26.9%  Glance=2478|24.0%  Dodge=4.9%
-    melee_off_hand   Count=590.9| 0.76sec  DPE=  1360| 6%  DPET=  1780  DPR=   0.0  pDPS=1780  Miss=11.86%  Hit=1283|1163|1702  Crit= 2657| 2396| 3506|26.8%  Glance= 965|24.0%  Dodge=4.9%
-    mutilate         Count= 81.9| 3.79sec  DPE= 18485|11%  DPET= 17826  DPR= 336.1  pDPS=3353  Miss=0.00%  Dodge=4.8%
-    mutilate_mh      Count= 77.9| 3.99sec  DPE= 12958| 7%  DPET=     0  DPR=   0.0  pDPS=2238  Miss=0.00%  Hit=7868|7123|10282  Crit=18744|16939|24451|46.8%
-    mutilate_oh      Count= 77.9| 3.99sec  DPE=  6459| 4%  DPET=     0  DPR=   0.0  pDPS=1116  Miss=0.00%  Hit=3921|3554|5132  Crit= 9363| 8450|12203|46.6%
-    rupture          Count= 28.8|15.80sec  DPE= 10880| 2%  DPET= 10493  DPR= 435.2  pDPS= 695  Miss=0.00%  Dodge=4.8%  TickCount=216  MissTick=0.0%  Tick=1129|603|1889  CritTick=2331|1243|3891|27.0%  UpTime=95.6%
-    slice_and_dice   Count=  1.0| 9.37sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    venomous_wound   Count=142.2| 3.15sec  DPE= 10215|10%  DPET=     0  DPR=   0.0  pDPS=3218  Miss=0.00%  Hit=9455|8504|12800  Crit=14606|13138|19776|14.8%
+    backstab         Count= 70.9| 1.94sec  DPE= 16242| 8%  DPET= 15662  DPR= 270.7  pDPS=2550  Miss=0.00%  Hit=9173|8283|11873  Crit=21853|19696|28233|59.3%  Dodge=4.9%
+    deadly_poison    Count=346.4| 1.30sec  DPE=  4374|11%  DPET=     0  DPR=   0.0  pDPS=3352  Miss=0.00%  TickCount=150  MissTick=0.0%  Tick=9360|1693|12737  CritTick=14473|2886|19679|14.9%  UpTime=99.3%
+    envenom          Count= 62.2| 7.24sec  DPE= 31841|14%  DPET= 30705  DPR= 909.8  pDPS=4385  Miss=0.00%  Hit=22936|12572|34579  Crit=48660|25899|71233|39.1%  Dodge=5.0%
+    garrote          Count=  3.8|182.96sec  DPE= 20638| 1%  DPET= 19902  DPR= 458.6  pDPS= 174  Miss=0.00%  Dodge=5.0%  TickCount=21  MissTick=0.0%  Tick=2835|2532|3887  CritTick=5880|5217|7631|27.6%  UpTime=14.1%
+    instant_poison   Count=670.2| 0.70sec  DPE=  5257|25%  DPET=     0  DPR=   0.0  pDPS=7803  Miss=0.00%  Hit=4861|4364|6564  Crit= 7512| 6742|10141|14.9%
+    melee_main_hand  Count=460.5| 0.98sec  DPE=  3491|12%  DPET=  3560  DPR=   0.0  pDPS=3561  Miss=11.93%  Hit=3298|2989|4374  Crit= 6823| 6157| 9010|26.8%  Glance=2479|24.1%  Dodge=4.8%
+    melee_off_hand   Count=591.3| 0.76sec  DPE=  1362| 6%  DPET=  1783  DPR=   0.0  pDPS=1783  Miss=11.87%  Hit=1283|1163|1702  Crit= 2656| 2396| 3506|26.9%  Glance= 965|24.0%  Dodge=4.8%
+    mutilate         Count= 82.0| 3.79sec  DPE= 18472|11%  DPET= 17814  DPR= 335.9  pDPS=3355  Miss=0.00%  Dodge=4.9%
+    mutilate_mh      Count= 78.0| 3.99sec  DPE= 12954| 7%  DPET=     0  DPR=   0.0  pDPS=2237  Miss=0.00%  Hit=7866|7123|10282  Crit=18754|16939|24451|46.7%
+    mutilate_oh      Count= 78.0| 3.99sec  DPE=  6473| 4%  DPET=     0  DPR=   0.0  pDPS=1118  Miss=0.00%  Hit=3923|3554|5132  Crit= 9360| 8450|12203|46.9%
+    rupture          Count= 28.8|15.84sec  DPE= 10886| 2%  DPET= 10498  DPR= 435.4  pDPS= 694  Miss=0.00%  Dodge=4.6%  TickCount=216  MissTick=0.0%  Tick=1128|603|1889  CritTick=2330|1243|3891|26.8%  UpTime=95.6%
+    venomous_wound   Count=142.3| 3.15sec  DPE= 10220|10%  DPET=     0  DPR=   0.0  pDPS=3220  Miss=0.00%  Hit=9456|8504|12800  Crit=14603|13138|19776|14.9%
   Constant Buffs: abominations_might/arcane_brilliance/arcane_tactics/battle_shout/blessing_of_kings/blessing_of_might
   Constant Buffs: blessing_of_might_regen/communion/demonic_pact/devotion_aura/elemental_oath/fel_intelligence
   Constant Buffs: ferocious_inspiration/flametongue_totem/fortitude/honor_among_thieves/horn_of_winter/hunting_party
@@ -61,38 +60,38 @@ Player: Rogue_Assassination_T11H troll rogue assassination 85
     berserking                       : start=3.0  refresh=0.0   interval=180.5 trigger=180.5 uptime= 7%  benefit= 7%
     bloodlust                        : start=1.0  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 9%  benefit=10%
     cold_blood                       : start=4.1  refresh=0.0   interval=125.0 trigger=125.0 uptime= 0%
-    deadly_proc                      : start=340.9 refresh=0.0   interval=  1.3 trigger=1.3   uptime= 0%
-    envenom                          : start=52.7 refresh=9.4   interval=  8.5 trigger=7.2   uptime=72%  benefit=74%
-    fluid_death                      : start=1.0  refresh=694.3 interval=  0.0 trigger=0.6   uptime=100%
-    landslide_mh                     : start=11.4 refresh=7.0   interval= 38.8 trigger=23.5  uptime=39%  benefit=39%
-    landslide_oh                     : start=9.5  refresh=3.9   interval= 44.9 trigger=31.0  uptime=30%  benefit=30%
-    overkill                         : start=3.8  refresh=0.0   interval=129.0 trigger=183.0 uptime=17%  benefit=16%
+    deadly_proc                      : start=341.3 refresh=0.0   interval=  1.3 trigger=1.3   uptime= 0%
+    envenom                          : start=52.4 refresh=9.7   interval=  8.6 trigger=7.2   uptime=72%  benefit=74%
+    fluid_death                      : start=1.0  refresh=694.7 interval=  0.0 trigger=0.6   uptime=100%
+    landslide_mh                     : start=11.4 refresh=7.2   interval= 38.9 trigger=23.2  uptime=39%  benefit=39%
+    landslide_oh                     : start=9.5  refresh=3.9   interval= 45.4 trigger=31.3  uptime=30%  benefit=30%
+    overkill                         : start=3.8  refresh=0.0   interval=129.1 trigger=183.0 uptime=17%  benefit=16%
     prestors_talisman_of_machination : start=6.2  refresh=0.0   interval= 78.9 trigger=78.9  uptime=20%
-    slice_and_dice                   : start=1.0  refresh=59.0  interval=  9.4 trigger=7.6   uptime=100%
+    slice_and_dice                   : start=1.0  refresh=59.0  interval=  0.0 trigger=7.6   uptime=100%
     stealthed                        : start=1.0  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 0%
-    tier11_4pc                       : start=8.2  refresh=0.7   interval= 48.8 trigger=44.7  uptime= 8%  benefit=14%
-    tolvir_potion                    : start=2.0  refresh=0.0   interval=358.5 trigger=0.0   uptime=10%
+    tier11_4pc                       : start=8.0  refresh=0.7   interval= 50.1 trigger=45.8  uptime= 8%  benefit=13%
+    tolvir_potion                    : start=2.0  refresh=0.0   interval=358.6 trigger=0.0   uptime=10%
     vanish                           : start=2.8  refresh=0.0   interval=183.0 trigger=183.0 uptime= 0%
-    vendetta                         : start=4.3  refresh=0.0   interval=120.5 trigger=120.5 uptime=28%  benefit=40%
+    vendetta                         : start=4.3  refresh=0.0   interval=120.5 trigger=120.5 uptime=27%  benefit=40%
   Benefits:
       0.4% : energy_cap                    
     100.0% : poisoned                      
   Up-Times:
-      0.4% : energy_cap                    
+      0.1% : energy_cap                    
   Procs:
-    346.0 |   1.30sec : deadly_poisons
-     52.4 |   8.61sec : ruthlessness
-     97.9 |   4.60sec : seal_fate
-    142.2 |   3.15sec : venomous_wounds
+    346.4 |   1.30sec : deadly_poisons
+     52.6 |   8.59sec : ruthlessness
+     97.8 |   4.60sec : seal_fate
+    142.3 |   3.15sec : venomous_wounds
   Gains:
-       210.7 : backstab_glyph    
-       102.6 : cold_blood        
-       624.3 : energy_refund       (overflow=1.4%)
-      5355.8 : energy_regen      
-      2024.5 : murderous_intent  
-       266.6 : overkill            (overflow=1.9%)
-      1786.3 : relentless_strikes
-      1411.4 : venomous_vim      
+       210.1 : backstab_glyph    
+       102.8 : cold_blood        
+       630.1 : energy_refund       (overflow=1.6%)
+      5357.6 : energy_regen      
+      2023.0 : murderous_intent  
+       267.0 : overkill            (overflow=2.0%)
+      1785.7 : relentless_strikes
+      1411.3 : venomous_vim      
 
 
  *** Targets *** 
@@ -100,7 +99,7 @@ Player: Rogue_Assassination_T11H troll rogue assassination 85
 
 Target: Fluffy_Pillow humanoid enemy Unknown 88
   DPS: 0.0  DPS-Error=0.0/0.0% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=0/0.0%  DPS-Convergence=0.0%
-  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|16648690  mana=0|0
+  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|16646603  mana=0|0
   Spell Stats:  power=0|0(0)  hit=0.00%|0.00%(0)  crit=0.00%|0.00%(0)  penetration=0|0(0)  haste=0.00%|0.00%(0)  mp5=0|0(0)
   Attack Stats  power=0|0(0)  hit=0.00%|0.00%(0)  crit=5.00%|5.00%(0)  expertise=0.00|0.00(0)  haste=0.00%|0.00%(0)  speed=0.00%|0.00%(0)
   Defense Stats:  armor=10540|11977(0) miss=0.00%|0.00%  dodge=0.00%|0.00%(0)  parry=0.00%|0.00%(0)  block=5.00%|5.00%(0) crit=0.00%|0.00%
@@ -116,21 +115,21 @@ Target: Fluffy_Pillow humanoid enemy Unknown 88
   Constant Buffs: replenishment/roar_of_courage/savage_combat/scarlet_fever/shadow_and_flame/strength_of_earth/sunder_armor
   Constant Buffs: tailspin/tear_armor/tendon_rip/thunder_clap/trueshot/unleashed_rage/vindication/windfury_totem/wrath_of_air
   Dynamic Buffs:
-    poison_doses:Rogue_Assassination_T11H : start=1.0  refresh=345.0 interval=305.1 trigger=1.3   uptime=100%
+    poison_doses:Rogue_Assassination_T11H : start=1.0  refresh=345.4 interval=239.9 trigger=1.3   uptime=100%
   Procs:
-    377.2 |   2.25sec : combo_points
-     17.7 |  24.30sec : combo_points_wasted
+    377.3 |   2.25sec : combo_points
+     17.7 |  24.36sec : combo_points_wasted
 
 Waiting:
     42.1% : Rogue_Assassination_T11H
 
 Baseline Performance:
-  TotalEvents   = 6614278
+  TotalEvents   = 6621076
   MaxEventQueue = 22
-  TargetHealth  = 16648690
-  SimSeconds    = 451836
-  CpuSeconds    = 3.702
-  SpeedUp       = 122052
+  TargetHealth  = 16646603
+  SimSeconds    = 452122
+  CpuSeconds    = 3.926
+  SpeedUp       = 115161
 
-RNG global Actual/Expected Roll=1.000276 Range=1.000000 Gauss=1.000030
+RNG global Actual/Expected Roll=0.999793 Range=1.000000 Gauss=1.000647
 

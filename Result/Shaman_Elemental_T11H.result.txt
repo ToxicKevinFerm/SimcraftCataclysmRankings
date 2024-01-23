@@ -9,14 +9,14 @@ Generating baseline...
 Generating reports...
 
 DPS Ranking:
-  29765 100.0%  Raid
-  29765  100.0%  Shaman_Elemental_T11H
+  29787 100.0%  Raid
+  29787  100.0%  Shaman_Elemental_T11H
 
 HPS Ranking:
       0 100.0%  Raid
 
 Player: Shaman_Elemental_T11H troll shaman elemental 85
-  DPS: 29764.6  DPS-Error=45.7/0.2% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=2374/8.0%  DPS-Convergence=70.4%  DPR=22.4  RPS-Out=1255.9 RPS-In=1270.5  Resource=(mana) Waiting=0.0 ApM=46.9
+  DPS: 29786.6  DPS-Error=45.4/0.2% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=2103/7.1%  DPS-Convergence=70.6%  DPR=22.4  RPS-Out=1253.8 RPS-In=1268.9  Resource=(mana) Waiting=0.0 ApM=46.9
   Origin: http://chardev.org/?profile=14385
   Talents: http://www.wowhead.com/talent#shaman-3032023212231101321203002200000000000000000000000000000000
   Core Stats:  strength=736|152(20)  agility=683|102(20)  stamina=7631|6009(5861)  intellect=6097|5314(4926)  spirit=983|983(826)  mastery=18.23|18.23(1834)  health=143671|120963  mana=116731|102860
@@ -38,23 +38,23 @@ Player: Shaman_Elemental_T11H troll shaman elemental 85
     spiritwalkers_grace,moving=1/chain_lightning,if=target.adds>2/lightning_bolt
     thunderstorm
   Actions:
-    darkmoon_card_volcano    Count= 11.2|42.35sec  DPE=  3327| 0%  DPET=     0  DPR=   0.0  pDPS=  82  Miss=0.00%  Hit=2901|2590|3596  Crit= 4489| 4001| 5556|26.8%
-    earth_shock              Count= 30.3|14.67sec  DPE=  8620| 2%  DPET=  7123  DPR=   2.4  pDPS= 576  Miss=0.00%  Hit=6619|5787|9860  Crit=13905|12094|20607|27.5%
-    elemental_mastery        Count=  6.6|73.90sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    flame_shock              Count= 17.7|26.29sec  DPE= 45659| 6%  DPET= 38259  DPR=  13.8  pDPS=1789  Miss=0.00%  Hit=3737|3227|5491  Crit= 7841| 6745|11475|37.8%  TickCount=202  MissTick=0.0%  Tick=2520|2148|3747  CritTick=5290|4489|7832|37.3%  UpTime=99.5%
-    fulmination              Count= 30.3|14.67sec  DPE= 33089| 7%  DPET=     0  DPR=   0.0  pDPS=2214  Miss=0.00%  Hit=25424|15943|41687  Crit=53404|33322|87126|27.4%
-    lava_burst               Count= 61.1| 7.46sec  DPE= 43004|20%  DPET= 35660  DPR=  24.2  pDPS=5801  Miss=0.00%  Crit=43076|36365|63161|100.0%
-    lava_burst_overload      Count= 25.1|17.77sec  DPE= 33271| 6%  DPET=     0  DPR=   0.0  pDPS=1849  Miss=0.00%  Hit=15156|13527|19249  Crit=33489|27311|47434|99.7%
-    lightning_bolt           Count=219.7| 2.04sec  DPE= 22354|36%  DPET= 15734  DPR=  22.6  pDPS=10836  Miss=0.00%  Hit=17152|14253|25363  Crit=36183|29789|53008|27.4%
-    lightning_bolt_overload  Count= 90.3| 4.95sec  DPE= 15969|11%  DPET=     0  DPR=   0.0  pDPS=3183  Miss=0.00%  Hit=12279|10308|18342  Crit=25915|21543|38335|27.5%
-    searing_totem            Count=  6.0|60.32sec  DPE=136811| 6%  DPET=131940  DPR= 116.8  pDPS=1790  Miss=0.00%  TickCount=202  MissTick=0.0%  Tick=3097|2622|4684  CritTick=6519|5479|9791|27.4%  UpTime=71.4%
-   fire_elemental  (DPS=5560.4)
-    fire_blast               Count= 18.9| 6.18sec  DPE=  4632| 1%  DPET=  3014  DPR=  15.3  pDPS= 730  Miss=0.00%  Hit=4283|3843|4755  Crit= 8616| 7686| 9510|8.1%
-    fire_melee               Count= 50.5| 2.30sec  DPE= 10721| 4%  DPET=  5896  DPR=   0.0  pDPS=4514  Miss=0.00%  Hit=11069|9896|12308  Crit=29664|26323|32738|1.7%  Glance=8284|23.9%
-    fire_nova                Count=  2.1|46.83sec  DPE= 10607| 0%  DPET=  5208  DPR=  45.5  pDPS= 181  Miss=0.00%  Hit=9908|8879|11004  Crit=19879|17757|22008|7.0%
-    fire_shield              Count= 38.2| 3.00sec  DPE=   422| 0%  DPET=   141  DPR=   0.0  pDPS= 135  Miss=0.00%  Hit= 392| 359| 427  Crit=  783|  717|  853|7.9%
-   earth_elemental  (DPS=553.9)
-    earth_melee              Count= 58.0| 2.00sec  DPE=  1146| 0%  DPET=   573  DPR=   0.0  pDPS= 554  Miss=0.00%  Hit=1182|1060|1246  Crit= 2364| 2120| 2492|2.9%  Glance= 886|23.8%
+    darkmoon_card_volcano    Count= 11.2|42.27sec  DPE=  3334| 0%  DPET=     0  DPR=   0.0  pDPS=  82  Miss=0.00%  Hit=2907|2590|3596  Crit= 4490| 4001| 5556|27.0%
+    earth_shock              Count= 30.3|14.67sec  DPE=  8644| 2%  DPET=  7140  DPR=   2.4  pDPS= 578  Miss=0.00%  Hit=6618|5787|9860  Crit=13925|12094|20607|27.7%
+    elemental_mastery        Count=  6.6|73.92sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    flame_shock              Count= 17.7|26.27sec  DPE= 45668| 6%  DPET= 38284  DPR=  13.8  pDPS=1789  Miss=0.00%  Hit=3733|3227|5491  Crit= 7856| 6745|11475|37.0%  TickCount=201  MissTick=0.0%  Tick=2518|2148|3747  CritTick=5291|4489|7832|37.4%  UpTime=99.5%
+    fulmination              Count= 30.3|14.67sec  DPE= 33092| 7%  DPET=     0  DPR=   0.0  pDPS=2212  Miss=0.00%  Hit=25436|15943|41687  Crit=53448|33322|87126|27.3%
+    lava_burst               Count= 61.2| 7.44sec  DPE= 43032|20%  DPET= 35695  DPR=  24.3  pDPS=5821  Miss=0.00%  Crit=43101|36365|63161|100.0%
+    lava_burst_overload      Count= 25.2|17.71sec  DPE= 33285| 6%  DPET=     0  DPR=   0.0  pDPS=1855  Miss=0.00%  Hit=15064|13527|19249  Crit=33495|27311|47434|99.7%
+    lightning_bolt           Count=219.4| 2.04sec  DPE= 22382|36%  DPET= 15755  DPR=  22.7  pDPS=10845  Miss=0.00%  Hit=17157|14253|25363  Crit=36185|29789|53008|27.6%
+    lightning_bolt_overload  Count= 90.3| 4.94sec  DPE= 15960|11%  DPET=     0  DPR=   0.0  pDPS=3185  Miss=0.00%  Hit=12293|10308|18342  Crit=25898|21543|38335|27.4%
+    searing_totem            Count=  5.9|60.32sec  DPE=136974| 6%  DPET=132077  DPR= 117.0  pDPS=1788  Miss=0.00%  TickCount=202  MissTick=0.0%  Tick=3099|2622|4684  CritTick=6519|5479|9791|27.3%  UpTime=71.3%
+   fire_elemental  (DPS=5512.5)
+    fire_blast               Count= 18.9| 6.18sec  DPE=  4586| 1%  DPET=  2984  DPR=  15.2  pDPS= 723  Miss=0.00%  Hit=4257|3843|4755  Crit= 8481| 7686| 9510|7.8%
+    fire_melee               Count= 50.6| 2.30sec  DPE= 10619| 4%  DPET=  5840  DPR=   0.0  pDPS=4476  Miss=0.00%  Hit=10990|9896|12308  Crit=29306|26323|32738|1.6%  Glance=8237|24.0%
+    fire_nova                Count=  2.0|46.56sec  DPE= 10532| 0%  DPET=  5170  DPR=  45.2  pDPS= 179  Miss=0.00%  Hit=9835|8879|11004  Crit=19645|17757|22008|7.1%
+    fire_shield              Count= 38.2| 3.00sec  DPE=   421| 0%  DPET=   140  DPR=   0.0  pDPS= 134  Miss=0.00%  Hit= 390| 359| 427  Crit=  778|  717|  853|8.2%
+   earth_elemental  (DPS=551.5)
+    earth_melee              Count= 58.0| 2.00sec  DPE=  1141| 0%  DPET=   571  DPR=   0.0  pDPS= 552  Miss=0.00%  Hit=1177|1060|1246  Crit= 2349| 2120| 2492|3.0%  Glance= 884|24.0%
   Constant Buffs: abominations_might/arcane_brilliance/arcane_tactics/battle_shout/blessing_of_kings/blessing_of_might
   Constant Buffs: blessing_of_might_regen/communion/demonic_pact/devotion_aura/elemental_oath/fel_intelligence
   Constant Buffs: ferocious_inspiration/flametongue_totem/fortitude/honor_among_thieves/horn_of_winter/hunting_party
@@ -66,30 +66,30 @@ Player: Shaman_Elemental_T11H troll shaman elemental 85
     bloodlust              : start=1.0  refresh=0.5   interval=  0.0 trigger=0.4   uptime= 9%  benefit=11%
     darkmoon_card_volcano  : start=10.0 refresh=0.0   interval= 47.3 trigger=47.3  uptime=26%
     earth_elemental        : start=1.0  refresh=0.0   interval=  0.0 trigger=0.0   uptime=27%
-    elemental_focus        : start=87.9 refresh=43.9  interval=  5.2 trigger=3.4   uptime=67%  benefit=58%
+    elemental_focus        : start=87.8 refresh=44.2  interval=  5.2 trigger=3.4   uptime=67%  benefit=58%
     elemental_mastery      : start=6.6  refresh=0.0   interval= 74.3 trigger=73.9  uptime=22%  benefit=24%
     fire_elemental         : start=1.0  refresh=0.0   interval=  0.0 trigger=0.0   uptime=27%
-    power_torrent_mh       : start=9.8  refresh=0.0   interval= 48.4 trigger=48.4  uptime=26%  benefit=25%
-    theralions_mirror      : start=4.4  refresh=0.0   interval=112.9 trigger=112.9 uptime=19%
-    volcanic_potion        : start=2.0  refresh=0.0   interval=345.9 trigger=0.0   uptime=10%
-    fire_elemental-casting : start=20.3 refresh=21.9  interval=  6.0 trigger=2.8   uptime=75%
+    power_torrent_mh       : start=9.7  refresh=0.0   interval= 48.4 trigger=48.4  uptime=25%  benefit=25%
+    theralions_mirror      : start=4.4  refresh=0.0   interval=112.8 trigger=112.8 uptime=19%
+    volcanic_potion        : start=2.0  refresh=0.0   interval=345.7 trigger=0.0   uptime=10%
+    fire_elemental-casting : start=20.3 refresh=21.9  interval=  6.0 trigger=2.9   uptime=75%
   Procs:
-      2.8 | 100.19sec : fulmination_4
-      2.6 | 103.23sec : fulmination_5
-     24.9 |  17.86sec : fulmination_6
-     40.1 |  11.10sec : lava_surge
-    186.5 |   2.40sec : rolling_thunder
-     10.2 |  37.91sec : wasted_lightning_shield
+      2.8 |  98.45sec : fulmination_4
+      2.5 | 106.06sec : fulmination_5
+     24.9 |  17.81sec : fulmination_6
+     40.2 |  11.07sec : lava_surge
+    186.2 |   2.40sec : rolling_thunder
+     10.2 |  37.94sec : wasted_lightning_shield
   Gains:
-     27094.4 : blessing_of_might  (overflow=8.4%)
+     27039.6 : blessing_of_might  (overflow=8.4%)
       6285.0 : flask            
       1485.0 : food             
     108961.4 : initial_mana     
-     97470.8 : mp5_regen          (overflow=8.2%)
-     53495.1 : replenishment      (overflow=7.6%)
-    390539.8 : rolling_thunder    (overflow=18.0%)
+     97267.9 : mp5_regen          (overflow=8.3%)
+     53394.1 : replenishment      (overflow=7.7%)
+    389518.3 : rolling_thunder    (overflow=18.1%)
   Pet "fire_elemental" Gains:
-    46896.0 : initial_mana
+    46573.5 : initial_mana
 
 
  *** Targets *** 
@@ -97,7 +97,7 @@ Player: Shaman_Elemental_T11H troll shaman elemental 85
 
 Target: Fluffy_Pillow humanoid enemy Unknown 88
   DPS: 0.0  DPS-Error=0.0/0.0% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=0/0.0%  DPS-Convergence=0.0%
-  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|16040554  mana=0|0
+  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|16053676  mana=0|0
   Spell Stats:  power=0|0(0)  hit=0.00%|0.00%(0)  crit=0.00%|0.00%(0)  penetration=0|0(0)  haste=0.00%|0.00%(0)  mp5=0|0(0)
   Attack Stats  power=0|0(0)  hit=0.00%|0.00%(0)  crit=5.00%|5.00%(0)  expertise=0.00|0.00(0)  haste=0.00%|0.00%(0)  speed=0.00%|0.00%(0)
   Defense Stats:  armor=10540|11977(0) miss=0.00%|0.00%  dodge=0.00%|0.00%(0)  parry=0.00%|0.00%(0)  block=5.00%|5.00%(0) crit=0.00%|0.00%
@@ -117,12 +117,12 @@ Waiting:
     All players active 100% of the time.
 
 Baseline Performance:
-  TotalEvents   = 6217789
+  TotalEvents   = 6214129
   MaxEventQueue = 27
-  TargetHealth  = 16040554
-  SimSeconds    = 453640
-  CpuSeconds    = 1.830
-  SpeedUp       = 247890
+  TargetHealth  = 16053676
+  SimSeconds    = 453127
+  CpuSeconds    = 1.788
+  SpeedUp       = 253427
 
-RNG global Actual/Expected Roll=1.000942 Range=1.001657 Gauss=0.992526
+RNG global Actual/Expected Roll=1.001607 Range=1.000496 Gauss=1.005504
 
