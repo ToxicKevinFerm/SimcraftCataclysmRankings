@@ -9,14 +9,14 @@ Generating baseline...
 Generating reports...
 
 DPS Ranking:
-  31341 100.0%  Raid
-  31341  100.0%  Death_Knight_Frost_1h_T11H
+  31338 100.0%  Raid
+  31338  100.0%  Death_Knight_Frost_1h_T11H
 
 HPS Ranking:
       0 100.0%  Raid
 
 Player: Death_Knight_Frost_1h_T11H orc deathknight frost 85
-  DPS: 31341.0  DPS-Error=54.3/0.2% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=2688/8.6%  DPS-Convergence=70.6%  DPR=2609.6  RPS-Out=11.5 RPS-In=11.6  Resource=(runic_power) Waiting=8.8 ApM=57.7
+  DPS: 31338.1  DPS-Error=52.8/0.2% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=2779/8.9%  DPS-Convergence=70.6%  DPR=2607.3  RPS-Out=11.5 RPS-In=11.6  Resource=(runic_power) Waiting=8.8 ApM=57.7
   Origin: http://chardev.org/?profile=111753
   Talents: http://www.wowhead.com/talent#deathknight-203200000000000000003033001223311201230103000000000000000000
   Core Stats:  strength=7042|5682(5009)  agility=721|138(20)  stamina=7595|5975(5800)  intellect=55|53(20)  spirit=85|85(20)  mastery=15.35|15.35(1317)  health=149355|126675  mana=2246|120
@@ -42,29 +42,29 @@ Player: Death_Knight_Frost_1h_T11H orc deathknight frost 85
     empower_rune_weapon,if=target.time_to_die<=45/frost_strike/howling_blast/blood_tap
     empower_rune_weapon/horn_of_winter
   Actions:
-    blood_plague           Count= 35.6|21.72sec  DPE= 10873| 3%  DPET=     0  DPR=   0.0  pDPS= 853  Miss=0.00%  TickCount=149  MissTick=0.0%  Tick=2305|1791|3736  CritTick=4611|3581|7473|12.5%  UpTime=98.6%
+    blood_plague           Count= 35.5|21.73sec  DPE= 10868| 3%  DPET=     0  DPR=   0.0  pDPS= 852  Miss=0.00%  TickCount=149  MissTick=0.0%  Tick=2304|1791|3736  CritTick=4618|3581|7473|12.4%  UpTime=98.6%
     blood_tap              Count= 15.2|30.61sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    empower_rune_weapon    Count=  2.0|307.76sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    frost_fever            Count= 99.9| 4.53sec  DPE=  5555| 4%  DPET=     0  DPR=   0.0  pDPS=1224  Miss=0.00%  TickCount=151  MissTick=0.0%  Tick=3278|2560|5357  CritTick=6559|5119|10714|12.4%  UpTime=99.7%
-    frost_strike           Count=162.5| 2.77sec  DPE= 18296|21%  DPET= 17643  DPR= 571.7  pDPS=6564  Miss=0.00%  Hit=12645|10161|19296  Crit=25980|20932|39749|42.4%
-    frost_strike_offhand   Count=162.5| 2.77sec  DPE= 11447|13%  DPET=     0  DPR=   0.0  pDPS=4107  Miss=0.00%  Hit=7905|6353|12063  Crit=16252|13088|24849|42.4%
-    howling_blast          Count= 94.5| 4.74sec  DPE= 20403|14%  DPET= 19674  DPR=   0.0  pDPS=4253  Miss=2.10%  Hit=18364|14253|30170  Crit=38453|29789|63055|12.1%
-    melee_main_hand        Count=329.6| 1.38sec  DPE=  3657| 8%  DPET=  2663  DPR=   0.0  pDPS=2661  Miss=18.86%  Hit=4520|3723|6736  Crit= 9300| 7669|13877|5.5%  Glance=3388|24.0%
-    melee_off_hand         Count=329.1| 1.38sec  DPE=  2280| 5%  DPET=  1658  DPR=   0.0  pDPS=1656  Miss=18.98%  Hit=2822|2327|4210  Crit= 5815| 4793| 8673|5.4%  Glance=2116|24.0%
-    obliterate             Count=104.6| 4.34sec  DPE= 21820|16%  DPET= 21041  DPR=   0.0  pDPS=5053  Miss=0.00%  Hit=15340|12412|22885  Crit=31802|25568|47144|39.4%
-    obliterate_offhand     Count=104.6| 4.34sec  DPE= 13623|10%  DPET=     0  DPR=   0.0  pDPS=3155  Miss=0.00%  Hit=9590|7757|14303  Crit=19878|15980|29465|39.2%
-    outbreak               Count=  7.5|65.17sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=1.75%
-    pillar_of_frost        Count=  7.9|61.35sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    plague_strike          Count= 14.1|31.75sec  DPE=  4750| 0%  DPET=  4581  DPR=   0.0  pDPS= 148  Miss=0.00%  Hit=4484|3837|6619  Crit= 9230| 7905|13635|5.6%
-    plague_strike_offhand  Count= 14.1|31.75sec  DPE=  2965| 0%  DPET=     0  DPR=   0.0  pDPS=  92  Miss=0.00%  Hit=2802|2398|4136  Crit= 5770| 4939| 8521|5.5%
-    raise_dead             Count=  3.0|180.55sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    razorice               Count=548.7| 0.83sec  DPE=   172| 1%  DPET=     0  DPR=   0.0  pDPS= 209  Miss=0.00%  Hit= 172| 142| 257
-   army_of_the_dead  (DPS=2448.3)
-    claw                   Count= 11.0| 4.00sec  DPE=  2940| 0%  DPET=     0  DPR=  73.5  pDPS= 924  Miss=0.00%  Hit=2790|2790|2790  Crit= 5580| 5580| 5580|5.4%
-    melee                  Count= 24.0| 1.41sec  DPE=  2223| 0%  DPET=  1577  DPR=   0.0  pDPS=1524  Miss=0.00%  Hit=2232|2232|2232  Crit= 4464| 4464| 4464|5.6%  Glance=1674|24.1%
-   ghoul  (DPS=3169.3)
-    claw                   Count= 47.8| 9.19sec  DPE=  3682| 1%  DPET=     0  DPR=  92.1  pDPS=1055  Miss=0.00%  Hit=3491|2522|4412  Crit= 6966| 5044| 8824|5.5%
-    melee                  Count=126.3| 3.20sec  DPE=  2801| 2%  DPET=  2142  DPR=   0.0  pDPS=2115  Miss=0.00%  Hit=2814|2018|3530  Crit= 5612| 4035| 7059|5.6%  Glance=2110|24.0%
+    empower_rune_weapon    Count=  2.0|308.17sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    frost_fever            Count= 99.6| 4.54sec  DPE=  5562| 4%  DPET=     0  DPR=   0.0  pDPS=1224  Miss=0.00%  TickCount=151  MissTick=0.0%  Tick=3280|2560|5357  CritTick=6558|5119|10714|12.3%  UpTime=99.7%
+    frost_strike           Count=162.5| 2.77sec  DPE= 18289|21%  DPET= 17636  DPR= 571.5  pDPS=6566  Miss=0.00%  Hit=12646|10161|19872  Crit=25981|20932|40937|42.3%
+    frost_strike_offhand   Count=162.5| 2.77sec  DPE= 11444|13%  DPET=     0  DPR=   0.0  pDPS=4108  Miss=0.00%  Hit=7907|6353|12423  Crit=16247|13088|25592|42.4%
+    howling_blast          Count= 94.4| 4.74sec  DPE= 20389|14%  DPET= 19662  DPR=   0.0  pDPS=4245  Miss=2.18%  Hit=18378|14253|31205  Crit=38426|29789|63055|12.0%
+    melee_main_hand        Count=329.4| 1.38sec  DPE=  3654| 8%  DPET=  2661  DPR=   0.0  pDPS=2659  Miss=19.05%  Hit=4522|3723|6736  Crit= 9308| 7669|13877|5.5%  Glance=3390|23.9%
+    melee_off_hand         Count=328.8| 1.38sec  DPE=  2281| 5%  DPET=  1658  DPR=   0.0  pDPS=1657  Miss=18.90%  Hit=2823|2327|4210  Crit= 5821| 4793| 8673|5.4%  Glance=2115|24.0%
+    obliterate             Count=104.6| 4.34sec  DPE= 21823|16%  DPET= 21044  DPR=   0.0  pDPS=5058  Miss=0.00%  Hit=15338|12412|23540  Crit=31807|25568|48493|39.4%
+    obliterate_offhand     Count=104.6| 4.34sec  DPE= 13621|10%  DPET=     0  DPR=   0.0  pDPS=3157  Miss=0.00%  Hit=9586|7757|14713  Crit=19890|15980|30308|39.2%
+    outbreak               Count=  7.5|65.20sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=1.97%
+    pillar_of_frost        Count=  7.9|61.34sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    plague_strike          Count= 14.1|31.74sec  DPE=  4749| 0%  DPET=  4579  DPR=   0.0  pDPS= 148  Miss=0.00%  Hit=4485|3837|6619  Crit= 9158| 7905|13635|5.7%
+    plague_strike_offhand  Count= 14.1|31.74sec  DPE=  2961| 0%  DPET=     0  DPR=   0.0  pDPS=  92  Miss=0.00%  Hit=2802|2398|4136  Crit= 5728| 4939| 8521|5.4%
+    raise_dead             Count=  3.0|180.56sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    razorice               Count=547.9| 0.83sec  DPE=   172| 1%  DPET=     0  DPR=   0.0  pDPS= 209  Miss=0.00%  Hit= 172| 142| 257
+   army_of_the_dead  (DPS=2453.5)
+    claw                   Count= 11.0| 4.00sec  DPE=  2954| 0%  DPET=     0  DPR=  73.8  pDPS= 928  Miss=0.00%  Hit=2790|2790|2790  Crit= 5580| 5580| 5580|5.9%
+    melee                  Count= 24.0| 1.41sec  DPE=  2224| 0%  DPET=  1578  DPR=   0.0  pDPS=1525  Miss=0.00%  Hit=2232|2232|2232  Crit= 4464| 4464| 4464|5.7%  Glance=1674|24.2%
+   ghoul  (DPS=3162.0)
+    claw                   Count= 47.8| 9.19sec  DPE=  3680| 1%  DPET=     0  DPR=  92.0  pDPS=1054  Miss=0.00%  Hit=3490|2522|4412  Crit= 6934| 5044| 8824|5.5%
+    melee                  Count=126.0| 3.21sec  DPE=  2796| 2%  DPET=  2136  DPR=   0.0  pDPS=2108  Miss=0.00%  Hit=2813|2018|3530  Crit= 5604| 4035| 7059|5.5%  Glance=2110|24.0%
   Constant Buffs: abominations_might/arcane_brilliance/arcane_tactics/battle_shout/blessing_of_kings/blessing_of_might
   Constant Buffs: blessing_of_might_regen/communion/demonic_pact/devotion_aura/elemental_oath/fel_intelligence
   Constant Buffs: ferocious_inspiration/flametongue_totem/fortitude/honor_among_thieves/horn_of_winter/hunting_party
@@ -74,48 +74,48 @@ Player: Death_Knight_Frost_1h_T11H orc deathknight frost 85
   Dynamic Buffs:
     blood_fury_ap               : start=4.2  refresh=0.0   interval=120.6 trigger=120.6 uptime=14%
     bloodlust                   : start=1.0  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 9%  benefit=10%
-    crushing_weight             : start=6.1  refresh=0.0   interval= 79.6 trigger=79.6  uptime=20%
-    golemblood_potion           : start=2.0  refresh=0.0   interval=353.8 trigger=0.0   uptime=10%
-    heart_of_rage               : start=4.8  refresh=0.0   interval=104.4 trigger=104.4 uptime=21%
-    killing_machine             : start=95.4 refresh=20.5  interval=  4.7 trigger=3.9   uptime=24%  benefit=36%
-    pillar_of_frost             : start=7.9  refresh=0.0   interval= 61.4 trigger=61.4  uptime=34%  benefit=34%
-    rime                        : start=44.2 refresh=3.1   interval= 10.2 trigger=10.2  uptime=16%  benefit=47%
-    rune_of_the_fallen_crusader : start=10.2 refresh=36.9  interval= 44.8 trigger=9.5   uptime=79%  benefit=78%
+    crushing_weight             : start=6.1  refresh=0.0   interval= 79.5 trigger=79.5  uptime=20%
+    golemblood_potion           : start=2.0  refresh=0.0   interval=353.5 trigger=0.0   uptime=10%
+    heart_of_rage               : start=4.8  refresh=0.0   interval=104.3 trigger=104.3 uptime=21%
+    killing_machine             : start=95.4 refresh=20.3  interval=  4.7 trigger=3.9   uptime=24%  benefit=36%
+    pillar_of_frost             : start=7.9  refresh=0.0   interval= 61.4 trigger=61.3  uptime=34%  benefit=34%
+    rime                        : start=43.6 refresh=3.0   interval= 10.3 trigger=10.3  uptime=16%  benefit=46%
+    rune_of_the_fallen_crusader : start=10.2 refresh=37.0  interval= 44.9 trigger=9.4   uptime=79%  benefit=78%
     ghoul-bloodlust             : start=0.4  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 6%
   Benefits:
       0.9% : rp_cap                        
   Up-Times:
-      0.7% : runic_power_cap               
+      0.6% : runic_power_cap               
   Procs:
-     57.9 |   7.70sec : frost_strike_killing_machine
-     37.4 |  12.02sec : oblit_killing_machine
-     72.7 |   6.16sec : runic_empowerment
-      0.1 | 130.02sec : runic_empowerment_wasted
+     57.9 |   7.69sec : frost_strike_killing_machine
+     37.4 |  11.99sec : oblit_killing_machine
+     73.2 |   6.12sec : runic_empowerment
+      0.1 | 136.95sec : runic_empowerment_wasted
   Gains:
-        11.3 : blood_tap                 (overflow=26.0%)
-       179.5 : butchery                
-      1945.6 : chill_of_the_grave        (overflow=1.3%)
-         7.4 : empower_rune_weapon       (overflow=38.5%)
-       134.3 : horn_of_winter          
-       115.1 : improved_frost_presence 
+        11.3 : blood_tap                 (overflow=26.1%)
+       179.3 : butchery                
+      1943.0 : chill_of_the_grave        (overflow=1.3%)
+         7.4 : empower_rune_weapon       (overflow=38.3%)
+       133.6 : horn_of_winter          
+       115.2 : improved_frost_presence 
         30.0 : rp_army_of_the_dead     
         49.5 : rp_empower_rune_weapon  
-       495.0 : rp_howling_blast        
-      2075.4 : rp_obliterate           
-        79.0 : rp_pillar_of_frost      
-       140.8 : rp_plague_strike        
-       181.7 : rune_regen_all            (overflow=3.5%)
+       497.5 : rp_howling_blast        
+      2074.7 : rp_obliterate           
+        78.8 : rp_pillar_of_frost      
+       140.6 : rp_plague_strike        
+       181.5 : rune_regen_all            (overflow=3.5%)
         59.8 : rune_regen_blood          (overflow=4.5%)
         61.1 : rune_regen_frost          (overflow=2.7%)
-        60.8 : rune_regen_unholy         (overflow=3.2%)
-        72.7 : runic_empowerment       
-        21.5 : runic_empowerment_blood 
-        28.0 : runic_empowerment_frost 
-        23.2 : runic_empowerment_unholy
+        60.7 : rune_regen_unholy         (overflow=3.2%)
+        73.2 : runic_empowerment       
+        21.4 : runic_empowerment_blood 
+        28.3 : runic_empowerment_frost 
+        23.5 : runic_empowerment_unholy
   Pet "army_of_the_dead" Gains:
       347.5 : energy_regen
   Pet "ghoul" Gains:
-     1673.9 : energy_regen
+     1672.8 : energy_regen
 
 
  *** Targets *** 
@@ -123,7 +123,7 @@ Player: Death_Knight_Frost_1h_T11H orc deathknight frost 85
 
 Target: Fluffy_Pillow humanoid enemy Unknown 88
   DPS: 0.0  DPS-Error=0.0/0.0% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=0/0.0%  DPS-Convergence=0.0%
-  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|16888049  mana=0|0
+  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|16888114  mana=0|0
   Spell Stats:  power=0|0(0)  hit=0.00%|0.00%(0)  crit=0.00%|0.00%(0)  penetration=0|0(0)  haste=0.00%|0.00%(0)  mp5=0|0(0)
   Attack Stats  power=0|0(0)  hit=0.00%|0.00%(0)  crit=5.00%|5.00%(0)  expertise=0.00|0.00(0)  haste=0.00%|0.00%(0)  speed=0.00%|0.00%(0)
   Defense Stats:  armor=10540|11977(0) miss=0.00%|0.00%  dodge=0.00%|0.00%(0)  parry=0.00%|0.00%(0)  block=5.00%|5.00%(0) crit=0.00%|0.00%
@@ -144,12 +144,12 @@ Waiting:
      8.8% : Death_Knight_Frost_1h_T11H
 
 Baseline Performance:
-  TotalEvents   = 5167326
-  MaxEventQueue = 32
-  TargetHealth  = 16888049
-  SimSeconds    = 453435
-  CpuSeconds    = 3.454
-  SpeedUp       = 131278
+  TotalEvents   = 5161834
+  MaxEventQueue = 33
+  TargetHealth  = 16888114
+  SimSeconds    = 453067
+  CpuSeconds    = 3.336
+  SpeedUp       = 135811
 
-RNG global Actual/Expected Roll=0.999750 Range=1.000000 Gauss=1.000772
+RNG global Actual/Expected Roll=0.999855 Range=1.000000 Gauss=1.000877
 
