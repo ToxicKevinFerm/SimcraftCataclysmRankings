@@ -24,11 +24,11 @@ actions+=/explosive_trap,if=target.adds>0
 actions+=/multi_shot,if=target.adds>2
 actions+=/cobra_shot,if=target.adds>2
 actions+=/serpent_sting,if=!ticking&target.time_to_die>=10
-actions+=/rapid_fire
+actions+=/explosive_shot,if=(remains<2.0)
 actions+=/kill_shot
-actions+=/explosive_shot,if=(remains<2)
 actions+=/black_arrow,if=target.time_to_die>=8
-actions+=/arcane_shot,if=focus>=76&buff.lock_and_load.down
+actions+=/rapid_fire
+actions+=/arcane_shot,if=focus>=76
 actions+=/cobra_shot
 head=lightningcharged_headguard,heroic=1,type=mail,ilevel=372,quality=epic,stats=2071armor_325agi_578sta_257crit_197mastery,reforge=mastery_haste,gems=agile_shadowspirit_20agi_20crit_30agi,enchant=60agi_35haste
 neck=mistral_pendant_of_the_windflurry,ilevel=372,quality=epic,stats=321sta_214agi_143crit_143haste,reforge=haste_hit,suffix=135

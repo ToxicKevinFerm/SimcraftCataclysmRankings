@@ -9,14 +9,14 @@ Generating baseline...
 Generating reports...
 
 DPS Ranking:
-  30630 100.0%  Raid
-  30630  100.0%  Hunter_SV_T11H.simc
+  30810 100.0%  Raid
+  30810  100.0%  Hunter_SV_T11H.simc
 
 HPS Ranking:
       0 100.0%  Raid
 
 Player: Hunter_SV_T11H.simc orc hunter survival 85
-  DPS: 30629.7  DPS-Error=28.5/0.1% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=1448/4.7%  DPS-Convergence=70.7%  DPR=2754.0  RPS-Out=9.7 RPS-In=9.6  Resource=(focus) Waiting=0.0 ApM=51.4
+  DPS: 30810.4  DPS-Error=30.3/0.1% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=1674/5.4%  DPS-Convergence=70.6%  DPR=2723.4  RPS-Out=9.9 RPS-In=9.8  Resource=(focus) Waiting=0.0 ApM=51.4
   Origin: http://chardev.org/?profile=34116
   Talents: http://www.wowhead.com/talent#hunter-0010000000000000000230202000000000000003223003023022121311
   Core Stats:  strength=684|103(20)  agility=9526|6553(5367)  stamina=7598|5978(5838)  intellect=119|114(20)  spirit=127|127(20)  mastery=11.32|11.32(596)  health=145149|122469  mana=2246|120
@@ -30,24 +30,24 @@ Player: Hunter_SV_T11H.simc orc hunter survival 85
     snapshot_stats/aspect_of_the_hawk,moving=0/aspect_of_the_fox,moving=1/blood_fury
     explosive_trap,if=target.adds>0/multi_shot,if=target.adds>2
     cobra_shot,if=target.adds>2/serpent_sting,if=!ticking/rapid_fire
-    explosive_shot,non_consecutive=1/black_arrow,if=!ticking/kill_shot
-    arcane_shot,if=focus>=70&buff.lock_and_load.down/cobra_shot
+    explosive_shot,if=(remains<2.0)/black_arrow,if=!ticking/kill_shot
+    arcane_shot,if=focus>=70/cobra_shot
   Actions:
-    arcane_shot          Count= 48.1| 9.21sec  DPE= 18100| 6%  DPET= 17454  DPR= 822.7  pDPS=1936  Miss=0.00%  Hit=12801|12372|14574  Crit=26492|25487|30023|38.9%
-    black_arrow          Count= 18.2|25.27sec  DPE= 45793| 6%  DPET= 44157  DPR=1308.4  pDPS=1854  Miss=0.00%  TickCount=178  MissTick=0.0%  Tick=3317|3211|3890  CritTick=6957|6712|8129|37.9%  UpTime=78.9%
-    cobra_shot           Count=188.8| 2.37sec  DPE= 15919|22%  DPET= 11568  DPR=   0.0  pDPS=6665  Miss=0.00%  Hit=10880|10649|12474  Crit=22665|21938|25697|42.9%
-    explosive_shot       Count=103.3| 4.37sec  DPE= 41771|31%  DPET= 40281  DPR=1628.5  pDPS=9577  Miss=0.00%  TickCount=309  MissTick=0.0%  Tick=9421|9108|11239  CritTick=19764|19035|23488|44.0%  UpTime=45.8%
-    kill_shot            Count= 13.4| 6.02sec  DPE= 36234| 4%  DPET= 34941  DPR=   0.0  pDPS=1077  Miss=0.00%  Hit=23304|22490|27203  Crit=48157|46330|56039|53.1%
-    ranged               Count=205.6| 2.20sec  DPE=  8565|13%  DPET=  3915  DPR=   0.0  pDPS=3910  Miss=0.00%  Hit=6079|5904|6949  Crit=12571|12162|14315|38.3%
+    arcane_shot          Count= 43.5|10.16sec  DPE= 18104| 6%  DPET= 17459  DPR= 822.9  pDPS=1751  Miss=0.00%  Hit=12825|12372|14574  Crit=26534|25487|30023|38.6%
+    black_arrow          Count= 18.2|25.36sec  DPE= 45745| 6%  DPET= 44113  DPR=1307.0  pDPS=1845  Miss=0.00%  TickCount=177  MissTick=0.0%  Tick=3317|3211|3890  CritTick=6954|6712|8129|37.8%  UpTime=78.6%
+    cobra_shot           Count=189.5| 2.36sec  DPE= 15907|22%  DPET= 11554  DPR=   0.0  pDPS=6683  Miss=0.00%  Hit=10881|10649|12474  Crit=22653|21938|25697|42.8%
+    explosive_shot       Count=107.1| 4.21sec  DPE= 41780|32%  DPET= 40291  DPR=1579.8  pDPS=9927  Miss=0.00%  TickCount=320  MissTick=0.0%  Tick=9420|9108|11239  CritTick=19768|19035|23488|44.1%  UpTime=57.1%
+    kill_shot            Count= 13.4| 6.06sec  DPE= 36285| 3%  DPET= 34989  DPR=   0.0  pDPS=1075  Miss=0.00%  Hit=23310|22490|27203  Crit=48146|46330|56039|53.4%
+    ranged               Count=205.7| 2.20sec  DPE=  8567|13%  DPET=  3917  DPR=   0.0  pDPS=3911  Miss=0.00%  Hit=6080|5904|6949  Crit=12568|12162|14315|38.3%
     rapid_fire           Count=  2.0|300.72sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    serpent_sting        Count=  1.0| 0.00sec  DPE=768241| 6%  DPET=740922  DPR=30729.6  pDPS=1704  Miss=0.00%  TickCount=149  MissTick=0.0%  Tick=3219|3131|3760  CritTick=6747|6545|7859|53.1%  UpTime=99.4%
-    serpent_sting_burst  Count=  1.0| 0.00sec  DPE=  6921| 0%  DPET=     0  DPR=   0.0  pDPS=  16  Miss=0.00%  Hit=4948|4948|4948  Crit=10194|10194|10194|37.6%
-   wind_serpent  (DPS=3907.4)
-    claw                 Count=129.6| 3.47sec  DPE=  7636| 7%  DPET=  4968  DPR= 341.1  pDPS=2197  Miss=0.00%  Hit=5259|2255|7052  Crit=10566| 4510|14103|44.8%
-    lightning_breath     Count= 14.9|31.28sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    melee                Count=320.7| 1.40sec  DPE=  2200| 5%  DPET=  1568  DPR=   0.0  pDPS=1566  Miss=0.00%  Hit=1578|1454|2072  Crit= 3173| 2907| 4145|44.9%  Glance=1186|23.9%
-    roar_of_recovery     Count=  3.0|185.68sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%  TickCount=9  UpTime=5.9%
-    wolverine_bite       Count= 43.5|10.44sec  DPE=  1503| 0%  DPET=  1002  DPR=   0.0  pDPS= 145  Miss=0.00%  Hit=1035| 951|1373  Crit= 2081| 1903| 2746|44.7%
+    serpent_sting        Count=  1.0| 0.00sec  DPE=767204| 6%  DPET=739814  DPR=30688.1  pDPS=1702  Miss=0.00%  TickCount=150  MissTick=0.0%  Tick=3220|3131|3760  CritTick=6749|6545|7859|52.8%  UpTime=99.5%
+    serpent_sting_burst  Count=  1.0| 0.00sec  DPE=  7025| 0%  DPET=     0  DPR=   0.0  pDPS=  16  Miss=0.00%  Hit=4948|4948|4948  Crit=10194|10194|10194|39.6%
+   wind_serpent  (DPS=3915.5)
+    claw                 Count=129.7| 3.47sec  DPE=  7654| 7%  DPET=  4980  DPR= 343.8  pDPS=2202  Miss=0.00%  Hit=5266|2255|7052  Crit=10583| 4510|14103|44.9%
+    lightning_breath     Count= 14.9|31.27sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    melee                Count=320.9| 1.40sec  DPE=  2203| 5%  DPET=  1570  DPR=   0.0  pDPS=1568  Miss=0.00%  Hit=1577|1454|2072  Crit= 3172| 2907| 4145|45.1%  Glance=1187|23.9%
+    roar_of_recovery     Count=  3.0|184.92sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%  TickCount=9  UpTime=5.9%
+    wolverine_bite       Count= 43.5|10.43sec  DPE=  1507| 0%  DPET=  1005  DPR=   0.0  pDPS= 145  Miss=0.00%  Hit=1035| 951|1373  Crit= 2082| 1903| 2746|45.1%
   Constant Buffs: abominations_might/arcane_brilliance/arcane_tactics/aspect_of_the_hawk/battle_shout/blessing_of_kings
   Constant Buffs: blessing_of_might/blessing_of_might_regen/communion/demonic_pact/devotion_aura/elemental_oath
   Constant Buffs: fel_intelligence/ferocious_inspiration/flametongue_totem/fortitude/honor_among_thieves/horn_of_winter
@@ -57,30 +57,30 @@ Player: Hunter_SV_T11H.simc orc hunter survival 85
   Dynamic Buffs:
     blood_fury_ap                    : start=4.3  refresh=0.0   interval=120.7 trigger=120.7 uptime=14%
     bloodlust                        : start=1.0  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 9%  benefit= 9%
-    culling_the_herd                 : start=18.1 refresh=40.0  interval= 25.1 trigger=7.7   uptime=81%  benefit=80%
-    essence_of_the_cyclone           : start=8.2  refresh=0.0   interval= 57.8 trigger=57.8  uptime=18%
-    lock_and_load                    : start=21.7 refresh=0.0   interval= 20.6 trigger=20.6  uptime=15%  benefit=42%
-    prestors_talisman_of_machination : start=5.9  refresh=0.0   interval= 82.9 trigger=82.9  uptime=19%
+    culling_the_herd                 : start=18.0 refresh=40.3  interval= 25.3 trigger=7.7   uptime=81%  benefit=80%
+    essence_of_the_cyclone           : start=8.2  refresh=0.0   interval= 58.0 trigger=58.0  uptime=18%
+    lock_and_load                    : start=21.4 refresh=0.0   interval= 20.8 trigger=20.8  uptime= 9%  benefit=40%
+    prestors_talisman_of_machination : start=5.9  refresh=0.0   interval= 82.6 trigger=82.6  uptime=19%
     rapid_fire                       : start=2.0  refresh=0.0   interval=300.7 trigger=300.7 uptime= 7%  benefit= 7%
-    tolvir_potion                    : start=2.0  refresh=0.0   interval=353.6 trigger=0.0   uptime=10%
-    xray_targeting                   : start=7.8  refresh=0.0   interval= 59.0 trigger=59.0  uptime=17%  benefit=17%
+    tolvir_potion                    : start=2.0  refresh=0.0   interval=353.5 trigger=0.0   uptime=10%
+    xray_targeting                   : start=7.8  refresh=0.0   interval= 59.3 trigger=59.3  uptime=17%  benefit=17%
     wind_serpent-bloodlust           : start=1.0  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 9%  benefit= 8%
-    wind_serpent-culling_the_herd    : start=18.1 refresh=40.0  interval= 25.1 trigger=7.7   uptime=81%  benefit=78%
-    wind_serpent-owls_focus          : start=38.7 refresh=0.0   interval= 11.4 trigger=11.4  uptime=30%  benefit=30%
-    wind_serpent-sic_em              : start=89.7 refresh=65.0  interval=  5.0 trigger=2.9   uptime=42%  benefit=69%
-    wind_serpent-wolverine_bite      : start=44.4 refresh=177.1 interval= 10.2 trigger=2.0   uptime=90%
+    wind_serpent-culling_the_herd    : start=18.0 refresh=40.3  interval= 25.3 trigger=7.7   uptime=81%  benefit=78%
+    wind_serpent-owls_focus          : start=38.9 refresh=0.0   interval= 11.4 trigger=11.4  uptime=30%  benefit=30%
+    wind_serpent-sic_em              : start=90.3 refresh=67.6  interval=  5.0 trigger=2.8   uptime=43%  benefit=69%
+    wind_serpent-wolverine_bite      : start=44.4 refresh=178.1 interval= 10.2 trigger=2.0   uptime=90%
   Procs:
-      3.2 |  80.34sec : black_arrow_focus_starved
-      3.0 |  89.26sec : explosive_shot_focus_starved
-     21.7 |  20.57sec : lock_and_load
-     25.5 |  17.10sec : thrill_of_the_hunt
+      4.5 |  67.09sec : black_arrow_focus_starved
+      5.4 |  65.20sec : explosive_shot_focus_starved
+     21.4 |  20.75sec : lock_and_load
+     25.3 |  17.14sec : thrill_of_the_hunt
   Gains:
-      1681.8 : cobra_shot          (overflow=1.0%)
-      2200.8 : focus_regen         (overflow=1.7%)
-        85.3 : roar_of_recovery    (overflow=3.1%)
-       356.4 : thrill_of_the_hunt  (overflow=4.9%)
+      1705.5 : cobra_shot        
+      2231.9 : focus_regen       
+        87.6 : roar_of_recovery  
+       373.4 : thrill_of_the_hunt  (overflow=1.2%)
   Pet "wind_serpent" Gains:
-     2874.6 : focus_regen  (overflow=19.6%)
+     2860.4 : focus_regen  (overflow=20.1%)
 
 
  *** Targets *** 
@@ -88,7 +88,7 @@ Player: Hunter_SV_T11H.simc orc hunter survival 85
 
 Target: Fluffy_Pillow humanoid enemy Unknown 88
   DPS: 0.0  DPS-Error=0.0/0.0% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=0/0.0%  DPS-Convergence=0.0%
-  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|16520158  mana=0|0
+  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|16617166  mana=0|0
   Spell Stats:  power=0|0(0)  hit=0.00%|0.00%(0)  crit=0.00%|0.00%(0)  penetration=0|0(0)  haste=0.00%|0.00%(0)  mp5=0|0(0)
   Attack Stats  power=0|0(0)  hit=0.00%|0.00%(0)  crit=5.00%|5.00%(0)  expertise=0.00|0.00(0)  haste=0.00%|0.00%(0)  speed=0.00%|0.00%(0)
   Defense Stats:  armor=10540|11977(0) miss=0.00%|0.00%  dodge=0.00%|0.00%(0)  parry=0.00%|0.00%(0)  block=5.00%|5.00%(0) crit=0.00%|0.00%
@@ -108,12 +108,12 @@ Waiting:
     All players active 100% of the time.
 
 Baseline Performance:
-  TotalEvents   = 5567371
+  TotalEvents   = 5575067
   MaxEventQueue = 29
-  TargetHealth  = 16520158
-  SimSeconds    = 450852
-  CpuSeconds    = 2.243
-  SpeedUp       = 201004
+  TargetHealth  = 16617166
+  SimSeconds    = 451013
+  CpuSeconds    = 2.816
+  SpeedUp       = 160161
 
-RNG global Actual/Expected Roll=0.999405 Range=1.000000 Gauss=0.997731
+RNG global Actual/Expected Roll=0.999277 Range=1.000000 Gauss=1.002862
 

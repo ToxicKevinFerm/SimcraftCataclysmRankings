@@ -9,99 +9,105 @@ Generating baseline...
 Generating reports...
 
 DPS Ranking:
-  31001 100.0%  Raid
-  31001  100.0%  Warrior_Arms_T11H
+  32196 100.0%  Raid
+  32196  100.0%  Warrior_Arms_T11H
 
 HPS Ranking:
       0 100.0%  Raid
 
 Player: Warrior_Arms_T11H worgen warrior arms 85
-  DPS: 31001.2  DPS-Error=57.9/0.2% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=2670/8.6%  DPS-Convergence=70.6%  DPR=2960.9  RPS-Out=10.5 RPS-In=10.5  Resource=(rage) Waiting=5.3 ApM=65.4
+  DPS: 32195.6  DPS-Error=62.8/0.2% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=3322/10.3%  DPS-Convergence=70.7%  DPR=3118.7  RPS-Out=10.3 RPS-In=10.4  Resource=(rage) Waiting=2.9 ApM=70.4
   Origin: http://chardev.org/?profile=133579
-  Talents: http://www.wowhead.com/talent#warrior-3022031312021231220103220000000000000000030000000000000000000
+  Talents: http://www.wowhead.com/talent#warrior-3212030312021231220103220000000000000000030000000000000000000
   Core Stats:  strength=6305|5019(4588)  agility=729|145(20)  stamina=7658|6035(5862)  intellect=55|53(20)  spirit=82|82(20)  mastery=13.73|13.73(1028)  health=150237|127515  mana=2246|120
   Spell Stats:  power=0|0(0)  hit=9.38%|9.38%(961)  crit=20.28%|15.28%(2560)  penetration=0|0(0)  haste=9.55%|4.33%(555)  mp5=0|0(0)
   Attack Stats  power=15613|10438(190)  hit=8.00%|8.00%(961)  crit=23.27%|15.87%(2560)  expertise=26.08|26.08(783)  haste=4.33%|4.33%(555)  speed=14.77%|4.33%(555)
   Defense Stats:  armor=25244|21168(21168) miss=0.00%|0.00%  dodge=3.76%|3.76%(0)  parry=13.50%|11.90%(0)  block=5.00%|5.00%(0) crit=0.00%|0.00%
-  Glyphs: rapid_charge/resonating_power/sweeping_strikes/berserker_rage/battle/command/overpower/slam/mortal_strike
+  Glyphs: colossus_smash/sweeping_strikes/rapid_charge/enduring_victory/battle/berserker_rage/mortal_strike/slam/overpower
   Priorities:
     flask,type=titanic_strength/food,type=beer_basted_crocolisk/snapshot_stats
-    golemblood_potion,if=!in_combat|buff.bloodlust.react/auto_attack
-    stance,choose=berserker,if=(buff.taste_for_blood.down&rage<75)
-    stance,choose=battle,if=(dot.rend.remains=0|((buff.overpower.up|buff.taste_for_blood.up)&cooldown.mortal_strike.remains>1)&rage<=75)
-    recklessness,if=((target.health_pct>20&target.time_to_die>320)|target.health_pct<=20)
-    berserker_rage,if=!buff.deadly_calm.up&rage<70
-    deadly_calm,if=rage<30&((target.health_pct>20&target.time_to_die>130)|(target.health_pct<=20&buff.recklessness.up))
-    sweeping_strikes,if=target.adds>0
+    golemblood_potion,if=!in_combat|buff.recklessness.up|target.time_to_die<26
+    auto_attack/heroic_leap,use_off_gcd=1,if=buff.colossus_smash.up
+    berserker_rage,if=buff.deadly_calm.down&cooldown.deadly_calm.remains>1.5&rage<=95,use_off_gcd=1
+    deadly_calm,use_off_gcd=1
+    inner_rage,if=buff.deadly_calm.down&cooldown.deadly_calm.remains>15,use_off_gcd=1
+    recklessness,if=target.health_pct>90|target.health_pct<=20,use_off_gcd=1
+    stance,choose=berserker,if=buff.taste_for_blood.down&dot.rend.remains>0&rage<=75,use_off_gcd=1
+    stance,choose=battle,use_off_gcd=1,if=!dot.rend.ticking
+    stance,choose=battle,use_off_gcd=1,if=(buff.taste_for_blood.up|buff.overpower.up)&rage<=75&cooldown.mortal_strike.remains>=1.5,use_off_gcd=1
+    sweeping_strikes,if=target.adds>0,use_off_gcd=1
+    cleave,if=target.adds>0,use_off_gcd=1/rend,if=!ticking
     bladestorm,if=target.adds>0&!buff.deadly_calm.up&!buff.sweeping_strikes.up
-    cleave,if=target.adds>0
-    inner_rage,if=!buff.deadly_calm.up&rage>80&cooldown.deadly_calm.remains>15
-    heroic_strike,if=((rage>=85&target.health_pct>=20)|buff.deadly_calm.up|buff.battle_trance.up|((buff.incite.up|buff.colossus_smash.up)&((rage>=50&target.health_pct>=20)|(rage>=75&target.health_pct<20))))
-    overpower,if=buff.taste_for_blood.remains<=1.5
-    mortal_strike,if=target.health_pct>20|rage>=30/execute,if=buff.battle_trance.up
-    rend,if=!ticking/colossus_smash,if=buff.colossus_smash.remains<0.5
-    execute,if=(buff.deadly_calm.up|buff.recklessness.up)/mortal_strike/overpower
-    execute
-    slam,if=(cooldown.mortal_strike.remains>=1.5&(rage>=35|buff.deadly_calm.up|buff.colossus_smash.up))|(cooldown.mortal_strike.remains>=1.2&buff.colossus_smash.remains>0.5&rage>=35)
-    battle_shout,if=rage<20
+    mortal_strike,if=target.health_pct>20/colossus_smash,if=buff.colossus_smash.down
+    execute,if=buff.executioner_talent.remains<1.5
+    mortal_strike,if=target.health_pct<=20&(dot.rend.remains<3|buff.wrecking_crew.down|rage<=25|rage>=35)
+    execute,if=rage>90/overpower,if=buff.taste_for_blood.up|buff.overpower.up/execute
+    colossus_smash,if=buff.colossus_smash.remains<=1.5
+    slam,if=(rage>=35|buff.battle_trance.up|buff.deadly_calm.up)
+    heroic_strike,use_off_gcd=1,if=buff.deadly_calm.up
+    heroic_strike,use_off_gcd=1,if=rage>85
+    heroic_strike,use_off_gcd=1,if=buff.inner_rage.up&target.health_pct>20&(rage>=60|(set_bonus.tier13_2pc_melee&rage>=50))
+    heroic_strike,use_off_gcd=1,if=buff.inner_rage.up&target.health_pct<=20&((rage>=60|(set_bonus.tier13_2pc_melee&rage>=50))|buff.battle_trance.up)
+    battle_shout,if=rage<60
   Actions:
-    battle_shout        Count=  4.4|94.78sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    berserker_rage      Count= 15.0|31.13sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    colossus_smash      Count= 36.7|12.34sec  DPE= 13340| 4%  DPET=  8679  DPR= 726.8  pDPS=1087  Miss=0.00%  Hit=10777|8809|20355  Crit=22586|18249|39847|21.7%
-    deadly_calm         Count=  3.2|124.58sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    deep_wounds         Count=  0.0| 0.00sec  DPE=     0| 9%  DPET=     0  DPR=   0.0  pDPS=2797  Miss=0.00%  TickCount=433  MissTick=0.0%  Tick=2910|791|10168  UpTime=95.9%
-    execute             Count= 17.5| 4.33sec  DPE= 48188| 6%  DPET= 31350  DPR=1690.0  pDPS=1871  Miss=0.00%  Hit=34863|9027|75055  Crit=76199|18596|154613|32.2%
-    heroic_strike       Count= 47.3| 9.23sec  DPE= 21466| 7%  DPET=     0  DPR=1270.9  pDPS=2255  Miss=0.00%  Hit=14132|8663|27686  Crit=28733|17845|54816|50.2%
-    inner_rage          Count=  5.1|79.30sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    melee_main_hand     Count=137.7| 3.29sec  DPE= 10432|10%  DPET=  3369  DPR=   0.0  pDPS=3185  Miss=0.00%  Hit=9187|6313|16400  Crit=18931|13006|32781|18.4%  Glance=6885|23.9%
-    mortal_strike       Count= 92.8| 4.87sec  DPE= 29094|19%  DPET= 18929  DPR=1576.3  pDPS=5993  Miss=0.00%  Hit=20757|13163|36880  Crit=47300|29905|83791|31.4%
-    opportunity_strike  Count=126.4| 3.56sec  DPE= 10046| 9%  DPET=     0  DPR=   0.0  pDPS=2817  Miss=0.00%  Hit=8223|5765|14753  Crit=16703|11596|28164|21.5%
-    overpower           Count= 71.0| 6.31sec  DPE= 32635|17%  DPET= 21233  DPR=6938.0  pDPS=5132  Miss=0.00%  Hit=16258|11219|27988  Crit=37050|25491|63116|78.8%
-    recklessness        Count=  2.0| 0.00sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    rend                Count=  1.0| 0.00sec  DPE=1108735| 8%  DPET=721548  DPR=110873.5  pDPS=2456  Miss=0.00%
-    rend_dot            Count=  1.0| 0.00sec  DPE=1108735| 8%  DPET=     0  DPR=   0.0  pDPS=2456  Miss=0.00%  TickCount=241  MissTick=0.0%  Tick=3760|1328|5111  CritTick=7742|2735|10528|21.0%  UpTime=159.7%
-    slam                Count= 55.6| 6.57sec  DPE= 27675|11%  DPET= 18006  DPR=2225.6  pDPS=3408  Miss=0.00%
-    slam_mh             Count= 55.6| 6.57sec  DPE= 27675|11%  DPET=     0  DPR=   0.0  pDPS=3408  Miss=0.00%  Hit=21213|14800|36800  Crit=48299|33626|83034|23.9%
+    battle_shout        Count=  4.6|84.12sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    berserker_rage      Count= 15.1|30.20sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    colossus_smash      Count= 39.0|11.71sec  DPE= 13931| 4%  DPET=  9063  DPR= 880.3  pDPS=1201  Miss=0.00%  Hit=11303|8859|22390  Crit=23736|18249|46124|21.1%
+    deadly_calm         Count=  4.3|120.36sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    deep_wounds         Count=  0.0| 0.00sec  DPE=     0| 9%  DPET=     0  DPR=   0.0  pDPS=2927  Miss=0.00%  TickCount=435  MissTick=0.0%  Tick=3037|791|11946  UpTime=96.1%
+    execute             Count= 17.0| 4.36sec  DPE= 45398| 5%  DPET= 29534  DPR=1709.1  pDPS=1712  Miss=0.00%  Hit=34368|9027|78629  Crit=76180|18596|161976|26.4%
+    heroic_leap         Count=  7.7|63.17sec  DPE= 13924| 1%  DPET=     0  DPR=   0.0  pDPS= 236  Miss=0.00%  Hit=11430|6748|18473  Crit=23899|14288|42421|20.0%
+    heroic_strike       Count= 54.1| 8.45sec  DPE= 21290| 8%  DPET=     0  DPR=1178.7  pDPS=2557  Miss=0.00%  Hit=13396|8663|27686  Crit=29195|17845|57034|50.0%
+    inner_rage          Count= 15.2|30.20sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    melee_main_hand     Count=137.1| 3.32sec  DPE= 10547|10%  DPET=  3412  DPR=   0.0  pDPS=3199  Miss=0.00%  Hit=9304|6313|16400  Crit=19176|13006|33784|18.3%  Glance=6986|24.2%
+    mortal_strike       Count= 88.9| 5.12sec  DPE= 29625|18%  DPET= 19276  DPR=1719.2  pDPS=5830  Miss=0.00%  Hit=20963|13163|36880  Crit=48700|29905|83791|31.2%
+    opportunity_strike  Count=131.5| 3.45sec  DPE= 10139| 9%  DPET=     0  DPR=   0.0  pDPS=2952  Miss=0.00%  Hit=8260|5798|14753  Crit=17041|11596|29505|21.4%
+    overpower           Count= 72.6| 6.23sec  DPE= 32974|16%  DPET= 21453  DPR=7130.4  pDPS=5295  Miss=0.00%  Hit=16195|11287|27988  Crit=37306|24801|63588|79.5%
+    recklessness        Count=  2.0|370.10sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    rend                Count=  1.0| 0.00sec  DPE=1109007| 8%  DPET=28816716  DPR=111011557.8  pDPS=2454  Miss=0.00%
+    rend_dot            Count=  1.0| 0.00sec  DPE=1109007| 8%  DPET=     0  DPR=   0.0  pDPS=2454  Miss=0.00%  TickCount=240  MissTick=0.0%  Tick=3774|1268|5111  CritTick=7807|2735|10528|21.0%  UpTime=158.6%
+    slam                Count= 64.4| 5.80sec  DPE= 26878|12%  DPET= 17487  DPR=2310.8  pDPS=3832  Miss=0.00%
+    slam_mh             Count= 64.4| 5.80sec  DPE= 26878|12%  DPET=     0  DPR=   0.0  pDPS=3832  Miss=0.00%  Hit=20197|14800|36800  Crit=46706|33626|83609|25.2%
   Constant Buffs: abominations_might/arcane_brilliance/arcane_tactics/battle_shout/blessing_of_kings/blessing_of_might
   Constant Buffs: blessing_of_might_regen/communion/demonic_pact/devotion_aura/elemental_oath/fel_intelligence
   Constant Buffs: ferocious_inspiration/flametongue_totem/fortitude/honor_among_thieves/horn_of_winter/hunting_party
   Constant Buffs: improved_icy_talons/leader_of_the_pack/mana_spring_totem/mark_of_the_wild/moonkin/qiraji_fortitude/rampage
   Constant Buffs: replenishment/roar_of_courage/strength_of_earth/trueshot/unleashed_rage/windfury_totem/wrath_of_air
   Dynamic Buffs:
-    battle_stance          : start=68.2 refresh=0.0   interval=  6.7 trigger=6.7   uptime=35%
-    battle_trance          : start=13.8 refresh=0.0   interval= 30.4 trigger=30.4  uptime= 6%  benefit= 7%
-    berserker_rage         : start=15.0 refresh=0.0   interval= 31.2 trigger=31.1  uptime=33%
-    berserker_stance       : start=67.9 refresh=0.0   interval=  6.7 trigger=6.7   uptime=65%
-    blackwing_dragonkin    : start=3.9  refresh=0.0   interval=123.4 trigger=123.4 uptime=17%
+    battle_stance          : start=70.8 refresh=0.0   interval=  6.4 trigger=6.4   uptime=29%
+    battle_trance          : start=13.3 refresh=0.0   interval= 31.7 trigger=31.7  uptime= 8%  benefit= 7%
+    berserker_rage         : start=15.1 refresh=0.0   interval= 30.2 trigger=30.2  uptime=33%
+    berserker_stance       : start=70.5 refresh=0.0   interval=  6.4 trigger=6.4   uptime=71%
+    blackwing_dragonkin    : start=4.0  refresh=0.0   interval=123.4 trigger=123.4 uptime=17%
     bloodlust              : start=1.0  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 9%  benefit=10%
-    deadly_calm            : start=3.2  refresh=0.0   interval=124.6 trigger=124.6 uptime= 7%  benefit= 9%
-    executioner_talent     : start=2.4  refresh=15.1  interval= 30.8 trigger=4.3   uptime=16%
-    golemblood_potion      : start=2.0  refresh=0.0   interval=357.5 trigger=0.0   uptime=10%
-    heart_of_rage          : start=4.6  refresh=0.0   interval=107.2 trigger=107.2 uptime=20%
-    incite                 : start=13.0 refresh=0.0   interval= 33.1 trigger=33.1  uptime=16%  benefit=23%
-    inner_rage             : start=5.1  refresh=0.0   interval= 79.3 trigger=79.3  uptime=17%  benefit=27%
-    lambs_to_the_slaughter : start=1.0  refresh=91.8  interval=  0.0 trigger=4.9   uptime=100%  benefit=100%
-    landslide_mh           : start=14.1 refresh=25.2  interval= 32.1 trigger=11.2  uptime=66%  benefit=65%
-    recklessness           : start=2.0  refresh=0.0   interval=376.9 trigger=0.0   uptime= 5%  benefit= 6%
-    taste_for_blood        : start=71.2 refresh=3.8   interval=  6.3 trigger=6.0   uptime=34%
-    tier11_4pc_melee       : start=1.0  refresh=70.0  interval=446.0 trigger=6.3   uptime=98%  benefit=98%
-    wrecking_crew          : start=14.0 refresh=15.1  interval= 32.8 trigger=15.4  uptime=59%  benefit=58%
+    deadly_calm            : start=4.3  refresh=0.0   interval=120.3 trigger=120.4 uptime=10%  benefit=13%
+    executioner_talent     : start=1.2  refresh=15.9  interval= 37.9 trigger=4.4   uptime=16%
+    golemblood_potion      : start=2.0  refresh=0.0   interval=381.2 trigger=0.0   uptime=10%
+    heart_of_rage          : start=4.7  refresh=0.0   interval=107.1 trigger=107.1 uptime=20%
+    incite                 : start=15.7 refresh=0.0   interval= 28.7 trigger=29.1  uptime=19%  benefit=21%
+    inner_rage             : start=15.2 refresh=0.0   interval= 30.2 trigger=30.2  uptime=49%  benefit=61%
+    lambs_to_the_slaughter : start=1.0  refresh=87.9  interval=452.0 trigger=5.1   uptime=100%  benefit=100%
+    landslide_mh           : start=14.2 refresh=26.3  interval= 32.1 trigger=11.0  uptime=67%  benefit=66%
+    recklessness           : start=2.0  refresh=0.0   interval=370.1 trigger=370.1 uptime= 5%  benefit= 7%
+    taste_for_blood        : start=73.0 refresh=3.0   interval=  6.2 trigger=6.0   uptime=34%
+    tier11_4pc_melee       : start=1.0  refresh=71.6  interval=  0.0 trigger=6.2   uptime=99%  benefit=99%
+    wrecking_crew          : start=13.7 refresh=14.1  interval= 33.4 trigger=16.1  uptime=57%  benefit=55%
   Benefits:
-      2.5% : rage_cap                      
+      3.4% : rage_cap                      
   Up-Times:
-      2.6% : rage_cap                      
+      1.2% : rage_cap                      
   Procs:
-     33.2 |  14.30sec : munched_deep_wounds
-     89.5 |   5.50sec : rolled_deep_wounds
-    126.4 |   3.56sec : strikes_of_opportunity
-     35.2 |  12.77sec : sudden_death
+     35.9 |  13.27sec : munched_deep_wounds
+     93.7 |   5.15sec : rolled_deep_wounds
+    131.5 |   3.45sec : strikes_of_opportunity
+     37.0 |  12.28sec : sudden_death
   Gains:
-       146.6 : anger_management  (overflow=2.5%)
-        87.5 : battle_shout    
-        75.0 : berserker_rage  
-       257.1 : blood_frenzy      (overflow=6.7%)
-      4153.1 : melee_main_hand   (overflow=2.3%)
-        35.0 : sudden_death    
+       145.7 : anger_management  (overflow=3.4%)
+        92.2 : battle_shout    
+        75.6 : berserker_rage  
+       250.7 : blood_frenzy      (overflow=9.2%)
+      4088.5 : melee_main_hand   (overflow=3.4%)
+        47.5 : sudden_death    
 
 
  *** Targets *** 
@@ -109,7 +115,7 @@ Player: Warrior_Arms_T11H worgen warrior arms 85
 
 Target: Fluffy_Pillow humanoid enemy Unknown 88
   DPS: 0.0  DPS-Error=0.0/0.0% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=0/0.0%  DPS-Convergence=0.0%
-  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|16698056  mana=0|0
+  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|17342868  mana=0|0
   Spell Stats:  power=0|0(0)  hit=0.00%|0.00%(0)  crit=0.00%|0.00%(0)  penetration=0|0(0)  haste=0.00%|0.00%(0)  mp5=0|0(0)
   Attack Stats  power=0|0(0)  hit=0.00%|0.00%(0)  crit=5.00%|5.00%(0)  expertise=0.00|0.00(0)  haste=0.00%|0.00%(0)  speed=0.00%|0.00%(0)
   Defense Stats:  armor=10540|11977(0) miss=0.00%|0.00%  dodge=0.00%|0.00%(0)  parry=0.00%|0.00%(0)  block=5.00%|5.00%(0) crit=0.00%|0.00%
@@ -125,18 +131,18 @@ Target: Fluffy_Pillow humanoid enemy Unknown 88
   Constant Buffs: replenishment/roar_of_courage/savage_combat/scarlet_fever/shadow_and_flame/strength_of_earth/sunder_armor
   Constant Buffs: tailspin/tear_armor/tendon_rip/thunder_clap/trueshot/unleashed_rage/vindication/windfury_totem/wrath_of_air
   Dynamic Buffs:
-    colossus_smash:Warrior_Arms_T11H : start=36.3 refresh=0.4   interval= 12.5 trigger=12.3  uptime=48%  benefit=43%
+    colossus_smash:Warrior_Arms_T11H : start=33.9 refresh=5.1   interval= 13.5 trigger=11.7  uptime=50%  benefit=44%
 
 Waiting:
-     5.3% : Warrior_Arms_T11H
+     2.9% : Warrior_Arms_T11H
 
 Baseline Performance:
-  TotalEvents   = 4779846
-  MaxEventQueue = 26
-  TargetHealth  = 16698056
-  SimSeconds    = 451455
-  CpuSeconds    = 1.733
-  SpeedUp       = 260505
+  TotalEvents   = 9124387
+  MaxEventQueue = 32
+  TargetHealth  = 17342868
+  SimSeconds    = 452628
+  CpuSeconds    = 3.766
+  SpeedUp       = 120188
 
-RNG global Actual/Expected Roll=1.002897 Range=1.000000 Gauss=0.999437
+RNG global Actual/Expected Roll=1.000650 Range=1.000000 Gauss=1.001084
 

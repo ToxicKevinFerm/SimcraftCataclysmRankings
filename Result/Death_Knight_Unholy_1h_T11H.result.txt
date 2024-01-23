@@ -9,14 +9,14 @@ Generating baseline...
 Generating reports...
 
 DPS Ranking:
-  27896 100.0%  Raid
-  27896  100.0%  Death_Knight_Unholy_1h_T11H
+  27877 100.0%  Raid
+  27877  100.0%  Death_Knight_Unholy_1h_T11H
 
 HPS Ranking:
       0 100.0%  Raid
 
 Player: Death_Knight_Unholy_1h_T11H orc deathknight unholy 85
-  DPS: 27896.2  DPS-Error=47.6/0.2% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=2476/8.9%  DPS-Convergence=70.8%  DPR=3031.3  RPS-Out=6.7 RPS-In=6.8  Resource=(runic_power) Waiting=19.0 ApM=49.8
+  DPS: 27877.1  DPS-Error=45.2/0.2% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=2375/8.5%  DPS-Convergence=70.7%  DPR=3031.3  RPS-Out=6.7 RPS-In=6.8  Resource=(runic_power) Waiting=19.0 ApM=49.8
   Origin: http://chardev.org/?profile=34574
   Talents: http://www.wowhead.com/talent#deathknight-203200000000000000000030000000000000000003310321230031021231
   Core Stats:  strength=8333|6704(4914)  agility=721|138(20)  stamina=7621|6000(5825)  intellect=55|53(20)  spirit=85|85(20)  mastery=16.08|16.08(1448)  health=149719|127025  mana=2246|120
@@ -40,30 +40,30 @@ Player: Death_Knight_Unholy_1h_T11H orc deathknight unholy 85
     festering_strike/death_coil/blood_tap,if=unholy=0&inactive_death=1
     empower_rune_weapon,if=unholy=0/horn_of_winter
   Actions:
-    blood_plague           Count=  1.0| 0.00sec  DPE=817531| 6%  DPET=     0  DPR=   0.0  pDPS=1802  Miss=0.00%  TickCount=151  MissTick=0.0%  Tick=4615|3688|6758  CritTick=9229|7376|13516|17.4%  UpTime=99.7%
-    blood_tap              Count=  4.2|68.64sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    dark_transformation    Count=  9.0|50.80sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    death_and_decay        Count= 14.5|32.29sec  DPE= 66579| 8%  DPET= 64195  DPR=   0.0  pDPS=2133  Miss=0.00%  TickCount=229  MissTick=0.0%  Tick=3551|2886|5275  CritTick=7420|6031|11025|17.5%  UpTime=47.2%
-    death_coil             Count=113.2| 3.96sec  DPE= 18287|16%  DPET= 17635  DPR= 714.8  pDPS=4571  Miss=0.00%  Hit=14686|12035|20622  Crit=30691|25152|43100|22.5%
-    empower_rune_weapon    Count=  2.0|303.63sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    festering_strike       Count= 43.4|10.50sec  DPE= 12146| 4%  DPET= 11712  DPR=   0.0  pDPS=1163  Miss=0.00%  Hit=10914|9301|14538  Crit=22462|19285|29949|10.7%
-    frost_fever            Count=  1.0| 0.00sec  DPE=580043| 5%  DPET=     0  DPR=   0.0  pDPS=1278  Miss=0.00%  TickCount=151  MissTick=0.0%  Tick=3279|2617|4807  CritTick=6553|5235|9614|17.3%  UpTime=99.7%
-    melee_main_hand        Count=260.1| 1.75sec  DPE=  4360| 9%  DPET=  2503  DPR=   0.0  pDPS=2501  Miss=15.95%  Hit=4880|4084|6692  Crit=10060| 8412|13786|10.6%  Glance=3660|23.8%
-    melee_off_hand         Count=259.4| 1.75sec  DPE=  2723| 6%  DPET=  1559  DPR=   0.0  pDPS=1558  Miss=15.96%  Hit=3050|2552|4183  Crit= 6286| 5258| 8616|10.6%  Glance=2288|23.9%
-    scourge_strike         Count=153.4| 2.93sec  DPE=  8189|10%  DPET=  7897  DPR=   0.0  pDPS=2774  Miss=0.00%  Hit=7357|6272|9764  Crit=15142|12921|20114|10.7%
-    scourge_strike_shadow  Count=153.4| 2.93sec  DPE=  6696| 8%  DPET=     0  DPR=   0.0  pDPS=2268  Miss=0.00%  Hit=6696|5129|16446
-    summon_gargoyle        Count=  2.5|222.62sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    unholy_blight          Count=113.2| 3.96sec  DPE=  1345| 1%  DPET=     0  DPR=   0.0  pDPS= 336  Miss=0.00%  TickCount=414  MissTick=0.0%  Tick=367|93|1036  UpTime=91.3%
+    blood_plague           Count=  1.0| 0.00sec  DPE=817794| 6%  DPET=     0  DPR=   0.0  pDPS=1801  Miss=0.00%  TickCount=151  MissTick=0.0%  Tick=4616|3688|6758  CritTick=9232|7376|13516|17.4%  UpTime=99.7%
+    blood_tap              Count=  4.2|66.54sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    dark_transformation    Count=  9.0|50.79sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    death_and_decay        Count= 14.6|32.28sec  DPE= 66539| 8%  DPET= 64170  DPR=   0.0  pDPS=2134  Miss=0.00%  TickCount=229  MissTick=0.0%  Tick=3551|2914|5275  CritTick=7428|6090|11025|17.6%  UpTime=47.2%
+    death_coil             Count=113.4| 3.95sec  DPE= 18258|16%  DPET= 17607  DPR= 714.2  pDPS=4568  Miss=0.00%  Hit=14680|12035|20622  Crit=30661|25152|43100|22.4%
+    empower_rune_weapon    Count=  2.0|303.99sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    festering_strike       Count= 43.4|10.50sec  DPE= 12169| 4%  DPET= 11735  DPR=   0.0  pDPS=1165  Miss=0.00%  Hit=10908|9301|14538  Crit=22504|19159|29949|10.9%
+    frost_fever            Count=  1.0| 0.00sec  DPE=581038| 5%  DPET=     0  DPR=   0.0  pDPS=1280  Miss=0.00%  TickCount=151  MissTick=0.0%  Tick=3279|2617|4807  CritTick=6567|5235|9614|17.4%  UpTime=99.7%
+    melee_main_hand        Count=260.2| 1.75sec  DPE=  4354| 9%  DPET=  2499  DPR=   0.0  pDPS=2497  Miss=15.94%  Hit=4881|4084|6692  Crit=10045| 8412|13786|10.6%  Glance=3658|24.1%
+    melee_off_hand         Count=259.5| 1.75sec  DPE=  2727| 6%  DPET=  1561  DPR=   0.0  pDPS=1560  Miss=15.89%  Hit=3050|2552|4183  Crit= 6279| 5258| 8616|10.7%  Glance=2287|24.1%
+    scourge_strike         Count=153.6| 2.93sec  DPE=  8181|10%  DPET=  7890  DPR=   0.0  pDPS=2773  Miss=0.00%  Hit=7357|6272|9764  Crit=15162|13005|20114|10.6%
+    scourge_strike_shadow  Count=153.6| 2.93sec  DPE=  6689| 8%  DPET=     0  DPR=   0.0  pDPS=2268  Miss=0.00%  Hit=6689|5129|16446
+    summon_gargoyle        Count=  2.5|226.49sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    unholy_blight          Count=113.4| 3.95sec  DPE=  1343| 1%  DPET=     0  DPR=   0.0  pDPS= 336  Miss=0.00%  TickCount=415  MissTick=0.0%  Tick=367|93|1073  UpTime=91.3%
     unholy_frenzy          Count=  3.0|186.00sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%  TickCount=33  UpTime=19.0%
-   army_of_the_dead  (DPS=2878.3)
-    claw                   Count= 11.0| 4.00sec  DPE=  3550| 0%  DPET=     0  DPR=  88.8  pDPS=1116  Miss=0.00%  Hit=3205|3205|3205  Crit= 6409| 6409| 6409|10.8%
-    melee                  Count= 23.0| 1.48sec  DPE=  2682| 0%  DPET=  1815  DPR=   0.0  pDPS=1763  Miss=0.00%  Hit=2564|2564|2564  Crit= 5127| 5127| 5127|10.6%  Glance=1923|24.1%
-   gargoyle  (DPS=8872.8)
-    gargoyle_strike        Count= 42.3| 8.79sec  DPE= 15627| 5%  DPET=  9496  DPR=   0.0  pDPS=8873  Miss=0.00%  Hit=14370|11426|20555  Crit=21556|17140|30832|17.5%
-   ghoul  (DPS=5823.4)
-    claw                   Count= 50.3| 9.30sec  DPE=  5644| 2%  DPET=     0  DPR= 141.1  pDPS= 625  Miss=0.00%  Hit=5111|3763|7853  Crit=10221| 7526|15706|10.4%
-    melee                  Count=336.9| 1.35sec  DPE=  5204|14%  DPET=  3868  DPR=   0.0  pDPS=3867  Miss=0.00%  Hit=4973|3010|7732  Crit= 9945| 6021|15464|10.7%  Glance=3732|24.1%
-    sweeping_claws         Count= 65.2| 6.58sec  DPE=  9259| 5%  DPET=  8928  DPR= 231.5  pDPS=1331  Miss=0.00%  Hit=8366|7225|11598  Crit=16742|14450|23196|10.7%
+   army_of_the_dead  (DPS=2872.0)
+    claw                   Count= 11.0| 4.00sec  DPE=  3549| 0%  DPET=     0  DPR=  88.7  pDPS=1115  Miss=0.00%  Hit=3205|3205|3205  Crit= 6409| 6409| 6409|10.7%
+    melee                  Count= 23.0| 1.48sec  DPE=  2673| 0%  DPET=  1809  DPR=   0.0  pDPS=1757  Miss=0.00%  Hit=2564|2564|2564  Crit= 5127| 5127| 5127|10.4%  Glance=1923|24.4%
+   gargoyle  (DPS=8918.1)
+    gargoyle_strike        Count= 41.7| 8.87sec  DPE= 15676| 5%  DPET=  9530  DPR=   0.0  pDPS=8918  Miss=0.00%  Hit=14431|11426|20555  Crit=21584|17140|30832|17.4%
+   ghoul  (DPS=5821.6)
+    claw                   Count= 50.1| 9.33sec  DPE=  5656| 2%  DPET=     0  DPR= 141.4  pDPS= 625  Miss=0.00%  Hit=5110|3763|7853  Crit=10263| 7526|15706|10.6%
+    melee                  Count=337.0| 1.35sec  DPE=  5202|14%  DPET=  3865  DPR=   0.0  pDPS=3864  Miss=0.00%  Hit=4974|3010|7732  Crit= 9940| 6021|15464|10.6%  Glance=3730|24.1%
+    sweeping_claws         Count= 65.4| 6.57sec  DPE=  9253| 5%  DPET=  8922  DPR= 231.3  pDPS=1333  Miss=0.00%  Hit=8367|7225|11598  Crit=16703|14450|23196|10.6%
   Constant Buffs: abominations_might/arcane_brilliance/arcane_tactics/battle_shout/blessing_of_kings/blessing_of_might
   Constant Buffs: blessing_of_might_regen/communion/demonic_pact/devotion_aura/elemental_oath/fel_intelligence
   Constant Buffs: ferocious_inspiration/flametongue_totem/fortitude/honor_among_thieves/horn_of_winter/hunting_party
@@ -73,42 +73,42 @@ Player: Death_Knight_Unholy_1h_T11H orc deathknight unholy 85
   Dynamic Buffs:
     blood_fury_ap               : start=4.2  refresh=0.0   interval=120.5 trigger=120.5 uptime=14%
     bloodlust                   : start=1.0  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 9%  benefit=10%
-    crushing_weight             : start=5.9  refresh=0.0   interval= 82.5 trigger=82.5  uptime=19%
+    crushing_weight             : start=5.9  refresh=0.0   interval= 82.8 trigger=82.8  uptime=19%
     dark_transformation         : start=9.0  refresh=0.0   interval= 50.8 trigger=50.8  uptime=58%  benefit=57%
-    golemblood_potion           : start=2.0  refresh=0.0   interval=349.9 trigger=0.0   uptime=10%
-    heart_of_rage               : start=4.7  refresh=0.0   interval=107.3 trigger=107.3 uptime=20%
-    rune_of_the_fallen_crusader : start=9.4  refresh=45.9  interval= 48.9 trigger=8.1   uptime=84%  benefit=83%
-    runic_corruption            : start=44.0 refresh=0.0   interval= 10.1 trigger=10.1  uptime=34%  benefit=34%
-    shadow_infusion             : start=9.4  refresh=38.5  interval= 50.3 trigger=9.3   uptime=36%  benefit=36%
-    sudden_doom                 : start=28.1 refresh=0.3   interval= 15.8 trigger=15.8  uptime= 4%
-    tier11_4pc_melee            : start=1.1  refresh=78.8  interval=257.9 trigger=5.4   uptime=96%
+    golemblood_potion           : start=2.0  refresh=0.0   interval=350.1 trigger=0.0   uptime=10%
+    heart_of_rage               : start=4.7  refresh=0.0   interval=107.1 trigger=107.1 uptime=20%
+    rune_of_the_fallen_crusader : start=9.4  refresh=45.7  interval= 49.2 trigger=8.1   uptime=84%  benefit=83%
+    runic_corruption            : start=44.2 refresh=0.0   interval= 10.1 trigger=10.1  uptime=34%  benefit=34%
+    shadow_infusion             : start=9.4  refresh=38.6  interval= 50.3 trigger=9.2   uptime=36%  benefit=36%
+    sudden_doom                 : start=28.2 refresh=0.3   interval= 15.7 trigger=15.7  uptime= 4%
+    tier11_4pc_melee            : start=1.1  refresh=79.1  interval=256.5 trigger=5.4   uptime=96%
     unholy_frenzy               : start=3.0  refresh=0.0   interval=183.3 trigger=186.0 uptime=20%  benefit=21%
     gargoyle-bloodlust          : start=0.1  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 3%
-    gargoyle-casting            : start=44.7 refresh=0.0   interval=  8.3 trigger=8.3   uptime=68%
+    gargoyle-casting            : start=44.2 refresh=0.0   interval=  8.4 trigger=8.4   uptime=68%
     ghoul-bloodlust             : start=1.0  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 9%
   Benefits:
       0.3% : rp_cap                        
   Up-Times:
-      0.3% : runic_power_cap               
+      0.1% : runic_power_cap               
   Gains:
-         4.2 : blood_tap               (overflow=1.0%)
-       180.6 : butchery              
-         7.7 : empower_rune_weapon     (overflow=35.7%)
-       181.6 : horn_of_winter        
+         4.2 : blood_tap               (overflow=1.4%)
+       180.7 : butchery              
+         7.7 : empower_rune_weapon     (overflow=35.9%)
+       181.8 : horn_of_winter        
         30.0 : rp_army_of_the_dead   
-        89.7 : rp_dark_transformation
-       145.3 : rp_death_and_decay    
+        89.8 : rp_dark_transformation
+       145.6 : rp_death_and_decay    
         50.0 : rp_empower_rune_weapon
-       864.8 : rp_festering_strike   
-      1534.2 : rp_scourge_strike     
-       241.3 : rune_regen_all          (overflow=4.2%)
-        79.3 : rune_regen_blood        (overflow=5.5%)
-        80.2 : rune_regen_frost        (overflow=4.5%)
+       864.6 : rp_festering_strike   
+      1535.5 : rp_scourge_strike     
+       241.6 : rune_regen_all          (overflow=4.2%)
+        79.4 : rune_regen_blood        (overflow=5.5%)
+        80.3 : rune_regen_frost        (overflow=4.4%)
         81.8 : rune_regen_unholy       (overflow=2.8%)
   Pet "army_of_the_dead" Gains:
       347.5 : energy_regen
   Pet "ghoul" Gains:
-     4537.3 : energy_regen
+     4540.5 : energy_regen
 
 
  *** Targets *** 
@@ -116,7 +116,7 @@ Player: Death_Knight_Unholy_1h_T11H orc deathknight unholy 85
 
 Target: Fluffy_Pillow humanoid enemy Unknown 88
   DPS: 0.0  DPS-Error=0.0/0.0% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=0/0.0%  DPS-Convergence=0.0%
-  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|15041152  mana=0|0
+  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|15032114  mana=0|0
   Spell Stats:  power=0|0(0)  hit=0.00%|0.00%(0)  crit=0.00%|0.00%(0)  penetration=0|0(0)  haste=0.00%|0.00%(0)  mp5=0|0(0)
   Attack Stats  power=0|0(0)  hit=0.00%|0.00%(0)  crit=5.00%|5.00%(0)  expertise=0.00|0.00(0)  haste=0.00%|0.00%(0)  speed=0.00%|0.00%(0)
   Defense Stats:  armor=10540|11977(0) miss=0.00%|0.00%  dodge=0.00%|0.00%(0)  parry=0.00%|0.00%(0)  block=5.00%|5.00%(0) crit=0.00%|0.00%
@@ -136,12 +136,12 @@ Waiting:
     19.0% : Death_Knight_Unholy_1h_T11H
 
 Baseline Performance:
-  TotalEvents   = 6602141
+  TotalEvents   = 6604217
   MaxEventQueue = 34
-  TargetHealth  = 15041152
-  SimSeconds    = 453942
-  CpuSeconds    = 3.912
-  SpeedUp       = 116038
+  TargetHealth  = 15032114
+  SimSeconds    = 454259
+  CpuSeconds    = 4.143
+  SpeedUp       = 109645
 
-RNG global Actual/Expected Roll=1.001336 Range=1.000000 Gauss=0.998420
+RNG global Actual/Expected Roll=0.999739 Range=1.000000 Gauss=0.999776
 
