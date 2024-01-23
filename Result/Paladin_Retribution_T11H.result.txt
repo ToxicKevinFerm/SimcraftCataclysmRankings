@@ -9,14 +9,14 @@ Generating baseline...
 Generating reports...
 
 DPS Ranking:
-  29232 100.0%  Raid
-  29232  100.0%  Paladin_Retribution_T11H
+  29227 100.0%  Raid
+  29227  100.0%  Paladin_Retribution_T11H
 
 HPS Ranking:
       0 100.0%  Raid
 
 Player: Paladin_Retribution_T11H human paladin retribution 85
-  DPS: 29232.0  DPS-Error=52.2/0.2% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=2824/9.7%  DPS-Convergence=70.6%  DPR=35.0  RPS-Out=824.3 RPS-In=790.2  Resource=(mana) Waiting=5.8 ApM=54.0
+  DPS: 29227.1  DPS-Error=52.4/0.2% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=3116/10.7%  DPS-Convergence=70.6%  DPR=35.0  RPS-Out=824.3 RPS-In=789.9  Resource=(mana) Waiting=5.8 ApM=54.0
   Origin: http://chardev.org/?profile=47301
   Talents: http://www.wowhead.com/talent#paladin-203002000000000000000200000000000000000023203213211113012301
   Core Stats:  strength=7109|5784(5345)  agility=699|117(20)  stamina=7711|6086(5930)  intellect=132|126(20)  spirit=141|141(20)  mastery=18.26|18.26(1839)  health=150979|128229  mana=27248|25032
@@ -40,26 +40,26 @@ Player: Paladin_Retribution_T11H human paladin retribution 85
     wait,sec=0.1,if=cooldown.crusader_strike.remains<0.5/judgement/holy_wrath
     consecration/divine_plea
   Actions:
-    ancient_fury             Count=  2.0|300.82sec  DPE= 21645| 0%  DPET=     0  DPR=   0.0  pDPS=  97  Miss=0.00%  Hit=20376|15309|22876  Crit=42065|31536|47124|5.9%
-    avenging_wrath           Count=  4.3|120.99sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    censure                  Count=388.9| 1.17sec  DPE=  3509|10%  DPET=     0  DPR=   0.0  pDPS=3015  Miss=0.00%  TickCount=192  MissTick=0.0%  Tick=6432|2117|10330  CritTick=13260|4361|21281|9.9%  UpTime=99.7%
-    consecration             Count=  5.2|75.63sec  DPE= 12510| 0%  DPET= 10035  DPR=   1.0  pDPS= 143  Miss=0.00%  TickCount=52  MissTick=0.0%  Tick=1142|811|1800  CritTick=1763|1253|2781|18.9%  UpTime=11.4%
-    crusader_strike          Count=108.3| 4.19sec  DPE= 15969|13%  DPET= 10390  DPR=   9.7  pDPS=3823  Miss=0.00%  Hit=12634|11632|18025  Crit=25999|23963|37131|25.0%
-    darkmoon_card_hurricane  Count= 24.6|17.78sec  DPE=  7560| 1%  DPET=     0  DPR=   0.0  pDPS= 410  Miss=0.00%  Hit=7560|7560|7560
-    divine_plea              Count=  3.3|134.56sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    exorcism                 Count= 26.8|16.43sec  DPE= 40493| 8%  DPET= 32996  DPR=   0.0  pDPS=2402  Miss=0.00%  Hit=30747|21932|45499  Crit=47489|33885|70296|19.3%  TickCount=77  MissTick=0.0%  Tick=2053|1465|3038  CritTick=3171|2264|4694|19.0%  UpTime=34.0%
-    guardian_of_ancient_kings  Count=  2.0|300.82sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    hammer_of_wrath          Count= 19.1|24.53sec  DPE= 23327| 3%  DPET= 15177  DPR=   0.0  pDPS= 986  Miss=0.00%  Hit=19927|13119|26855  Crit=41067|27025|55322|16.2%
-    hand_of_light            Count=172.3| 2.63sec  DPE= 12322|16%  DPET=     0  DPR=   0.0  pDPS=4694  Miss=0.00%  Hit=12322|4817|45868
-    holy_wrath               Count= 16.4|26.97sec  DPE= 10328| 1%  DPET=  8279  DPR=   2.2  pDPS= 374  Miss=0.00%  Hit=9355|6832|13658  Crit=14459|10555|21102|19.1%
-    inquisition              Count=  9.9|47.38sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    judgement_of_truth       Count= 37.7|12.12sec  DPE= 18715| 5%  DPET= 12176  DPR=  16.0  pDPS=1555  Miss=0.00%  Hit=15167|6387|24931  Crit=31200|13156|51358|22.1%
-    melee                    Count=159.8| 2.85sec  DPE=  8235|10%  DPET=  2912  DPR=   0.0  pDPS=2907  Miss=0.00%  Hit=7875|7238|11354  Crit=16228|14911|23389|10.0%  Glance=5904|24.0%
-    seal_of_truth            Count=414.7| 1.09sec  DPE=  2735| 9%  DPET=     0  DPR=   0.0  pDPS=2505  Miss=0.00%  Hit=2478| 396|3616  Crit= 5098|  815| 7449|9.8%
-    seals_of_command         Count=415.7| 1.09sec  DPE=  1144| 4%  DPET=     0  DPR=   0.0  pDPS=1051  Miss=0.00%  Hit=1036| 739|1507  Crit= 2134| 1522| 3104|9.8%
-    templars_verdict         Count= 63.9| 6.90sec  DPE= 34916|17%  DPET= 22716  DPR=18174.8  pDPS=4939  Miss=0.00%  Hit=28342|26366|41357  Crit=58387|54314|85196|21.9%
-   guardian_of_ancient_kings  (DPS=2466.8)
-    melee                    Count= 34.0|10.00sec  DPE=  4353| 1%  DPET=  2394  DPR=   0.0  pDPS=2467  Miss=0.00%  Hit=4629|4629|4629  Glance=3472|23.8%
+    ancient_fury             Count=  2.0|300.77sec  DPE= 21601| 0%  DPET=     0  DPR=   0.0  pDPS=  97  Miss=0.00%  Hit=20360|15309|22876  Crit=42132|31536|47124|5.7%
+    avenging_wrath           Count=  4.3|120.96sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    censure                  Count=388.5| 1.17sec  DPE=  3511|10%  DPET=     0  DPR=   0.0  pDPS=3015  Miss=0.00%  TickCount=192  MissTick=0.0%  Tick=6430|2117|10330  CritTick=13254|4361|21281|9.9%  UpTime=99.7%
+    consecration             Count=  5.2|75.22sec  DPE= 12499| 0%  DPET= 10010  DPR=   1.0  pDPS= 144  Miss=0.00%  TickCount=52  MissTick=0.0%  Tick=1142|811|1800  CritTick=1761|1253|2781|19.0%  UpTime=11.4%
+    crusader_strike          Count=108.2| 4.19sec  DPE= 15977|13%  DPET= 10395  DPR=   9.7  pDPS=3820  Miss=0.00%  Hit=12632|11632|18025  Crit=26006|23963|37131|25.0%
+    darkmoon_card_hurricane  Count= 24.5|17.81sec  DPE=  7560| 1%  DPET=     0  DPR=   0.0  pDPS= 409  Miss=0.00%  Hit=7560|7560|7560
+    divine_plea              Count=  3.3|134.91sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    exorcism                 Count= 27.1|16.28sec  DPE= 40524| 8%  DPET= 33018  DPR=   0.0  pDPS=2432  Miss=0.00%  Hit=30761|21932|45499  Crit=47560|33885|70296|19.3%  TickCount=78  MissTick=0.0%  Tick=2054|1465|3038  CritTick=3174|2264|4694|19.3%  UpTime=34.3%
+    guardian_of_ancient_kings  Count=  2.0|300.77sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    hammer_of_wrath          Count= 19.2|24.50sec  DPE= 23222| 3%  DPET= 15109  DPR=   0.0  pDPS= 983  Miss=0.00%  Hit=19928|13119|26855  Crit=40899|27025|55322|15.8%
+    hand_of_light            Count=172.0| 2.63sec  DPE= 12329|16%  DPET=     0  DPR=   0.0  pDPS=4689  Miss=0.00%  Hit=12329|4817|45868
+    holy_wrath               Count= 16.4|26.90sec  DPE= 10307| 1%  DPET=  8264  DPR=   2.2  pDPS= 372  Miss=0.00%  Hit=9358|6832|13658  Crit=14427|10555|21102|18.7%
+    inquisition              Count=  9.9|47.41sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    judgement_of_truth       Count= 37.6|12.14sec  DPE= 18617| 5%  DPET= 12112  DPR=  15.9  pDPS=1546  Miss=0.00%  Hit=15150|6387|24931  Crit=31253|13156|51358|21.5%
+    melee                    Count=159.7| 2.85sec  DPE=  8216|10%  DPET=  2905  DPR=   0.0  pDPS=2900  Miss=0.00%  Hit=7875|7238|11354  Crit=16210|14911|23389|9.7%  Glance=5907|23.9%
+    seal_of_truth            Count=414.6| 1.09sec  DPE=  2734| 9%  DPET=     0  DPR=   0.0  pDPS=2505  Miss=0.00%  Hit=2477| 396|3616  Crit= 5102|  815| 7449|9.8%
+    seals_of_command         Count=415.6| 1.09sec  DPE=  1143| 4%  DPET=     0  DPR=   0.0  pDPS=1050  Miss=0.00%  Hit=1036| 739|1507  Crit= 2136| 1522| 3104|9.8%
+    templars_verdict         Count= 63.8| 6.90sec  DPE= 34959|17%  DPET= 22745  DPR=18225.0  pDPS=4934  Miss=0.00%  Hit=28333|26366|41357  Crit=58322|54314|85196|22.1%
+   guardian_of_ancient_kings  (DPS=2463.4)
+    melee                    Count= 34.0|10.00sec  DPE=  4347| 1%  DPET=  2391  DPR=   0.0  pDPS=2463  Miss=0.00%  Hit=4629|4629|4629  Glance=3472|24.3%
   Constant Buffs: abominations_might/arcane_brilliance/arcane_tactics/battle_shout/blessing_of_kings/blessing_of_might
   Constant Buffs: blessing_of_might_regen/communion/demonic_pact/devotion_aura/elemental_oath/fel_intelligence
   Constant Buffs: ferocious_inspiration/flametongue_totem/fortitude/honor_among_thieves/horn_of_winter/hunting_party
@@ -70,30 +70,30 @@ Player: Paladin_Retribution_T11H human paladin retribution 85
     ancient_power                       : start=2.0  refresh=84.7  interval=300.8 trigger=3.9   uptime=13%
     avenging_wrath                      : start=4.3  refresh=0.0   interval=121.0 trigger=121.0 uptime=19%  benefit=19%
     bloodlust                           : start=1.0  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 9%  benefit=10%
-    crushing_weight                     : start=5.7  refresh=0.0   interval= 85.8 trigger=85.8  uptime=18%
-    divine_plea                         : start=3.3  refresh=0.0   interval=134.6 trigger=134.6 uptime= 6%  benefit= 6%
-    divine_purpose                      : start=27.2 refresh=0.6   interval= 16.3 trigger=16.0  uptime=13%  benefit=35%
-    golemblood_potion                   : start=2.0  refresh=0.0   interval=349.2 trigger=0.0   uptime=10%
-    inquisition                         : start=4.6  refresh=5.3   interval= 97.0 trigger=47.4  uptime=96%  benefit=96%
-    judgements_of_the_bold              : start=17.5 refresh=20.2  interval= 26.5 trigger=12.1  uptime=76%  benefit=77%
-    landslide_mh                        : start=13.0 refresh=11.6  interval= 34.3 trigger=17.7  uptime=48%  benefit=48%
-    the_art_of_war                      : start=27.1 refresh=4.6   interval= 16.4 trigger=14.0  uptime=22%
-    zealotry                            : start=3.9  refresh=0.0   interval=124.3 trigger=124.3 uptime=17%  benefit=16%
+    crushing_weight                     : start=5.6  refresh=0.0   interval= 86.0 trigger=86.0  uptime=18%
+    divine_plea                         : start=3.3  refresh=0.0   interval=134.9 trigger=134.9 uptime= 6%  benefit= 6%
+    divine_purpose                      : start=27.1 refresh=0.6   interval= 16.4 trigger=16.0  uptime=13%  benefit=35%
+    golemblood_potion                   : start=2.0  refresh=0.0   interval=349.3 trigger=0.0   uptime=10%
+    inquisition                         : start=4.6  refresh=5.3   interval= 98.7 trigger=47.4  uptime=96%  benefit=96%
+    judgements_of_the_bold              : start=17.6 refresh=20.0  interval= 26.4 trigger=12.1  uptime=76%  benefit=76%
+    landslide_mh                        : start=13.2 refresh=11.1  interval= 34.0 trigger=18.0  uptime=48%  benefit=48%
+    the_art_of_war                      : start=27.4 refresh=4.7   interval= 16.3 trigger=13.8  uptime=22%
+    zealotry                            : start=3.9  refresh=0.0   interval=124.2 trigger=124.2 uptime=17%  benefit=16%
     guardian_of_ancient_kings-bloodlust : start=0.2  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 6%
   Up-Times:
-      0.4% : mana_cap                      
+      0.6% : mana_cap                      
   Procs:
-     24.6 |  17.78sec : darkmoon_card_hurricane
-      4.6 |  71.19sec : wasted_art_of_war
-      0.1 | 145.58sec : wasted_divine_purpose
+     24.5 |  17.81sec : darkmoon_card_hurricane
+      4.7 |  69.78sec : wasted_art_of_war
+      0.1 | 136.43sec : wasted_divine_purpose
   Gains:
-     29274.4 : blessing_of_might         
-     10575.9 : divine_plea               
-       141.6 : holy_power_crusader_strike
+     29258.6 : blessing_of_might         
+     10609.7 : divine_plea               
+       141.4 : holy_power_crusader_strike
      27248.4 : initial_mana              
-    200756.1 : judgements_of_the_bold      (overflow=1.1%)
-    105247.7 : mp5_regen                 
-     12233.1 : replenishment             
+    200497.7 : judgements_of_the_bold      (overflow=1.1%)
+    105193.4 : mp5_regen                 
+     12226.4 : replenishment             
 
 
  *** Targets *** 
@@ -101,7 +101,7 @@ Player: Paladin_Retribution_T11H human paladin retribution 85
 
 Target: Fluffy_Pillow humanoid enemy Unknown 88
   DPS: 0.0  DPS-Error=0.0/0.0% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=0/0.0%  DPS-Convergence=0.0%
-  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|15746783  mana=0|0
+  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|15744048  mana=0|0
   Spell Stats:  power=0|0(0)  hit=0.00%|0.00%(0)  crit=0.00%|0.00%(0)  penetration=0|0(0)  haste=0.00%|0.00%(0)  mp5=0|0(0)
   Attack Stats  power=0|0(0)  hit=0.00%|0.00%(0)  crit=5.00%|5.00%(0)  expertise=0.00|0.00(0)  haste=0.00%|0.00%(0)  speed=0.00%|0.00%(0)
   Defense Stats:  armor=10540|11977(0) miss=0.00%|0.00%  dodge=0.00%|0.00%(0)  parry=0.00%|0.00%(0)  block=5.00%|5.00%(0) crit=0.00%|0.00%
@@ -122,12 +122,12 @@ Waiting:
      5.8% : Paladin_Retribution_T11H
 
 Baseline Performance:
-  TotalEvents   = 3876094
+  TotalEvents   = 3874809
   MaxEventQueue = 22
-  TargetHealth  = 15746783
-  SimSeconds    = 453154
-  CpuSeconds    = 2.448
-  SpeedUp       = 185112
+  TargetHealth  = 15744048
+  SimSeconds    = 452978
+  CpuSeconds    = 2.227
+  SpeedUp       = 203403
 
-RNG global Actual/Expected Roll=1.001718 Range=1.000000 Gauss=1.000703
+RNG global Actual/Expected Roll=1.001184 Range=1.000000 Gauss=1.000814
 

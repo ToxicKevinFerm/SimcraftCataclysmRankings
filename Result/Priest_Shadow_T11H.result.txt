@@ -9,14 +9,14 @@ Generating baseline...
 Generating reports...
 
 DPS Ranking:
-  27321 100.0%  Raid
-  27321  100.0%  Priest_Shadow_T11H
+  27311 100.0%  Raid
+  27311  100.0%  Priest_Shadow_T11H
 
 HPS Ranking:
       0 100.0%  Raid
 
 Player: Priest_Shadow_T11H troll priest shadow 85
-  DPS: 27321.2  DPS-Error=33.4/0.1% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=1563/5.7%  DPS-Convergence=70.7%  DPR=15.8  RPS-Out=1628.0 RPS-In=1647.1  Resource=(mana) Waiting=0.0 ApM=36.9
+  DPS: 27311.4  DPS-Error=33.8/0.1% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=1670/6.1%  DPS-Convergence=70.5%  DPR=15.8  RPS-Out=1628.6 RPS-In=1647.6  Resource=(mana) Waiting=0.0 ApM=36.9
   Origin: http://chardev.org/?profile=18129
   Talents: http://www.wowhead.com/talent#priest-032212000000000000000000000000000000000000322032210201222100231
   Core Stats:  strength=647|67(20)  agility=656|76(20)  stamina=7604|5984(5913)  intellect=6082|5383(4941)  spirit=1798|1798(1599)  mastery=13.90|13.90(1058)  health=149481|126801  mana=113666|101055
@@ -40,23 +40,23 @@ Player: Priest_Shadow_T11H troll priest shadow 85
     dispersion,moving=1/devouring_plague,moving=1,if=mana_pct>10
     shadow_word_death,moving=1/dispersion
   Actions:
-    archangel               Count=  5.3|92.10sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    darkmoon_card_volcano   Count= 12.4|37.37sec  DPE=  3205| 0%  DPET=     0  DPR=   0.0  pDPS=  88  Miss=0.00%  Hit=2836|2775|3129  Crit= 4393| 4287| 4834|23.7%
-    devouring_plague        Count= 20.0|23.11sec  DPE= 68535|11%  DPET= 58642  DPR=  14.3  pDPS=3035  Miss=0.00%  TickCount=202  MissTick=0.0%  Tick=4124|3002|5983  CritTick=8675|6274|12504|24.5%  UpTime=99.0%
-    devouring_plague_burst  Count= 20.0|23.11sec  DPE= 15678| 3%  DPET=     0  DPR=   0.0  pDPS= 694  Miss=0.00%  Hit=12372|9011|17955  Crit=25988|18834|37278|24.3%
-    mind_blast_0            Count=  5.4|77.62sec  DPE= 28478| 1%  DPET= 24526  DPR=   8.1  pDPS= 341  Miss=0.00%  Hit=22482|19361|33148  Crit=47455|40464|69278|24.0%
-    mind_blast_1            Count= 12.4|34.45sec  DPE= 34200| 3%  DPET= 29052  DPR=   9.8  pDPS= 935  Miss=0.00%  Hit=26916|23263|45668  Crit=57061|48620|95446|24.2%
-    mind_blast_2            Count= 13.7|30.46sec  DPE= 40352| 4%  DPET= 34229  DPR=  11.5  pDPS=1229  Miss=0.00%  Hit=31816|27165|58189  Crit=66778|56775|121615|24.4%
-    mind_blast_3            Count= 17.1|24.80sec  DPE= 46923| 7%  DPET= 39830  DPR=  13.4  pDPS=1781  Miss=0.00%  Hit=36914|31067|70709  Crit=78329|64931|147783|24.2%
-    mind_flay               Count=123.3| 3.63sec  DPE= 32086|32%  DPET= 12866  DPR=  19.5  pDPS=8759  Miss=0.00%  TickCount=369  MissTick=0.0%  Tick=8069|5685|12942  CritTick=17006|11881|27050|29.6%  UpTime=61.2%
-    shadow_fiend            Count=  6.7|71.21sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    shadow_word_death       Count= 15.3| 6.16sec  DPE= 31271| 4%  DPET= 27934  DPR=  13.6  pDPS=1060  Miss=0.00%  Hit=24514|21089|34949  Crit=51746|44077|76024|24.8%
-    shadow_word_pain        Count=  1.0| 0.00sec  DPE=1647046|13%  DPET=1586883  DPR= 391.1  pDPS=3676  Miss=0.00%  TickCount=201  MissTick=0.0%  Tick=4737|3295|6946  CritTick=9974|7119|14517|24.4%  UpTime=99.7%
-    shadowy_apparition      Count= 28.4|15.48sec  DPE= 15798| 4%  DPET=     0  DPR=   0.0  pDPS= 995  Miss=0.00%  Hit=12232|11165|16077  Crit=25755|23334|33601|30.7%
-    vampiric_touch          Count= 32.4|14.07sec  DPE= 66936|18%  DPET= 57059  DPR=  20.3  pDPS=4809  Miss=0.00%  TickCount=200  MissTick=0.0%  Tick=8564|6035|12956  CritTick=18036|12614|27078|24.4%  UpTime=98.3%
-   shadow_fiend  (DPS=7334.9)
-    melee                   Count= 74.1| 5.73sec  DPE=  9773| 6%  DPET=  7206  DPR=   0.0  pDPS=7335  Miss=0.00%  Hit=8333| 520|11336  Crit=16927| 1040|22672|22.5%  Glance=6278|23.9%
-    shadowcrawl             Count= 19.9|22.10sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    archangel               Count=  5.3|92.11sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    darkmoon_card_volcano   Count= 12.4|37.32sec  DPE=  3201| 0%  DPET=     0  DPR=   0.0  pDPS=  88  Miss=0.00%  Hit=2837|2775|3129  Crit= 4395| 4287| 4834|23.3%
+    devouring_plague        Count= 20.0|23.15sec  DPE= 68277|11%  DPET= 58427  DPR=  14.3  pDPS=3019  Miss=0.00%  TickCount=202  MissTick=0.0%  Tick=4113|3002|6230  CritTick=8645|6274|13022|24.3%  UpTime=99.0%
+    devouring_plague_burst  Count= 20.0|23.15sec  DPE= 15591| 3%  DPET=     0  DPR=   0.0  pDPS= 690  Miss=0.00%  Hit=12336|9011|18699  Crit=25921|18834|37278|24.0%
+    mind_blast_0            Count=  5.4|76.69sec  DPE= 28763| 1%  DPET= 24765  DPR=   8.2  pDPS= 347  Miss=0.00%  Hit=22460|19361|33148  Crit=47633|40464|69278|25.0%
+    mind_blast_1            Count= 12.3|34.74sec  DPE= 34191| 3%  DPET= 29055  DPR=   9.8  pDPS= 935  Miss=0.00%  Hit=26907|23263|45668  Crit=56777|48620|95446|24.4%
+    mind_blast_2            Count= 13.6|30.58sec  DPE= 40354| 4%  DPET= 34244  DPR=  11.5  pDPS=1216  Miss=0.00%  Hit=31797|27165|58189  Crit=66751|56775|121615|24.5%
+    mind_blast_3            Count= 17.2|24.59sec  DPE= 47105| 7%  DPET= 39961  DPR=  13.5  pDPS=1798  Miss=0.00%  Hit=37009|31067|70709  Crit=78241|64931|147783|24.5%
+    mind_flay               Count=123.3| 3.63sec  DPE= 32071|32%  DPET= 12862  DPR=  19.5  pDPS=8759  Miss=0.00%  TickCount=369  MissTick=0.0%  Tick=8073|5685|12942  CritTick=17016|11881|27050|29.5%  UpTime=61.2%
+    shadow_fiend            Count=  6.7|71.48sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    shadow_word_death       Count= 15.3| 6.16sec  DPE= 31390| 4%  DPET= 28052  DPR=  13.7  pDPS=1062  Miss=0.00%  Hit=24515|21089|34949  Crit=51827|44077|72567|25.2%
+    shadow_word_pain        Count=  1.0| 0.00sec  DPE=1652203|13%  DPET=1592348  DPR= 392.4  pDPS=3673  Miss=0.00%  TickCount=201  MissTick=0.0%  Tick=4738|3295|6946  CritTick=9982|6886|14517|24.3%  UpTime=99.7%
+    shadowy_apparition      Count= 28.3|15.55sec  DPE= 15790| 4%  DPET=     0  DPR=   0.0  pDPS= 992  Miss=0.00%  Hit=12230|11165|16077  Crit=25782|23334|33601|30.6%
+    vampiric_touch          Count= 32.4|14.07sec  DPE= 67000|18%  DPET= 57104  DPR=  20.3  pDPS=4814  Miss=0.00%  TickCount=200  MissTick=0.0%  Tick=8562|6135|12956  CritTick=18023|12823|27078|24.5%  UpTime=98.3%
+   shadow_fiend  (DPS=7306.6)
+    melee                   Count= 74.0| 5.76sec  DPE=  9739| 6%  DPET=  7179  DPR=   0.0  pDPS=7307  Miss=0.00%  Hit=8329| 520|11336  Crit=16927| 1040|22672|22.1%  Glance=6287|23.9%
+    shadowcrawl             Count= 19.9|22.19sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
   Constant Buffs: abominations_might/arcane_brilliance/arcane_tactics/battle_shout/blessing_of_kings/blessing_of_might
   Constant Buffs: blessing_of_might_regen/communion/demonic_pact/devotion_aura/elemental_oath/fel_intelligence
   Constant Buffs: ferocious_inspiration/flametongue_totem/fortitude/honor_among_thieves/horn_of_winter/hunting_party
@@ -66,40 +66,40 @@ Player: Priest_Shadow_T11H troll priest shadow 85
   Dynamic Buffs:
     berserking                 : start=3.0  refresh=0.0   interval=181.6 trigger=181.4 uptime= 7%  benefit= 9%
     bloodlust                  : start=1.0  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 9%  benefit=12%
-    casting                    : start=81.2 refresh=0.0   interval=  5.6 trigger=5.6   uptime=20%
+    casting                    : start=81.1 refresh=0.0   interval=  5.6 trigger=5.6   uptime=20%
     dark_archangel             : start=5.3  refresh=0.0   interval= 92.1 trigger=92.1  uptime=21%  benefit=22%
-    dark_evangelism            : start=6.3  refresh=445.2 interval= 75.7 trigger=1.0   uptime=98%  benefit=97%
+    dark_evangelism            : start=6.3  refresh=445.0 interval= 75.6 trigger=1.0   uptime=98%  benefit=97%
     darkmoon_card_volcano      : start=10.2 refresh=0.0   interval= 46.4 trigger=46.4  uptime=27%
-    empowered_shadow           : start=5.1  refresh=38.1  interval= 87.1 trigger=10.3  uptime=93%  benefit=93%
+    empowered_shadow           : start=5.2  refresh=38.0  interval= 86.7 trigger=10.3  uptime=93%  benefit=93%
     glyph_of_shadow_word_death : start=7.6  refresh=0.0   interval= 12.9 trigger=12.9  uptime=10%
     lightweave_embroidery      : start=7.3  refresh=0.0   interval= 65.6 trigger=65.6  uptime=24%
-    power_torrent_mh           : start=10.1 refresh=0.0   interval= 47.0 trigger=47.0  uptime=26%  benefit=27%
+    power_torrent_mh           : start=10.0 refresh=0.0   interval= 47.0 trigger=47.0  uptime=26%  benefit=27%
     self_movement              : start=7.9  refresh=0.0   interval= 12.7 trigger=12.7  uptime= 4%
-    shadow_orb                 : start=43.7 refresh=55.8  interval= 10.3 trigger=4.5   uptime=57%  benefit=89%
-    shadowfiend                : start=6.7  refresh=0.0   interval= 71.2 trigger=0.0   uptime=22%
-    theralions_mirror          : start=4.2  refresh=0.0   interval=117.7 trigger=117.7 uptime=18%
-    volcanic_potion            : start=2.0  refresh=0.0   interval=358.8 trigger=0.0   uptime=10%
-    shadow_fiend-bloodlust     : start=0.3  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 2%  benefit= 2%
-    shadow_fiend-shadowcrawl   : start=19.9 refresh=0.0   interval= 22.1 trigger=0.0   uptime=85%  benefit=82%
+    shadow_orb                 : start=43.6 refresh=55.9  interval= 10.3 trigger=4.5   uptime=57%  benefit=89%
+    shadowfiend                : start=6.7  refresh=0.0   interval= 71.5 trigger=0.0   uptime=22%
+    theralions_mirror          : start=4.2  refresh=0.0   interval=117.5 trigger=117.5 uptime=18%
+    volcanic_potion            : start=2.0  refresh=0.0   interval=358.9 trigger=0.0   uptime=10%
+    shadow_fiend-bloodlust     : start=0.2  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 2%  benefit= 2%
+    shadow_fiend-shadowcrawl   : start=19.9 refresh=0.0   interval= 22.2 trigger=0.0   uptime=85%  benefit=82%
   Benefits:
-     11.1% : Percentage of Mind Blasts benefiting from 0 Shadow Orbs
+     11.2% : Percentage of Mind Blasts benefiting from 0 Shadow Orbs
      25.4% : Percentage of Mind Blasts benefiting from 1 Shadow Orbs
-     28.3% : Percentage of Mind Blasts benefiting from 2 Shadow Orbs
-     35.2% : Percentage of Mind Blasts benefiting from 3 Shadow Orbs
+     28.0% : Percentage of Mind Blasts benefiting from 2 Shadow Orbs
+     35.4% : Percentage of Mind Blasts benefiting from 3 Shadow Orbs
     100.0% : mind_spike_0                  
   Procs:
-     28.4 |  15.48sec : shadowy_apparation_proc
+     28.3 |  15.55sec : shadowy_apparation_proc
   Gains:
-    192055.5 : archangel          (overflow=3.8%)
-     27830.9 : blessing_of_might  (overflow=5.5%)
+    191644.3 : archangel          (overflow=3.6%)
+     27827.0 : blessing_of_might  (overflow=5.5%)
       4965.0 : flask            
       1485.0 : food             
     107216.4 : initial_mana     
-    126951.4 : masochism          (overflow=36.6%)
-     87873.1 : mp5_regen          (overflow=5.5%)
-     54313.5 : replenishment      (overflow=5.5%)
-    249082.1 : shadow_fiend       (overflow=15.3%)
-    168696.3 : vampiric_embrace   (overflow=77.1%)
+    127057.3 : masochism          (overflow=36.4%)
+     87859.2 : mp5_regen          (overflow=5.4%)
+     54292.7 : replenishment      (overflow=5.4%)
+    249124.0 : shadow_fiend       (overflow=15.2%)
+    168462.2 : vampiric_embrace   (overflow=77.1%)
   Pet "shadow_fiend" Gains:
         0.0 : vampiric_embrace  (overflow=100.0%)
 
@@ -109,7 +109,7 @@ Player: Priest_Shadow_T11H troll priest shadow 85
 
 Target: Fluffy_Pillow humanoid enemy Unknown 88
   DPS: 0.0  DPS-Error=0.0/0.0% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=0/0.0%  DPS-Convergence=0.0%
-  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|14730642  mana=0|0
+  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|14726072  mana=0|0
   Spell Stats:  power=0|0(0)  hit=0.00%|0.00%(0)  crit=0.00%|0.00%(0)  penetration=0|0(0)  haste=0.00%|0.00%(0)  mp5=0|0(0)
   Attack Stats  power=0|0(0)  hit=0.00%|0.00%(0)  crit=5.00%|5.00%(0)  expertise=0.00|0.00(0)  haste=0.00%|0.00%(0)  speed=0.00%|0.00%(0)
   Defense Stats:  armor=10540|11977(0) miss=0.00%|0.00%  dodge=0.00%|0.00%(0)  parry=0.00%|0.00%(0)  block=5.00%|5.00%(0) crit=0.00%|0.00%
@@ -130,12 +130,12 @@ Waiting:
     All players active 100% of the time.
 
 Baseline Performance:
-  TotalEvents   = 4645803
-  MaxEventQueue = 32
-  TargetHealth  = 14730642
-  SimSeconds    = 452029
-  CpuSeconds    = 1.634
-  SpeedUp       = 276639
+  TotalEvents   = 4642887
+  MaxEventQueue = 33
+  TargetHealth  = 14726072
+  SimSeconds    = 451712
+  CpuSeconds    = 1.524
+  SpeedUp       = 296399
 
-RNG global Actual/Expected Roll=1.000490 Range=1.000000 Gauss=1.000334
+RNG global Actual/Expected Roll=1.000588 Range=1.000000 Gauss=0.999214
 

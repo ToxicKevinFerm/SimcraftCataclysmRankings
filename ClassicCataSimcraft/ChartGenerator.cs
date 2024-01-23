@@ -30,18 +30,19 @@ public static class ChartGenerator
             var chart = plt.Add.Bar(bar);
             plt.Add.Text(result.DPS.ToString(CultureInfo.InvariantCulture), result.DPS+100, i+0.3);
             chart.Horizontal = true;
+            
         }
         var ticks = results.Select((result, index) => new Tick(index, result.PlayerInfo?.FileName ?? "")).ToArray();
 
         plt.Axes.Left.TickGenerator = new ScottPlot.TickGenerators.NumericManual(ticks);
         plt.Axes.Left.MajorTickStyle.Length = 0;
-        plt.ShowLegend();
-        
+        // Set axis limits if necessary
         plt.Axes.Left.TickLabelStyle.Bold = true;
         plt.HideGrid();
         
+        
+        plt.Title("Cataclysm 4.3.3 (15354) T11 Heroic BIS");
         plt.Axes.Margins(left: 0);
-        plt.Axes.Margins(bottom: 0);
         plt.SavePng($"{filePath}/result.png", 1920,1080);
     }
     private static Color HexToScottPlotColor(string hex)
