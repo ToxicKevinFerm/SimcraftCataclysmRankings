@@ -9,14 +9,14 @@ Generating baseline...
 Generating reports...
 
 DPS Ranking:
-  27075 100.0%  Raid
-  27075  100.0%  Druid_Balance_T11H
+  27066 100.0%  Raid
+  27066  100.0%  Druid_Balance_T11H
 
 HPS Ranking:
       0 100.0%  Raid
 
 Player: Druid_Balance_T11H troll druid balance 85
-  DPS: 27075.5  DPS-Error=34.5/0.1% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=1936/7.1%  DPS-Convergence=70.6%  DPR=22.2  RPS-Out=1197.6 RPS-In=1177.9  Resource=(mana) Waiting=0.0 ApM=40.8
+  DPS: 27065.6  DPS-Error=36.6/0.1% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=1766/6.5%  DPS-Convergence=70.6%  DPR=22.3  RPS-Out=1196.8 RPS-In=1177.7  Resource=(mana) Waiting=0.0 ApM=40.8
   Origin: http://chardev.org/?profile=34049
   Talents: http://www.wowhead.com/talent#druid-332312211202021110310000000000000000000000220321000000000000000
   Core Stats:  strength=699|117(20)  agility=693|111(20)  stamina=7588|5968(5862)  intellect=6002|5283(4595)  spirit=1765|1765(1591)  mastery=14.35|14.35(1138)  health=145505|122825  mana=110511|97600
@@ -44,18 +44,18 @@ Player: Druid_Balance_T11H troll druid balance 85
     wild_mushroom,moving=1,if=buff.wild_mushroom.stack<3
     starsurge,moving=1,if=buff.shooting_stars.react/moonfire,moving=1/sunfire,moving=1
   Actions:
-    darkmoon_card_volcano   Count= 11.8|39.87sec  DPE=  3014| 0%  DPET=     0  DPR=   0.0  pDPS=  78  Miss=0.07%  Hit=2592|2480|3109  Crit= 4012| 3832| 4803|29.9%
-    insect_swarm            Count= 25.9|17.85sec  DPE= 60988|13%  DPET= 53921  DPR=  42.2  pDPS=3492  Miss=0.11%  TickCount=302  MissTick=0.0%  Tick=3665|2425|6462  CritTick=7713|5069|13506|38.7%  UpTime=93.8%
-    moonfire                Count= 12.7|33.24sec  DPE= 85600| 9%  DPET= 74024  DPR=  52.6  pDPS=2402  Miss=0.08%  Hit=4824|4347|7484  Crit=10159| 9085|14409|42.5%  TickCount=138  MissTick=0.0%  Tick=5097|4543|8059  CritTick=10647|9496|16843|38.1%  UpTime=44.4%
-    starfall                Count=  8.6|50.98sec  DPE= 95669| 7%  DPET= 80734  DPR=  15.1  pDPS=1815  Miss=0.00%  TickCount=85  MissTick=0.1%  Tick=7040|4173|10480  CritTick=14843|8722|21904|34.0%  UpTime=18.7%
-    starfire                Count= 82.7| 5.41sec  DPE= 35696|24%  DPET= 18381  DPR=  20.1  pDPS=6534  Miss=0.07%  Hit=26000|18157|48252  Crit=55666|37949|97150|32.7%
-    starsurge               Count= 25.6|17.45sec  DPE= 44969| 9%  DPET= 36978  DPR=  26.9  pDPS=2548  Miss=0.08%  Hit=31757|25859|47800  Crit=67180|37401|99902|37.8%
-    sunfire                 Count= 10.1|45.70sec  DPE=105359| 9%  DPET= 96207  DPR=  64.8  pDPS=2367  Miss=0.11%  Hit=5154|4347|7484  Crit=11051| 9085|15641|45.1%  TickCount=127  MissTick=0.0%  Tick=5497|4543|8059  CritTick=11521|9496|16843|37.8%  UpTime=38.7%
+    darkmoon_card_volcano   Count= 11.8|39.93sec  DPE=  3016| 0%  DPET=     0  DPR=   0.0  pDPS=  78  Miss=0.09%  Hit=2592|2480|3109  Crit= 4004| 3832| 4803|30.2%
+    insect_swarm            Count= 25.9|17.86sec  DPE= 61013|13%  DPET= 53936  DPR=  42.2  pDPS=3488  Miss=0.10%  TickCount=302  MissTick=0.0%  Tick=3670|2425|6462  CritTick=7710|5069|13506|38.7%  UpTime=93.6%
+    moonfire                Count= 12.7|33.33sec  DPE= 85452| 9%  DPET= 73873  DPR=  52.5  pDPS=2391  Miss=0.06%  Hit=4817|4347|7484  Crit=10134| 9085|15641|41.9%  TickCount=138  MissTick=0.0%  Tick=5083|4543|8059  CritTick=10631|9496|16843|38.1%  UpTime=44.3%
+    starfall                Count=  8.6|50.98sec  DPE= 95260| 7%  DPET= 80359  DPR=  15.1  pDPS=1804  Miss=0.00%  TickCount=85  MissTick=0.1%  Tick=7027|4173|10868  CritTick=14794|8722|22713|33.7%  UpTime=18.7%
+    starfire                Count= 82.7| 5.41sec  DPE= 35642|24%  DPET= 18356  DPR=  20.1  pDPS=6522  Miss=0.07%  Hit=25944|18157|48252  Crit=55576|37949|100848|32.8%
+    starsurge               Count= 25.8|17.36sec  DPE= 44905| 9%  DPET= 36959  DPR=  26.8  pDPS=2559  Miss=0.10%  Hit=31741|27505|47800  Crit=67196|57485|99902|37.6%
+    sunfire                 Count= 10.2|45.52sec  DPE=105429| 9%  DPET= 96250  DPR=  64.8  pDPS=2377  Miss=0.10%  Hit=5170|4347|7484  Crit=11059| 9085|15641|43.8%  TickCount=128  MissTick=0.0%  Tick=5510|4543|8059  CritTick=11566|9496|16843|37.8%  UpTime=38.8%
     treants                 Count=  3.0|181.02sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    wild_mushroom_detonate  Count=  1.0| 0.00sec  DPE= 37692| 0%  DPET=     0  DPR=   0.0  pDPS=  84  Miss=0.10%  Hit=31914|31914|31914  Crit=49308|49308|49308|33.4%
-    wrath                   Count=129.2| 3.36sec  DPE= 25742|27%  DPET= 17339  DPR=  16.9  pDPS=7354  Miss=0.07%  Hit=18703|12833|34252  Crit=40332|26822|71586|32.9%
-   treants  (DPS=2098.8)
-    treant_melee            Count= 58.3| 6.66sec  DPE=  3101| 1%  DPET=  2091  DPR=   0.0  pDPS=2099  Miss=0.00%  Hit=3295|2962|4097  Crit= 6536| 5924| 8194|0.2%  Glance=2469|24.1%  Dodge=0.0%
+    wild_mushroom_detonate  Count=  1.0| 0.00sec  DPE= 37724| 0%  DPET=     0  DPR=   0.0  pDPS=  85  Miss=0.00%  Hit=31914|31914|31914  Crit=49308|49308|49308|33.4%
+    wrath                   Count=129.4| 3.36sec  DPE= 25753|27%  DPET= 17349  DPR=  16.9  pDPS=7361  Miss=0.07%  Hit=18747|12833|34252  Crit=40329|26822|71586|32.8%
+   treants  (DPS=2097.6)
+    treant_melee            Count= 58.3| 6.67sec  DPE=  3100| 1%  DPET=  2089  DPR=   0.0  pDPS=2098  Miss=0.00%  Hit=3295|2962|4097  Crit= 6580| 5924| 8194|0.2%  Glance=2466|24.2%  Dodge=0.0%
   Constant Buffs: abominations_might/arcane_brilliance/arcane_tactics/battle_shout/blessing_of_kings/blessing_of_might
   Constant Buffs: blessing_of_might_regen/communion/demonic_pact/devotion_aura/elemental_oath/fel_intelligence
   Constant Buffs: ferocious_inspiration/flametongue_totem/fortitude/honor_among_thieves/horn_of_winter/hunting_party
@@ -63,38 +63,38 @@ Player: Druid_Balance_T11H troll druid balance 85
   Constant Buffs: qiraji_fortitude/rampage/replenishment/roar_of_courage/strength_of_earth/trueshot/unleashed_rage
   Constant Buffs: windfury_totem/wrath_of_air
   Dynamic Buffs:
-    bell_of_enraging_resonance : start=4.8  refresh=0.0   interval=104.9 trigger=104.9 uptime=21%
+    bell_of_enraging_resonance : start=4.8  refresh=0.0   interval=105.1 trigger=105.1 uptime=21%
     berserking                 : start=3.0  refresh=0.0   interval=180.9 trigger=180.9 uptime= 7%  benefit= 7%
     bloodlust                  : start=1.0  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 9%  benefit=11%
-    casting                    : start=222.9 refresh=0.0   interval=  2.0 trigger=2.0   uptime=79%
+    casting                    : start=223.0 refresh=0.0   interval=  2.0 trigger=2.0   uptime=79%
     darkmoon_card_volcano      : start=10.2 refresh=0.0   interval= 46.7 trigger=46.7  uptime=27%
-    innervate                  : start=0.2  refresh=0.0   interval=185.0 trigger=185.0 uptime= 1%
+    innervate                  : start=0.2  refresh=0.0   interval=180.7 trigger=180.7 uptime= 1%
     lightweave_embroidery      : start=7.3  refresh=0.0   interval= 66.1 trigger=66.1  uptime=24%
     lunar_eclipse              : start=8.7  refresh=0.0   interval= 50.7 trigger=50.7  uptime=27%  benefit=74%
     lunar_shower               : start=22.8 refresh=0.0   interval= 19.8 trigger=19.8  uptime=15%  benefit=13%
-    natures_grace              : start=17.8 refresh=1.0   interval= 26.2 trigger=25.5  uptime=60%  benefit=63%
-    omen_of_clarity            : start=21.2 refresh=0.9   interval= 20.3 trigger=19.4  uptime= 9%  benefit=10%
+    natures_grace              : start=17.8 refresh=1.0   interval= 26.2 trigger=25.5  uptime=61%  benefit=63%
+    omen_of_clarity            : start=21.4 refresh=0.9   interval= 20.1 trigger=19.2  uptime= 9%  benefit=10%
     power_torrent_mh           : start=10.0 refresh=0.0   interval= 47.5 trigger=47.5  uptime=26%  benefit=26%
-    shooting_stars             : start=18.2 refresh=4.3   interval= 23.8 trigger=19.0  uptime=23%  benefit=59%
+    shooting_stars             : start=18.3 refresh=4.7   interval= 23.7 trigger=18.7  uptime=23%  benefit=60%
     solar_eclipse              : start=9.2  refresh=0.0   interval= 51.0 trigger=51.0  uptime=30%  benefit=57%
     t11_4pc_caster             : start=17.9 refresh=0.0   interval= 25.5 trigger=25.5  uptime=27%  benefit=27%
-    volcanic_potion            : start=2.0  refresh=0.0   interval=353.9 trigger=0.0   uptime=10%
+    volcanic_potion            : start=2.0  refresh=0.0   interval=354.1 trigger=0.0   uptime=10%
     treants-bloodlust          : start=0.2  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 4%  benefit= 5%
   Up-Times:
-      0.9% : mana_cap                      
+      0.8% : mana_cap                      
   Procs:
-      1.1 |  46.18sec : wrong_eclipse_starfire
-      0.2 |  98.04sec : wrong_eclipse_wrath
+      1.1 |  40.87sec : wrong_eclipse_starfire
+      0.1 | 101.17sec : wrong_eclipse_wrath
   Gains:
-     29061.2 : blessing_of_might  (overflow=1.5%)
-    345057.7 : euphoria           (overflow=3.3%)
+     29077.3 : blessing_of_might  (overflow=1.5%)
+    345457.1 : euphoria           (overflow=3.4%)
       5250.0 : flask            
       1575.0 : food             
     103686.4 : initial_mana     
-     13431.5 : innervate          (overflow=23.5%)
-     82989.9 : mp5_regen          (overflow=1.5%)
-     40073.7 : omen_of_clarity  
-     55681.0 : replenishment      (overflow=1.3%)
+     13313.4 : innervate          (overflow=23.6%)
+     83036.6 : mp5_regen          (overflow=1.5%)
+     40551.9 : omen_of_clarity  
+     55711.3 : replenishment      (overflow=1.4%)
 
 
  *** Targets *** 
@@ -102,7 +102,7 @@ Player: Druid_Balance_T11H troll druid balance 85
 
 Target: Fluffy_Pillow humanoid enemy Unknown 88
   DPS: 0.0  DPS-Error=0.0/0.0% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=0/0.0%  DPS-Convergence=0.0%
-  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|14593447  mana=0|0
+  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|14587633  mana=0|0
   Spell Stats:  power=0|0(0)  hit=0.00%|0.00%(0)  crit=0.00%|0.00%(0)  penetration=0|0(0)  haste=0.00%|0.00%(0)  mp5=0|0(0)
   Attack Stats  power=0|0(0)  hit=0.00%|0.00%(0)  crit=5.00%|5.00%(0)  expertise=0.00|0.00(0)  haste=0.00%|0.00%(0)  speed=0.00%|0.00%(0)
   Defense Stats:  armor=10540|11977(0) miss=0.00%|0.00%  dodge=0.00%|0.00%(0)  parry=0.00%|0.00%(0)  block=5.00%|5.00%(0) crit=0.00%|0.00%
@@ -122,12 +122,12 @@ Waiting:
     All players active 100% of the time.
 
 Baseline Performance:
-  TotalEvents   = 4042214
-  MaxEventQueue = 22
-  TargetHealth  = 14593447
-  SimSeconds    = 452555
-  CpuSeconds    = 1.691
-  SpeedUp       = 267626
+  TotalEvents   = 4045834
+  MaxEventQueue = 23
+  TargetHealth  = 14587633
+  SimSeconds    = 452939
+  CpuSeconds    = 1.630
+  SpeedUp       = 277876
 
-RNG global Actual/Expected Roll=0.999198 Range=1.000000 Gauss=1.000839
+RNG global Actual/Expected Roll=0.998953 Range=1.000000 Gauss=1.001209
 

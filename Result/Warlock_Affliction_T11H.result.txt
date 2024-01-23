@@ -9,14 +9,14 @@ Generating baseline...
 Generating reports...
 
 DPS Ranking:
-  29727 100.0%  Raid
-  29727  100.0%  Warlock_Affliction_T11H
+  29704 100.0%  Raid
+  29704  100.0%  Warlock_Affliction_T11H
 
 HPS Ranking:
       0 100.0%  Raid
 
 Player: Warlock_Affliction_T11H orc warlock affliction 85
-  DPS: 29726.7  DPS-Error=37.3/0.1% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=1943/6.5%  DPS-Convergence=70.6%  DPR=16.1  RPS-Out=1422.1 RPS-In=1272.2  Resource=(mana) Waiting=0.0 ApM=37.7
+  DPS: 29703.7  DPS-Error=38.1/0.1% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=2181/7.3%  DPS-Convergence=70.4%  DPR=16.1  RPS-Out=1421.9 RPS-In=1271.6  Resource=(mana) Waiting=0.0 ApM=37.7
   Origin: http://chardev.org/?profile=36750
   Talents: http://www.wowhead.com/talent#warlock-22312210301332032113000000000000000003300000000000000000
   Core Stats:  strength=667|86(20)  agility=669|88(20)  stamina=7977|6289(5950)  intellect=5753|5070(4659)  spirit=203|203(20)  mastery=12.91|12.91(881)  health=149602|125956  mana=108694|96323
@@ -38,27 +38,27 @@ Player: Warlock_Affliction_T11H orc warlock affliction 85
     life_tap,moving=1,if=mana_pct<80&mana_pct<target.health_pct/fel_flame,moving=1
     life_tap
   Actions:
-    bane_of_doom           Count=  7.6|60.90sec  DPE=179817|10%  DPET=173451  DPR=  58.3  pDPS=3037  Miss=0.10%  TickCount=29  MissTick=0.0%  Tick=34313|21606|50496  CritTick=71027|45586|103763|35.2%  UpTime=96.4%
-    corruption             Count=  1.0|42.05sec  DPE=1806790|14%  DPET=1504130  DPR=1465.4  pDPS=4169  Miss=0.10%  TickCount=208  MissTick=0.0%  Tick=6245|4162|10365  CritTick=12923|8552|21298|42.1%  UpTime=99.8%
-    darkmoon_card_volcano  Count= 11.5|40.52sec  DPE=  3153| 0%  DPET=     0  DPR=   0.0  pDPS=  80  Miss=0.12%  Hit=2480|2386|2953  Crit= 5098| 4902| 6068|25.8%
-    demon_soul             Count=  4.3|121.03sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    drain_soul             Count= 10.1| 8.61sec  DPE=145489|11%  DPET= 20017  DPR=  50.6  pDPS=3253  Miss=0.14%  TickCount=37  MissTick=0.0%  Tick=30531|18028|44605  CritTick=63508|37046|91657|27.2%  UpTime=15.7%
-    fel_flame              Count=  5.8|34.17sec  DPE= 25357| 1%  DPET= 21885  DPR=  20.6  pDPS= 322  Miss=0.12%  Hit=19974|17886|32550  Crit=41166|36752|64449|25.5%
-    haunt                  Count= 44.6|10.14sec  DPE= 13112| 4%  DPET= 11385  DPR=   5.3  pDPS=1293  Miss=0.13%  Hit=10237|8952|15806  Crit=21181|18396|32479|26.6%
-    life_tap               Count= 12.2|27.44sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    shadow_bolt            Count=128.5| 2.81sec  DPE= 18020|17%  DPET=  9912  DPR=  10.3  pDPS=5121  Miss=0.11%  Hit=14009|12504|21102  Crit=28994|25693|43362|26.9%
-    shadowflame            Count= 27.3|13.48sec  DPE= 18670| 4%  DPET= 16059  DPR=   3.6  pDPS=1128  Miss=0.12%  Hit=2604|2406|3444  Crit= 5376| 4943| 7078|26.7%
-    shadowflame_dot        Count= 27.3|13.48sec  DPE= 15329| 3%  DPET=     0  DPR=   0.0  pDPS= 927  Miss=0.12%  TickCount=116  MissTick=0.0%  Tick=2812|2489|4196  CritTick=5829|5114|8622|26.7%  UpTime=37.9%
-    soul_fire              Count=  3.0|46.70sec  DPE= 14700| 0%  DPET= 12659  DPR=   7.9  pDPS=  99  Miss=0.10%  Hit=11533|10351|14343  Crit=23866|21271|29474|25.8%
-    soulburn               Count=  3.0|46.70sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    unstable_affliction    Count= 24.5|15.32sec  DPE= 82036|15%  DPET= 70449  DPR=  26.6  pDPS=4442  Miss=0.10%  TickCount=208  MissTick=0.0%  Tick=6686|4448|11098  CritTick=13820|9139|22804|41.8%  UpTime=99.3%
-   felhunter  (DPS=6055.4)
-    felhunter_melee        Count=303.4| 1.49sec  DPE=  1919| 4%  DPET=  1289  DPR=   0.0  pDPS=1287  Miss=0.00%  Hit=1725|1592|2276  Crit= 3479| 3183| 4553|17.0%  Glance=1296|24.0%  Dodge=0.0%
-    shadow_bite            Count= 74.7| 6.10sec  DPE= 28866|16%  DPET= 22043  DPR=  50.5  pDPS=4768  Miss=1.01%  Hit=22965|9921|40216  Crit=46084|19792|77319|26.5%
-   doomguard  (DPS=6260.3)
-    doombolt               Count= 16.0| 2.74sec  DPE= 17607| 2%  DPET=  6422  DPR=   0.0  pDPS=6260  Miss=1.14%  Hit=13659|10899|14949  Crit=27357|21743|29823|30.0%
+    bane_of_doom           Count=  7.6|60.89sec  DPE=179379|10%  DPET=172957  DPR=  58.2  pDPS=3027  Miss=0.12%  TickCount=29  MissTick=0.0%  Tick=34292|19291|50496  CritTick=71088|45586|103763|34.7%  UpTime=96.5%
+    corruption             Count=  1.1|20.92sec  DPE=1778500|14%  DPET=1480564  DPR=1442.4  pDPS=4159  Miss=0.19%  TickCount=208  MissTick=0.0%  Tick=6245|4162|10103  CritTick=12925|8552|20761|41.8%  UpTime=99.8%
+    darkmoon_card_volcano  Count= 11.6|40.33sec  DPE=  3165| 0%  DPET=     0  DPR=   0.0  pDPS=  81  Miss=0.05%  Hit=2478|2386|2953  Crit= 5096| 4902| 6068|26.3%
+    demon_soul             Count=  4.3|121.00sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    drain_soul             Count= 10.1| 8.61sec  DPE=145359|11%  DPET= 20002  DPR=  50.5  pDPS=3250  Miss=0.11%  TickCount=37  MissTick=0.0%  Tick=30528|18028|44605  CritTick=63363|39376|91657|27.3%  UpTime=15.7%
+    fel_flame              Count=  5.7|34.68sec  DPE= 25670| 1%  DPET= 22192  DPR=  20.8  pDPS= 323  Miss=0.09%  Hit=19956|17886|31364  Crit=41400|36752|62027|26.7%
+    haunt                  Count= 44.6|10.14sec  DPE= 13114| 4%  DPET= 11384  DPR=   5.3  pDPS=1293  Miss=0.15%  Hit=10232|8952|15806  Crit=21194|18396|32479|26.7%
+    life_tap               Count= 12.2|27.45sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    shadow_bolt            Count=128.6| 2.81sec  DPE= 17994|17%  DPET=  9895  DPR=  10.3  pDPS=5113  Miss=0.10%  Hit=14005|12504|21102  Crit=29006|25693|43362|26.7%
+    shadowflame            Count= 27.3|13.48sec  DPE= 18659| 4%  DPET= 16047  DPR=   3.6  pDPS=1128  Miss=0.11%  Hit=2603|2406|3444  Crit= 5373| 4943| 7078|27.2%
+    shadowflame_dot        Count= 27.3|13.48sec  DPE= 15306| 3%  DPET=     0  DPR=   0.0  pDPS= 925  Miss=0.12%  TickCount=116  MissTick=0.0%  Tick=2810|2489|4196  CritTick=5829|5114|8622|26.6%  UpTime=37.9%
+    soul_fire              Count=  3.0|46.74sec  DPE= 14748| 0%  DPET= 12671  DPR=   8.0  pDPS=  99  Miss=0.07%  Hit=11560|10351|14343  Crit=23740|21271|29474|26.2%
+    soulburn               Count=  3.0|46.74sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    unstable_affliction    Count= 24.5|15.29sec  DPE= 81865|15%  DPET= 70306  DPR=  26.6  pDPS=4442  Miss=0.11%  TickCount=208  MissTick=0.0%  Tick=6682|4448|10802  CritTick=13833|9139|22197|41.8%  UpTime=99.3%
+   felhunter  (DPS=6061.7)
+    felhunter_melee        Count=303.6| 1.49sec  DPE=  1921| 4%  DPET=  1290  DPR=   0.0  pDPS=1289  Miss=0.00%  Hit=1725|1592|2276  Crit= 3477| 3183| 4553|17.1%  Glance=1296|24.0%  Dodge=0.0%
+    shadow_bite            Count= 74.8| 6.10sec  DPE= 28881|16%  DPET= 22058  DPR=  50.5  pDPS=4773  Miss=0.94%  Hit=22946|9921|40216  Crit=46236|19792|77319|26.4%
+   doomguard  (DPS=6275.2)
+    doombolt               Count= 16.0| 2.74sec  DPE= 17649| 2%  DPET=  6437  DPR=   0.0  pDPS=6275  Miss=0.94%  Hit=13621|10899|14949  Crit=27287|21743|29823|30.4%
    ebon_imp  (DPS=499.2)
-    ebon_imp_melee         Count= 52.1| 1.53sec  DPE=   832| 0%  DPET=   545  DPR=   0.0  pDPS= 499  Miss=8.00%  Hit= 863| 863| 863  Crit= 1726| 1726| 1726|16.9%  Glance= 647|24.0%  Dodge=6.5%
+    ebon_imp_melee         Count= 51.3| 1.53sec  DPE=   832| 0%  DPET=   545  DPR=   0.0  pDPS= 499  Miss=8.14%  Hit= 863| 863| 863  Crit= 1726| 1726| 1726|17.1%  Glance= 647|23.8%  Dodge=6.5%
   Constant Buffs: abominations_might/arcane_brilliance/arcane_tactics/battle_shout/blessing_of_kings/blessing_of_might
   Constant Buffs: blessing_of_might_regen/communion/dark_intent/dark_intent_feedback/demonic_pact/devotion_aura
   Constant Buffs: elemental_oath/fel_armor/fel_intelligence/ferocious_inspiration/flametongue_totem/fortitude
@@ -69,36 +69,36 @@ Player: Warlock_Affliction_T11H orc warlock affliction 85
     bell_of_enraging_resonance : start=4.7  refresh=0.0   interval=106.1 trigger=106.1 uptime=20%
     blood_fury_sp              : start=4.3  refresh=0.0   interval=121.0 trigger=121.0 uptime=14%
     bloodlust                  : start=1.0  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 9%  benefit= 6%
-    casting                    : start=184.9 refresh=0.0   interval=  2.4 trigger=2.4   uptime=62%
+    casting                    : start=185.2 refresh=0.0   interval=  2.4 trigger=2.4   uptime=62%
     darkmoon_card_volcano      : start=10.1 refresh=0.0   interval= 47.1 trigger=47.1  uptime=26%
     demon_soul_felhunter       : start=4.3  refresh=0.0   interval=121.1 trigger=121.0 uptime=19%  benefit=18%
-    eradication                : start=9.5  refresh=3.0   interval= 44.6 trigger=33.3  uptime=24%  benefit=26%
-    power_torrent_mh           : start=9.8  refresh=0.0   interval= 48.0 trigger=48.0  uptime=26%  benefit=25%
-    shadow_trance              : start=15.2 refresh=1.5   interval= 28.0 trigger=25.4  uptime=11%  benefit=10%
+    eradication                : start=9.5  refresh=3.0   interval= 44.5 trigger=33.1  uptime=24%  benefit=26%
+    power_torrent_mh           : start=9.8  refresh=0.0   interval= 48.1 trigger=48.1  uptime=26%  benefit=25%
+    shadow_trance              : start=15.1 refresh=1.5   interval= 27.9 trigger=25.4  uptime=11%  benefit=10%
     soulburn                   : start=3.0  refresh=0.0   interval= 46.7 trigger=46.7  uptime= 0%  benefit=75%
-    tier11_4pc_caster          : start=3.8  refresh=0.4   interval= 87.6 trigger=77.5  uptime= 9%
-    volcanic_potion            : start=2.0  refresh=0.0   interval=369.7 trigger=0.0   uptime=10%
+    tier11_4pc_caster          : start=3.8  refresh=0.4   interval= 87.0 trigger=77.1  uptime= 9%
+    volcanic_potion            : start=2.0  refresh=0.0   interval=370.0 trigger=0.0   uptime=10%
     doomguard-casting          : start=17.0 refresh=0.0   interval=  2.7 trigger=2.7   uptime=92%
     ebon_imp-bloodlust         : start=0.2  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 2%
     felhunter-bloodlust        : start=1.0  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 9%  benefit=10%
   Benefits:
     100.0% : backdraft_0                   
   Procs:
-      5.9 |  63.62sec : ebon_imp
-     16.7 |  25.40sec : shadow_trance
+      5.8 |  64.37sec : ebon_imp
+     16.6 |  25.43sec : shadow_trance
   Gains:
-     29491.7 : blessing_of_might
+     29514.5 : blessing_of_might
       4965.0 : flask            
       1485.0 : food             
     102244.4 : initial_mana     
     392680.1 : life_tap         
-     92894.2 : mp5_regen        
-     54155.8 : replenishment    
+     92966.0 : mp5_regen        
+     54197.7 : replenishment    
   Pet "felhunter" Gains:
     61979.2 : initial_mana     
-    16499.0 : mana_spring_totem  (overflow=44.1%)
-     9262.4 : mp5_regen          (overflow=41.6%)
-    16765.0 : replenishment      (overflow=43.3%)
+    16510.1 : mana_spring_totem  (overflow=44.1%)
+     9268.8 : mp5_regen          (overflow=41.6%)
+    16778.7 : replenishment      (overflow=43.3%)
 
 
  *** Targets *** 
@@ -106,7 +106,7 @@ Player: Warlock_Affliction_T11H orc warlock affliction 85
 
 Target: Fluffy_Pillow humanoid enemy Unknown 88
   DPS: 0.0  DPS-Error=0.0/0.0% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=0/0.0%  DPS-Convergence=0.0%
-  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|16021460  mana=0|0
+  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|16008234  mana=0|0
   Spell Stats:  power=0|0(0)  hit=0.00%|0.00%(0)  crit=0.00%|0.00%(0)  penetration=0|0(0)  haste=0.00%|0.00%(0)  mp5=0|0(0)
   Attack Stats  power=0|0(0)  hit=0.00%|0.00%(0)  crit=5.00%|5.00%(0)  expertise=0.00|0.00(0)  haste=0.00%|0.00%(0)  speed=0.00%|0.00%(0)
   Defense Stats:  armor=10540|11977(0) miss=0.00%|0.00%  dodge=0.00%|0.00%(0)  parry=0.00%|0.00%(0)  block=5.00%|5.00%(0) crit=0.00%|0.00%
@@ -122,19 +122,19 @@ Target: Fluffy_Pillow humanoid enemy Unknown 88
   Constant Buffs: replenishment/roar_of_courage/savage_combat/scarlet_fever/shadow_and_flame/strength_of_earth/sunder_armor
   Constant Buffs: tailspin/tear_armor/tendon_rip/thunder_clap/trueshot/unleashed_rage/vindication/windfury_totem/wrath_of_air
   Dynamic Buffs:
-    haunted:Warlock_Affliction_T11H        : start=1.5  refresh=42.9  interval=176.3 trigger=10.2  uptime=98%  benefit=99%
-    shadow_embrace:Warlock_Affliction_T11H : start=1.0  refresh=171.8 interval=434.5 trigger=2.6   uptime=99%  benefit=99%
+    haunted:Warlock_Affliction_T11H        : start=1.5  refresh=43.0  interval=173.0 trigger=10.2  uptime=98%  benefit=99%
+    shadow_embrace:Warlock_Affliction_T11H : start=1.0  refresh=172.0 interval=447.8 trigger=2.6   uptime=99%  benefit=99%
 
 Waiting:
     All players active 100% of the time.
 
 Baseline Performance:
-  TotalEvents   = 4433129
-  MaxEventQueue = 34
-  TargetHealth  = 16021460
-  SimSeconds    = 452485
-  CpuSeconds    = 2.037
-  SpeedUp       = 222133
+  TotalEvents   = 4434541
+  MaxEventQueue = 32
+  TargetHealth  = 16008234
+  SimSeconds    = 452833
+  CpuSeconds    = 2.760
+  SpeedUp       = 164070
 
-RNG global Actual/Expected Roll=1.000878 Range=1.000000 Gauss=0.999674
+RNG global Actual/Expected Roll=0.998864 Range=1.000000 Gauss=1.000248
 
