@@ -1,0 +1,130 @@
+
+SimulationCraft 433-2 for World of Warcraft 4.3.3 Live (build level 15354)
+
+Simulating... ( iterations=1000, max_time=450, vary_combat_length=0.20, optimal_raid=1, fight_style=Patchwerk )
+
+Generating baseline... 
+10... 9... 8... 7... 6... 5... 4... 3... 2... 1... 
+
+Generating reports...
+
+DPS Ranking:
+  32074 100.0%  Raid
+  32074  100.0%  Hunter_MM_T11_372.simc
+
+HPS Ranking:
+      0 100.0%  Raid
+
+Player: Hunter_MM_T11_372.simc troll hunter marksmanship 85
+  DPS: 32074.0  DPS-Error=64.7/0.2% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=2919/9.1%  DPS-Convergence=70.6%  DPR=2607.8  RPS-Out=10.9 RPS-In=10.8  Resource=(focus) Waiting=0.0 ApM=59.4
+  Origin: http://chardev.org/?profile=116023
+  Talents: http://www.wowhead.com/talent#hunter-0230020000000000000230232003212023122103000000000000000000
+  Core Stats:  strength=682|101(20)  agility=8505|5854(5375)  stamina=7595|5975(5836)  intellect=118|113(20)  spirit=126|126(20)  mastery=10.64|10.64(473)  health=145107|122427  mana=2246|120
+  Spell Stats:  power=0|0(0)  hit=9.43%|9.43%(966)  crit=17.87%|12.87%(2307)  penetration=0|0(0)  haste=16.52%|10.97%(1405)  mp5=0|0(0)
+  Attack Stats  power=20994|12048(190)  hit=8.04%|8.04%(966)  crit=42.52%|29.36%(2307)  expertise=0.00|0.00(0)  haste=14.30%|14.30%(1405)  speed=25.73%|14.30%(1405)
+  Defense Stats:  armor=19402|15326(15326) miss=0.00%|0.00%  dodge=12.18%|6.95%(0)  parry=0.00%|0.00%(0)  block=0.00%|0.00%(0) crit=0.00%|0.00%
+  Glyphs: steady_shot/aimed_shot/rapid_fire
+  Priorities:
+    flask,type=winds/food,type=seafood_magnifique_feast/hunters_mark/summon_pet
+    trueshot_aura
+    tolvir_potion,if=!in_combat|buff.bloodlust.react|target.time_to_die<=60|buff.rapid_fire.react
+    auto_shot/snapshot_stats/aspect_of_the_hawk,moving=0/aspect_of_the_fox,moving=1
+    berserking/explosive_trap,if=target.adds>0/multi_shot,if=target.adds>5
+    steady_shot,if=target.adds>5/serpent_sting,if=!ticking&target.health_pct<=80
+    chimera_shot,if=target.health_pct<=80
+    rapid_fire,if=!buff.bloodlust.up|target.time_to_die<=30
+    readiness,wait_for_rapid_fire=1
+    steady_shot,if=buff.pre_improved_steady_shot.up&buff.improved_steady_shot.remains<3
+    kill_shot/aimed_shot,if=buff.master_marksman_fire.react
+    aimed_shot,if=cooldown.chimera_shot.remains>5|focus>=80|buff.rapid_fire.up|buff.bloodlust.up|target.health_pct>80
+    steady_shot
+  Actions:
+    aimed_shot        Count= 73.0| 6.23sec  DPE= 44316|22%  DPET= 21528  DPR= 975.4  pDPS=7165  Miss=0.00%  Hit=29316|28551|36057  Crit=63153|58816|74277|44.4%
+    aimed_shot_mm     Count= 24.2|18.27sec  DPE= 42021| 7%  DPET=     0  DPR=   0.0  pDPS=2251  Miss=0.00%  Hit=29309|28551|36057  Crit=61526|58816|74277|39.6%
+    chimera_shot      Count= 35.4|10.78sec  DPE= 37853| 9%  DPET= 36503  DPR= 860.3  pDPS=2969  Miss=0.00%  Hit=27271|26556|30791  Crit=56240|54706|63430|36.9%
+    kill_shot         Count=  8.8|10.67sec  DPE= 26979| 2%  DPET= 26013  DPR=   0.0  pDPS= 522  Miss=0.00%  Hit=19751|19399|21950  Crit=40676|39963|45217|35.7%
+    piercing_shots    Count=  0.0| 0.00sec  DPE=     0|18%  DPET=     0  DPR=   0.0  pDPS=5749  Miss=0.00%  TickCount=424  MissTick=0.0%  Tick=6118|749|33385  UpTime=93.7%
+    ranged            Count=150.7| 2.98sec  DPE=  8230| 9%  DPET=  4651  DPR=   0.0  pDPS=2743  Miss=0.00%  Hit=5896|5731|6951  Crit=12185|11805|14320|37.1%
+    rapid_fire        Count=  5.6|102.70sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    readiness         Count=  2.8|203.42sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    serpent_sting     Count=  1.7|191.35sec  DPE=231180| 3%  DPET=222926  DPR=9247.2  pDPS= 851  Miss=0.00%  TickCount=125  MissTick=0.0%  Tick=2506|2442|2807  CritTick=3875|3772|4337|41.0%  UpTime=83.2%
+    steady_shot       Count=212.4| 2.11sec  DPE=  8792|13%  DPET=  7398  DPR=   0.0  pDPS=4132  Miss=0.00%  Hit=6105|5971|7218  Crit=12807|12300|14869|40.2%
+    wild_quiver_shot  Count=113.0| 3.97sec  DPE=  8029| 6%  DPET=     0  DPR=   0.0  pDPS=2009  Miss=0.00%  Hit=5761|5595|6774  Crit=11904|11525|13955|36.9%
+   cat  (DPS=3682.7)
+    call_of_the_wild  Count=  2.0| 0.00sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    claw              Count=137.6| 3.30sec  DPE=  5854| 6%  DPET=  3809  DPR= 187.3  pDPS=1783  Miss=0.00%  Hit=3820|2038|7058  Crit= 7700| 4076|14116|52.4%
+    melee             Count=389.4| 1.16sec  DPE=  2205| 6%  DPET=  1901  DPR=   0.0  pDPS=1899  Miss=0.00%  Hit=1503|1313|2079  Crit= 3025| 2626| 4158|52.0%  Glance=1133|24.1%
+    rabid             Count= 10.3|46.10sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    roar_of_courage   Count= 10.3|46.10sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+  Constant Buffs: abominations_might/arcane_brilliance/arcane_tactics/aspect_of_the_hawk/battle_shout/blessing_of_kings
+  Constant Buffs: blessing_of_might/blessing_of_might_regen/communion/demonic_pact/devotion_aura/elemental_oath
+  Constant Buffs: fel_intelligence/ferocious_inspiration/flametongue_totem/fortitude/honor_among_thieves/horn_of_winter
+  Constant Buffs: hunting_party/improved_icy_talons/leader_of_the_pack/mana_spring_totem/mark_of_the_wild/moonkin
+  Constant Buffs: qiraji_fortitude/rampage/replenishment/roar_of_courage/strength_of_earth/trueshot/trueshot_aura
+  Constant Buffs: unleashed_rage/windfury_totem/wrath_of_air
+  Dynamic Buffs:
+    berserking                       : start=3.0  refresh=0.0   interval=180.8 trigger=180.8 uptime= 7%  benefit= 7%
+    bloodlust                        : start=1.0  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 9%  benefit= 9%
+    call_of_the_wild                 : start=2.0  refresh=0.0   interval=301.0 trigger=0.0   uptime= 9%  benefit= 9%
+    culling_the_herd                 : start=8.6  refresh=63.6  interval= 53.5 trigger=6.3   uptime=89%  benefit=89%
+    essence_of_the_cyclone           : start=8.0  refresh=0.0   interval= 58.8 trigger=58.8  uptime=18%
+    improved_steady_shot             : start=9.4  refresh=74.0  interval= 51.6 trigger=5.4   uptime=96%  benefit=96%
+    master_marksman                  : start=24.9 refresh=98.2  interval= 18.1 trigger=3.6   uptime=71%
+    master_marksman_fire             : start=24.3 refresh=0.0   interval= 18.2 trigger=18.2  uptime= 5%
+    prestors_talisman_of_machination : start=5.8  refresh=0.0   interval= 83.7 trigger=83.7  uptime=19%
+    rapid_fire                       : start=5.6  refresh=0.0   interval= 83.6 trigger=102.7 uptime=18%  benefit=19%
+    tolvir_potion                    : start=2.0  refresh=0.0   interval=197.7 trigger=0.0   uptime=10%
+    xray_targeting                   : start=8.0  refresh=0.0   interval= 57.7 trigger=57.7  uptime=17%  benefit=17%
+    cat-bloodlust                    : start=1.0  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 9%  benefit= 9%
+    cat-call_of_the_wild             : start=2.0  refresh=0.0   interval=301.0 trigger=0.0   uptime= 9%  benefit= 9%
+    cat-culling_the_herd             : start=8.6  refresh=63.6  interval= 53.5 trigger=6.3   uptime=89%  benefit=88%
+    cat-rabid                        : start=5.2  refresh=0.0   interval= 81.9 trigger=79.9  uptime=22%  benefit=22%
+    cat-rabid_power_stack            : start=5.2  refresh=113.4 interval= 82.0 trigger=3.0   uptime=49%  benefit=49%
+    cat-sic_em                       : start=38.3 refresh=3.8   interval= 11.8 trigger=10.8  uptime=14%  benefit=28%
+  Procs:
+      9.3 |  45.60sec : munched_piercing_shots
+     67.7 |   6.61sec : rolled_piercing_shots
+    113.0 |   3.97sec : wild_quiver
+  Gains:
+      2381.9 : focus_regen         (overflow=1.3%)
+       209.0 : glyph_aimed_shot  
+        92.4 : rapid_recuperation  (overflow=1.9%)
+      2182.1 : steady_shot       
+  Pet "cat" Gains:
+     4235.3 : focus_regen  (overflow=1.3%)
+
+
+ *** Targets *** 
+
+
+Target: Fluffy_Pillow humanoid enemy Unknown 88
+  DPS: 0.0  DPS-Error=0.0/0.0% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=0/0.0%  DPS-Convergence=0.0%
+  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|17281870  mana=0|0
+  Spell Stats:  power=0|0(0)  hit=0.00%|0.00%(0)  crit=0.00%|0.00%(0)  penetration=0|0(0)  haste=0.00%|0.00%(0)  mp5=0|0(0)
+  Attack Stats  power=0|0(0)  hit=0.00%|0.00%(0)  crit=5.00%|5.00%(0)  expertise=0.00|0.00(0)  haste=0.00%|0.00%(0)  speed=0.00%|0.00%(0)
+  Defense Stats:  armor=10540|11977(0) miss=0.00%|0.00%  dodge=0.00%|0.00%(0)  parry=0.00%|0.00%(0)  block=5.00%|5.00%(0) crit=0.00%|0.00%
+  Priorities:
+    snapshot_stats
+  Actions:
+  Constant Buffs: abominations_might/arcane_tactics/bleeding/blood_frenzy_bleed/blood_frenzy_physical/communion
+  Constant Buffs: corrosive_spit/critical_mass/curse_of_elements/demonic_pact/demoralizing_roar/demoralizing_screech
+  Constant Buffs: demoralizing_shout/devotion_aura/earth_and_moon/ebon_plaguebringer/elemental_oath/expose_armor/faerie_fire
+  Constant Buffs: fel_intelligence/ferocious_inspiration/flametongue_totem/hemorrhage/honor_among_thieves/horn_of_winter
+  Constant Buffs: hunters_mark/hunting_party/improved_icy_talons/infected_wounds/judgements_of_the_just/leader_of_the_pack
+  Constant Buffs: lightning_breath/mana_spring_totem/mangle/master_poisoner/moonkin/poisoned/qiraji_fortitude/rampage/ravage
+  Constant Buffs: replenishment/roar_of_courage/savage_combat/scarlet_fever/shadow_and_flame/strength_of_earth/sunder_armor
+  Constant Buffs: tailspin/tear_armor/tendon_rip/thunder_clap/trueshot/unleashed_rage/vindication/windfury_totem/wrath_of_air
+
+Waiting:
+    All players active 100% of the time.
+
+Baseline Performance:
+  TotalEvents   = 5900428
+  MaxEventQueue = 25
+  TargetHealth  = 17281870
+  SimSeconds    = 452329
+  CpuSeconds    = 2.965
+  SpeedUp       = 152556
+
+RNG global Actual/Expected Roll=1.001616 Range=1.000000 Gauss=1.432492
+

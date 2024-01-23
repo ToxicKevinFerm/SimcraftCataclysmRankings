@@ -8,7 +8,7 @@ for World of Warcraft 4.3.3 Live (build level 15354)
 
 ## Simulation Results
 
-![Simulation Result](./results/result.png)
+![Simulation Result](./Result/result.png)
 
 
 ## Contributing

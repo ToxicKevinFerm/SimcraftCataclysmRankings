@@ -1,0 +1,12 @@
+
+SimulationCraft 433-2 for World of Warcraft 4.3.3 Live (build level 15354)
+
+Simulating... ( iterations=1000, max_time=450, vary_combat_length=0.20, optimal_raid=1, fight_style=Patchwerk )
+
+Generating baseline... 
+presence_of_mind: Unexpected parameter 'arcane_blast'.  Expected format: name=value
+
+Mage_Arcane_T11H presence_of_mind: Unable to parse options str 'arcane_blast'.
+
+Simulation has been canceled during player setup! (thread=0)
+
