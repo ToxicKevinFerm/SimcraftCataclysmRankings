@@ -9,14 +9,14 @@ Generating baseline...
 Generating reports...
 
 DPS Ranking:
-  32050 100.0%  Raid
-  32050  100.0%  Hunter_MM_T11_372.simc
+  32373 100.0%  Raid
+  32373  100.0%  Hunter_MM_T11_372.simc
 
 HPS Ranking:
       0 100.0%  Raid
 
 Player: Hunter_MM_T11_372.simc troll hunter marksmanship 85
-  DPS: 32049.7  DPS-Error=63.4/0.2% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=3071/9.6%  DPS-Convergence=70.7%  DPR=2606.8  RPS-Out=10.9 RPS-In=10.8  Resource=(focus) Waiting=0.0 ApM=59.4
+  DPS: 32373.4  DPS-Error=62.6/0.2% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=3431/10.6%  DPS-Convergence=70.6%  DPR=2632.2  RPS-Out=10.9 RPS-In=10.8  Resource=(focus) Waiting=0.0 ApM=59.2
   Origin: http://chardev.org/?profile=116023
   Talents: http://www.wowhead.com/talent#hunter-0230020000000000000230232003212023122103000000000000000000
   Core Stats:  strength=682|101(20)  agility=8505|5854(5375)  stamina=7595|5975(5836)  intellect=118|113(20)  spirit=126|126(20)  mastery=10.64|10.64(473)  health=145107|122427  mana=2246|120
@@ -30,30 +30,30 @@ Player: Hunter_MM_T11_372.simc troll hunter marksmanship 85
     tolvir_potion,if=!in_combat|buff.bloodlust.react|target.time_to_die<=60|buff.rapid_fire.react
     auto_shot/snapshot_stats/aspect_of_the_hawk,moving=0/aspect_of_the_fox,moving=1
     berserking/explosive_trap,if=target.adds>0/multi_shot,if=target.adds>5
-    steady_shot,if=target.adds>5/serpent_sting,if=!ticking&target.health_pct<=80
-    chimera_shot,if=target.health_pct<=80
+    steady_shot,if=target.adds>5/serpent_sting,if=!ticking&target.health_pct<=90
+    chimera_shot,if=target.health_pct<=90
     rapid_fire,if=!buff.bloodlust.up|target.time_to_die<=30
     readiness,wait_for_rapid_fire=1
     steady_shot,if=buff.pre_improved_steady_shot.up&buff.improved_steady_shot.remains<3
     kill_shot/aimed_shot,if=buff.master_marksman_fire.react
-    aimed_shot,if=cooldown.chimera_shot.remains>5|focus>=80|buff.rapid_fire.up|buff.bloodlust.up|target.health_pct>80
+    aimed_shot,if=cooldown.chimera_shot.remains>5|focus>=80|buff.rapid_fire.up|buff.bloodlust.up|target.health_pct>90
     steady_shot
   Actions:
-    aimed_shot        Count= 73.0| 6.24sec  DPE= 44174|22%  DPET= 21448  DPR= 971.5  pDPS=7129  Miss=0.00%  Hit=29316|28551|36057  Crit=63133|58816|74277|44.0%
-    aimed_shot_mm     Count= 24.2|18.28sec  DPE= 41812| 7%  DPET=     0  DPR=   0.0  pDPS=2239  Miss=0.00%  Hit=29309|28551|36057  Crit=61495|58816|74277|39.0%
-    chimera_shot      Count= 35.5|10.77sec  DPE= 37988| 9%  DPET= 36630  DPR= 863.4  pDPS=2983  Miss=0.00%  Hit=27275|26556|30791  Crit=56256|54706|63430|37.3%
-    kill_shot         Count=  8.8|10.68sec  DPE= 27151| 2%  DPET= 26183  DPR=   0.0  pDPS= 526  Miss=0.00%  Hit=19747|19399|21950  Crit=40667|39963|45217|36.5%
-    piercing_shots    Count=  0.0| 0.00sec  DPE=     0|18%  DPET=     0  DPR=   0.0  pDPS=5750  Miss=0.00%  TickCount=425  MissTick=0.0%  Tick=6114|749|34086  UpTime=93.7%
-    ranged            Count=151.0| 2.98sec  DPE=  8230| 9%  DPET=  4651  DPR=   0.0  pDPS=2743  Miss=0.00%  Hit=5898|5731|6951  Crit=12180|11805|14320|37.1%
-    rapid_fire        Count=  5.6|102.97sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    aimed_shot        Count= 68.7| 6.61sec  DPE= 44583|21%  DPET= 21494  DPR= 980.4  pDPS=6791  Miss=0.00%  Hit=29348|28551|36057  Crit=63290|58816|74277|45.0%
+    aimed_shot_mm     Count= 24.2|18.22sec  DPE= 42007| 7%  DPET=     0  DPR=   0.0  pDPS=2256  Miss=0.00%  Hit=29309|28551|36057  Crit=61516|58816|74277|39.6%
+    chimera_shot      Count= 39.9|10.78sec  DPE= 37789|10%  DPET= 36441  DPR= 858.8  pDPS=3336  Miss=0.00%  Hit=27231|26556|32446  Crit=56136|54706|63430|36.9%
+    kill_shot         Count=  8.8|10.67sec  DPE= 26980| 2%  DPET= 26019  DPR=   0.0  pDPS= 529  Miss=0.00%  Hit=19752|19399|21950  Crit=40668|39963|45217|35.8%
+    piercing_shots    Count=  0.0| 0.00sec  DPE=     0|18%  DPET=     0  DPR=   0.0  pDPS=5745  Miss=0.00%  TickCount=424  MissTick=0.0%  Tick=6103|749|33751  UpTime=93.8%
+    ranged            Count=157.7| 2.85sec  DPE=  8226| 9%  DPET=  4644  DPR=   0.0  pDPS=2871  Miss=0.00%  Hit=5893|5731|6951  Crit=12175|11805|14320|37.1%
+    rapid_fire        Count=  5.5|103.12sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
     readiness         Count=  2.8|203.34sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    serpent_sting     Count=  1.7|193.31sec  DPE=231340| 3%  DPET=223022  DPR=9253.6  pDPS= 851  Miss=0.00%  TickCount=126  MissTick=0.0%  Tick=2506|2442|2807  CritTick=3877|3772|4337|40.9%  UpTime=83.2%
-    steady_shot       Count=213.0| 2.11sec  DPE=  8800|13%  DPET=  7408  DPR=   0.0  pDPS=4138  Miss=0.00%  Hit=6104|5971|7218  Crit=12808|12300|14869|40.4%
-    wild_quiver_shot  Count=113.3| 3.97sec  DPE=  8053| 6%  DPET=     0  DPR=   0.0  pDPS=2016  Miss=0.00%  Hit=5760|5595|6774  Crit=11901|11525|13955|37.3%
-   cat  (DPS=3675.2)
+    serpent_sting     Count=  1.7|210.31sec  DPE=249820| 3%  DPET=240993  DPR=9992.8  pDPS= 955  Miss=0.00%  TickCount=141  MissTick=0.0%  Tick=2502|2442|2949  CritTick=3870|3772|4556|40.7%  UpTime=93.6%
+    steady_shot       Count=214.3| 2.09sec  DPE=  8809|13%  DPET=  7401  DPR=   0.0  pDPS=4178  Miss=0.00%  Hit=6104|5971|7218  Crit=12805|12300|14869|40.5%
+    wild_quiver_shot  Count=115.0| 3.89sec  DPE=  8032| 6%  DPET=     0  DPR=   0.0  pDPS=2045  Miss=0.00%  Hit=5758|5595|6774  Crit=11896|11525|13955|37.1%
+   cat  (DPS=3667.4)
     call_of_the_wild  Count=  2.0| 0.00sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    claw              Count=137.9| 3.30sec  DPE=  5828| 6%  DPET=  3792  DPR= 186.5  pDPS=1776  Miss=0.00%  Hit=3809|2038|7058  Crit= 7683| 4076|14116|52.1%
-    melee             Count=390.2| 1.16sec  DPE=  2204| 6%  DPET=  1900  DPR=   0.0  pDPS=1899  Miss=0.00%  Hit=1502|1313|2079  Crit= 3022| 2626| 4158|52.1%  Glance=1131|24.0%
+    claw              Count=137.5| 3.30sec  DPE=  5807| 5%  DPET=  3778  DPR= 185.7  pDPS=1769  Miss=0.00%  Hit=3789|2038|7058  Crit= 7662| 4076|14116|52.1%
+    melee             Count=389.2| 1.16sec  DPE=  2204| 6%  DPET=  1900  DPR=   0.0  pDPS=1898  Miss=0.00%  Hit=1503|1313|2079  Crit= 3023| 2626| 4158|52.0%  Glance=1131|24.0%
     rabid             Count= 10.3|46.10sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
     roar_of_courage   Count= 10.3|46.10sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
   Constant Buffs: abominations_might/arcane_brilliance/arcane_tactics/aspect_of_the_hawk/battle_shout/blessing_of_kings
@@ -66,32 +66,32 @@ Player: Hunter_MM_T11_372.simc troll hunter marksmanship 85
     berserking                       : start=3.0  refresh=0.0   interval=180.8 trigger=180.8 uptime= 7%  benefit= 7%
     bloodlust                        : start=1.0  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 9%  benefit= 9%
     call_of_the_wild                 : start=2.0  refresh=0.0   interval=301.0 trigger=0.0   uptime= 9%  benefit= 9%
-    culling_the_herd                 : start=8.7  refresh=63.2  interval= 53.1 trigger=6.3   uptime=89%  benefit=89%
-    essence_of_the_cyclone           : start=8.1  refresh=0.0   interval= 58.7 trigger=58.7  uptime=18%
-    improved_steady_shot             : start=9.4  refresh=74.3  interval= 51.5 trigger=5.4   uptime=96%  benefit=96%
-    master_marksman                  : start=25.0 refresh=98.2  interval= 18.2 trigger=3.6   uptime=71%
-    master_marksman_fire             : start=24.3 refresh=0.0   interval= 18.3 trigger=18.3  uptime= 5%
-    prestors_talisman_of_machination : start=5.8  refresh=0.0   interval= 83.5 trigger=83.5  uptime=19%
-    rapid_fire                       : start=5.6  refresh=0.0   interval= 83.8 trigger=103.0 uptime=18%  benefit=19%
+    culling_the_herd                 : start=8.6  refresh=63.0  interval= 52.8 trigger=6.3   uptime=89%  benefit=89%
+    essence_of_the_cyclone           : start=8.1  refresh=0.0   interval= 58.6 trigger=58.6  uptime=18%
+    improved_steady_shot             : start=9.7  refresh=74.1  interval= 49.2 trigger=5.4   uptime=96%  benefit=95%
+    master_marksman                  : start=25.0 refresh=98.3  interval= 18.1 trigger=3.6   uptime=71%
+    master_marksman_fire             : start=24.3 refresh=0.0   interval= 18.2 trigger=18.2  uptime= 5%
+    prestors_talisman_of_machination : start=5.8  refresh=0.0   interval= 83.8 trigger=83.8  uptime=19%
+    rapid_fire                       : start=5.5  refresh=0.0   interval= 83.8 trigger=103.1 uptime=18%  benefit=19%
     tolvir_potion                    : start=2.0  refresh=0.0   interval=197.7 trigger=0.0   uptime=10%
-    xray_targeting                   : start=8.0  refresh=0.0   interval= 57.8 trigger=57.8  uptime=17%  benefit=17%
-    cat-bloodlust                    : start=1.0  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 9%  benefit= 8%
+    xray_targeting                   : start=8.1  refresh=0.0   interval= 57.0 trigger=57.0  uptime=18%  benefit=17%
+    cat-bloodlust                    : start=1.0  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 9%  benefit= 9%
     cat-call_of_the_wild             : start=2.0  refresh=0.0   interval=301.0 trigger=0.0   uptime= 9%  benefit= 9%
-    cat-culling_the_herd             : start=8.7  refresh=63.2  interval= 53.1 trigger=6.3   uptime=89%  benefit=88%
-    cat-rabid                        : start=5.1  refresh=0.0   interval= 82.5 trigger=80.5  uptime=22%  benefit=22%
-    cat-rabid_power_stack            : start=5.1  refresh=112.5 interval= 82.6 trigger=3.1   uptime=49%  benefit=48%
-    cat-sic_em                       : start=38.0 refresh=3.6   interval= 12.0 trigger=10.9  uptime=14%  benefit=27%
+    cat-culling_the_herd             : start=8.6  refresh=63.0  interval= 52.8 trigger=6.3   uptime=89%  benefit=88%
+    cat-rabid                        : start=5.1  refresh=0.0   interval= 81.7 trigger=80.2  uptime=22%  benefit=22%
+    cat-rabid_power_stack            : start=5.1  refresh=112.3 interval= 81.8 trigger=3.0   uptime=49%  benefit=49%
+    cat-sic_em                       : start=37.0 refresh=3.5   interval= 12.3 trigger=11.2  uptime=14%  benefit=27%
   Procs:
-      9.1 |  46.95sec : munched_piercing_shots
-     68.2 |   6.57sec : rolled_piercing_shots
-    113.3 |   3.97sec : wild_quiver
+      9.6 |  43.97sec : munched_piercing_shots
+     68.7 |   6.50sec : rolled_piercing_shots
+    115.0 |   3.89sec : wild_quiver
   Gains:
-      2386.5 : focus_regen         (overflow=1.3%)
-       207.0 : glyph_aimed_shot  
-        92.4 : rapid_recuperation  (overflow=2.0%)
-      2187.6 : steady_shot       
+      2378.4 : focus_regen         (overflow=1.3%)
+       201.5 : glyph_aimed_shot  
+        92.2 : rapid_recuperation  (overflow=1.9%)
+      2200.7 : steady_shot       
   Pet "cat" Gains:
-     4244.1 : focus_regen  (overflow=1.3%)
+     4235.5 : focus_regen  (overflow=1.2%)
 
 
  *** Targets *** 
@@ -99,7 +99,7 @@ Player: Hunter_MM_T11_372.simc troll hunter marksmanship 85
 
 Target: Fluffy_Pillow humanoid enemy Unknown 88
   DPS: 0.0  DPS-Error=0.0/0.0% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=0/0.0%  DPS-Convergence=0.0%
-  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|17269193  mana=0|0
+  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|17444715  mana=0|0
   Spell Stats:  power=0|0(0)  hit=0.00%|0.00%(0)  crit=0.00%|0.00%(0)  penetration=0|0(0)  haste=0.00%|0.00%(0)  mp5=0|0(0)
   Attack Stats  power=0|0(0)  hit=0.00%|0.00%(0)  crit=5.00%|5.00%(0)  expertise=0.00|0.00(0)  haste=0.00%|0.00%(0)  speed=0.00%|0.00%(0)
   Defense Stats:  armor=10540|11977(0) miss=0.00%|0.00%  dodge=0.00%|0.00%(0)  parry=0.00%|0.00%(0)  block=5.00%|5.00%(0) crit=0.00%|0.00%
@@ -119,12 +119,12 @@ Waiting:
     All players active 100% of the time.
 
 Baseline Performance:
-  TotalEvents   = 5912060
+  TotalEvents   = 5917293
   MaxEventQueue = 25
-  TargetHealth  = 17269193
-  SimSeconds    = 453258
-  CpuSeconds    = 3.033
-  SpeedUp       = 149442
+  TargetHealth  = 17444715
+  SimSeconds    = 452174
+  CpuSeconds    = 2.683
+  SpeedUp       = 168533
 
-RNG global Actual/Expected Roll=1.001485 Range=1.000000 Gauss=1.665391
+RNG global Actual/Expected Roll=1.001715 Range=1.000000 Gauss=1.606487
 

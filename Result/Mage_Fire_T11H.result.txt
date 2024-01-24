@@ -9,49 +9,49 @@ Generating baseline...
 Generating reports...
 
 DPS Ranking:
-  30306 100.0%  Raid
-  30306  100.0%  Mage_Fire_T11H
+  30330 100.0%  Raid
+  30330  100.0%  Mage_Fire_T11H
 
 HPS Ranking:
       0 100.0%  Raid
 
 Player: Mage_Fire_T11H troll mage fire 85
-  DPS: 30306.2  DPS-Error=88.0/0.3% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=5133/16.9%  DPS-Convergence=70.4%  DPR=32.6  RPS-Out=910.1 RPS-In=758.5  Resource=(mana) Waiting=0.0 ApM=39.6
+  DPS: 30329.7  DPS-Error=90.5/0.3% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=4433/14.6%  DPS-Convergence=70.6%  DPR=32.6  RPS-Out=910.5 RPS-In=750.6  Resource=(mana) Waiting=0.0 ApM=39.6
   Origin: http://chardev.org/?profile=88793
   Talents: http://www.wowhead.com/talent#mage-3030100000000000000002313302201201210130310300000000000000000
   Core Stats:  strength=637|58(20)  agility=648|68(20)  stamina=7635|6013(5950)  intellect=6071|5373(4923)  spirit=212|212(21)  mastery=13.23|13.23(938)  health=143743|121035  mana=110329|97718
   Spell Stats:  power=9095|7570(2207)  hit=16.88%|16.88%(1729)  crit=27.55%|16.48%(769)  penetration=0|0(0)  haste=26.09%|16.59%(2124)  mp5=870|870(0)
   Attack Stats  power=741|38(0)  hit=14.40%|14.40%(1729)  crit=15.99%|8.08%(769)  expertise=0.00|0.00(0)  haste=16.59%|16.59%(2124)  speed=28.24%|16.59%(2124)
   Defense Stats:  armor=12555|8479(8479) miss=0.00%|0.00%  dodge=5.62%|3.68%(0)  parry=0.00%|0.00%(0)  block=0.00%|0.00%(0) crit=0.00%|0.00%
-  Glyphs: evocation/dragons_breath/mana_shield/conjuring/arcane_brilliance/slow_fall/fireball/pyroblast/molten_armor
+  Glyphs: fireball/pyroblast/molten_armor/evocation/dragons_breath/mana_shield/conjuring/arcane_brilliance/slow_fall
   Priorities:
     flask,type=draconic_mind/food,type=seafood_magnifique_feast/arcane_brilliance
     molten_armor,if=buff.mage_armor.down&buff.molten_armor.down
-    molten_armor,if=mana_pct>60&buff.mage_armor.up/snapshot_stats/counterspell
+    molten_armor,if=mana_pct>45&buff.mage_armor.up/snapshot_stats/counterspell
     conjure_mana_gem,invulnerable=1,if=mana_gem_charges<3
     volcanic_potion,if=!in_combat
     volcanic_potion,if=buff.bloodlust.react|target.time_to_die<=40/berserking
     mana_gem,if=mana_deficit>12500/scorch,debuff=1
-    combustion,if=dot.living_bomb.ticking&dot.ignite.ticking&dot.pyroblast.ticking
+    combustion,if=dot.living_bomb.ticking&dot.ignite.ticking&dot.pyroblast.ticking&dot.ignite.tick_dmg>10000
     mirror_image,if=target.time_to_die>=25/living_bomb,if=!ticking
     pyroblast_hs,if=buff.hot_streak.react/flame_orb,if=target.time_to_die>=12/fireball
     mage_armor,if=mana_pct<5&buff.mage_armor.down/scorch
   Actions:
-    combustion             Count=  3.9|127.91sec  DPE=260061| 7%  DPET=     0  DPR=   0.0  pDPS=2245  Miss=0.10%  Hit=8177|7082|10753  Crit=16851|14552|22952|34.1%  TickCount=51  MissTick=0.0%  Tick=14022|7795|31651  CritTick=29301|16018|65038|33.2%  UpTime=8.6%
-    darkmoon_card_volcano  Count= 12.0|39.51sec  DPE=  3317| 0%  DPET=     0  DPR=   0.0  pDPS=  88  Miss=0.12%  Hit=2494|2347|2973  Crit= 5106| 4822| 6108|31.6%
-    fireball               Count=207.3| 2.18sec  DPE= 28268|43%  DPET= 16108  DPR=  19.2  pDPS=12929  Miss=0.12%  Hit=20253|17711|29165  Crit=41775|36394|59930|37.6%
-    flame_orb              Count=  7.7|61.17sec  DPE= 63689| 4%  DPET= 55576  DPR=  68.3  pDPS=1083  Miss=0.09%  TickCount=115  UpTime=25.4%
-    flame_orb_explosion    Count=  7.6|61.23sec  DPE=  7369| 0%  DPET=     0  DPR=   0.0  pDPS= 124  Miss=0.16%  Hit=5473|4925|6976  Crit=11290|10121|14263|32.7%
-    flame_orb_tick         Count=115.3| 3.71sec  DPE=  3768| 3%  DPET=     0  DPR=   0.0  pDPS= 959  MissTick=0.1%  Tick=2788|2437|3743  CritTick=5769|5008|7642|33.0%
-    ignite                 Count=  0.0| 0.00sec  DPE=     0|16%  DPET=     0  DPR=   0.0  pDPS=4832  Miss=0.00%  TickCount=141  MissTick=0.0%  Tick=15444|3989|61512  UpTime=62.2%
-    living_bomb            Count= 35.7|12.90sec  DPE= 59044|15%  DPET= 49285  DPR=  22.1  pDPS=4643  Miss=0.11%  TickCount=184  MissTick=0.0%  Tick=6673|5619|11325  CritTick=13779|11547|23271|32.5%  UpTime=92.6%
-    living_bomb_explosion  Count= 34.8|12.91sec  DPE= 12967| 3%  DPET=     0  DPR=   0.0  pDPS= 994  Miss=0.12%  Hit=9651|8487|13975  Crit=19888|17440|28717|32.5%
-    mirror_image           Count=  2.9|180.98sec  DPE= 84008| 2%  DPET=124317  DPR=  81.9  pDPS= 534  Miss=0.00%
-    pyroblast_hs           Count= 28.1|15.75sec  DPE= 63072|13%  DPET= 52758  DPR=   0.0  pDPS=3926  Miss=0.13%  Hit=25264|22139|36456  Crit=52117|45492|74911|42.4%  TickCount=122  MissTick=0.0%  Tick=4231|3535|7266  CritTick=8718|7264|14931|42.5%  UpTime=61.2%
-    scorch                 Count=  1.0| 3.84sec  DPE= 12159| 0%  DPET= 10741  DPR=   0.0  pDPS=  26  Miss=0.00%  Hit=9274|7718|12508  Crit=19153|15859|25702|29.2%
-   mirror_image_3  (DPS=3822.1)
-    mirror_fire_blast      Count= 34.4|34.03sec  DPE=  1221| 0%  DPET=     0  DPR=   0.0  pDPS= 666  Miss=0.91%  Hit=1172|1105|1397  Crit= 1757| 1658| 2095|10.1%
-    mirror_frost_bolt      Count= 94.6|11.72sec  DPE=  2103| 1%  DPET=  1052  DPR=   0.0  pDPS=3156  Miss=0.95%  Hit=2023|1912|2398  Crit= 3036| 2868| 3598|9.9%
+    combustion             Count=  3.8|129.45sec  DPE=264937| 7%  DPET=     0  DPR=   0.0  pDPS=2263  Miss=0.21%  Hit=8216|7082|11170  Crit=17089|14552|22952|33.0%  TickCount=50  MissTick=0.0%  Tick=14308|8733|35316  CritTick=29685|17945|72569|33.6%  UpTime=8.5%
+    darkmoon_card_volcano  Count= 11.9|39.56sec  DPE=  3341| 0%  DPET=     0  DPR=   0.0  pDPS=  88  Miss=0.10%  Hit=2495|2347|2973  Crit= 5108| 4822| 6108|32.5%
+    fireball               Count=207.0| 2.18sec  DPE= 28269|43%  DPET= 16109  DPR=  19.2  pDPS=12929  Miss=0.12%  Hit=20247|17711|29165  Crit=41786|36394|59930|37.6%
+    flame_orb              Count=  7.7|61.18sec  DPE= 63808| 4%  DPET= 55679  DPR=  68.8  pDPS=1085  Miss=0.09%  TickCount=115  UpTime=25.4%
+    flame_orb_explosion    Count=  7.7|61.21sec  DPE=  7390| 0%  DPET=     0  DPR=   0.0  pDPS= 125  Miss=0.13%  Hit=5476|4925|6941  Crit=11268|10121|14263|33.2%
+    flame_orb_tick         Count=115.2| 3.71sec  DPE=  3772| 3%  DPET=     0  DPR=   0.0  pDPS= 960  MissTick=0.1%  Tick=2788|2437|3719  CritTick=5772|5008|7642|33.1%
+    ignite                 Count=  0.0| 0.00sec  DPE=     0|16%  DPET=     0  DPR=   0.0  pDPS=4828  Miss=0.00%  TickCount=141  MissTick=0.0%  Tick=15424|3989|58080  UpTime=62.2%
+    living_bomb            Count= 35.6|12.89sec  DPE= 59099|15%  DPET= 49329  DPR=  22.1  pDPS=4649  Miss=0.15%  TickCount=184  MissTick=0.0%  Tick=6675|5619|11325  CritTick=13772|11547|23271|32.9%  UpTime=92.6%
+    living_bomb_explosion  Count= 34.7|12.91sec  DPE= 12910| 3%  DPET=     0  DPR=   0.0  pDPS= 990  Miss=0.13%  Hit=9646|8487|13975  Crit=19929|17440|28717|31.9%
+    mirror_image           Count=  2.9|180.98sec  DPE= 83855| 2%  DPET=124224  DPR=  82.0  pDPS= 533  Miss=0.00%
+    pyroblast_hs           Count= 27.8|15.90sec  DPE= 63589|13%  DPET= 53205  DPR=   0.0  pDPS=3928  Miss=0.14%  Hit=25311|22139|36456  Crit=52132|45492|74911|43.1%  TickCount=121  MissTick=0.0%  Tick=4238|3535|7266  CritTick=8733|7264|14931|42.9%  UpTime=61.0%
+    scorch                 Count=  0.9| 3.70sec  DPE= 12420| 0%  DPET= 10988  DPR=   0.0  pDPS=  26  Miss=0.11%  Hit=9302|7718|12508  Crit=19479|15859|25702|30.7%
+   mirror_image_3  (DPS=3814.5)
+    mirror_fire_blast      Count= 34.4|33.99sec  DPE=  1216| 0%  DPET=     0  DPR=   0.0  pDPS= 663  Miss=1.00%  Hit=1171|1105|1343  Crit= 1757| 1658| 2015|9.6%
+    mirror_frost_bolt      Count= 94.5|11.71sec  DPE=  2100| 1%  DPET=  1050  DPR=   0.0  pDPS=3151  Miss=1.00%  Hit=2022|1912|2309  Crit= 3031| 2868| 3464|9.8%
   Constant Buffs: abominations_might/arcane_brilliance/arcane_tactics/battle_shout/blessing_of_kings/blessing_of_might
   Constant Buffs: blessing_of_might_regen/communion/demonic_pact/devotion_aura/elemental_oath/fel_intelligence
   Constant Buffs: ferocious_inspiration/flametongue_totem/fortitude/honor_among_thieves/horn_of_winter/hunting_party
@@ -60,41 +60,41 @@ Player: Mage_Fire_T11H troll mage fire 85
   Dynamic Buffs:
     berserking               : start=3.0  refresh=0.0   interval=180.9 trigger=180.9 uptime= 7%  benefit= 8%
     bloodlust                : start=1.0  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 9%  benefit=10%
-    casting                  : start=209.2 refresh=0.0   interval=  2.2 trigger=2.2   uptime=79%
+    casting                  : start=208.8 refresh=0.0   interval=  2.2 trigger=2.2   uptime=79%
     clearcasting             : start=25.3 refresh=0.0   interval= 18.2 trigger=18.2  uptime= 7%
     darkmoon_card_volcano    : start=10.2 refresh=0.0   interval= 46.8 trigger=46.8  uptime=27%
-    hot_streak               : start=28.2 refresh=1.8   interval= 15.7 trigger=14.8  uptime=12%
+    hot_streak               : start=28.0 refresh=1.8   interval= 15.9 trigger=14.9  uptime=12%
     lightweave_embroidery    : start=7.3  refresh=0.0   interval= 65.9 trigger=65.9  uptime=24%
-    mage_armor               : start=1.0  refresh=0.0   interval=  0.0 trigger=0.0   uptime=25%
-    molten_armor             : start=1.0  refresh=0.0   interval=541.4 trigger=0.0   uptime=75%  benefit=74%
-    power_torrent_mh         : start=10.0 refresh=0.0   interval= 47.6 trigger=47.6  uptime=26%  benefit=26%
+    mage_armor               : start=1.0  refresh=0.0   interval=  0.0 trigger=0.0   uptime=24%
+    molten_armor             : start=1.2  refresh=0.0   interval=500.4 trigger=0.0   uptime=76%  benefit=75%
+    power_torrent_mh         : start=10.0 refresh=0.0   interval= 47.5 trigger=47.5  uptime=26%  benefit=27%
     theralions_mirror        : start=4.3  refresh=0.0   interval=115.2 trigger=115.2 uptime=19%
-    volcanic_potion          : start=2.0  refresh=0.0   interval=356.4 trigger=0.0   uptime=10%
-    mirror_image_3-bloodlust : start=0.2  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 2%
-    mirror_image_3-casting   : start=2.9  refresh=91.8  interval=180.9 trigger=3.9   uptime=100%
+    volcanic_potion          : start=2.0  refresh=0.0   interval=355.9 trigger=0.0   uptime=10%
+    mirror_image_3-bloodlust : start=0.1  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 2%
+    mirror_image_3-casting   : start=2.9  refresh=91.6  interval=180.9 trigger=3.9   uptime=100%
   Benefits:
     100.0% : dps_rotation                  
   Up-Times:
       0.4% : mana_cap                      
   Procs:
-     78.2 |   5.75sec : crit_test_hotstreak
-     14.9 |  28.49sec : improved_hotstreak
-      3.0 | 120.82sec : mana_gem
-      2.9 |  93.62sec : munched_ignite
-     15.1 |  27.67sec : normal_hotstreak
-      3.9 |  78.62sec : rolled_ignite
-    208.0 |   2.17sec : test_for_crit_hotstreak
+     78.1 |   5.75sec : crit_test_hotstreak
+     14.9 |  28.76sec : improved_hotstreak
+      3.0 | 120.87sec : mana_gem
+      2.9 |  95.54sec : munched_ignite
+     14.9 |  28.13sec : normal_hotstreak
+      3.6 |  81.19sec : rolled_ignite
+    207.7 |   2.17sec : test_for_crit_hotstreak
   Gains:
-     29493.8 : blessing_of_might 
-     40678.4 : clearcasting      
+     29447.1 : blessing_of_might 
+     40715.6 : clearcasting      
       4965.0 : flask             
       1485.0 : food              
     103879.4 : initial_mana      
-     90090.5 : mage_armor        
+     86508.3 : mage_armor        
      36308.3 : mana_gem          
-     47420.3 : master_of_elements
-     78704.0 : mp5_regen         
-     55995.1 : replenishment     
+     47148.5 : master_of_elements
+     78578.9 : mp5_regen         
+     55909.0 : replenishment     
 
 
  *** Targets *** 
@@ -102,7 +102,7 @@ Player: Mage_Fire_T11H troll mage fire 85
 
 Target: Fluffy_Pillow humanoid enemy Unknown 88
   DPS: 0.0  DPS-Error=0.0/0.0% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=0/0.0%  DPS-Convergence=0.0%
-  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|16309211  mana=0|0
+  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|16318032  mana=0|0
   Spell Stats:  power=0|0(0)  hit=0.00%|0.00%(0)  crit=0.00%|0.00%(0)  penetration=0|0(0)  haste=0.00%|0.00%(0)  mp5=0|0(0)
   Attack Stats  power=0|0(0)  hit=0.00%|0.00%(0)  crit=5.00%|5.00%(0)  expertise=0.00|0.00(0)  haste=0.00%|0.00%(0)  speed=0.00%|0.00%(0)
   Defense Stats:  armor=10540|11977(0) miss=0.00%|0.00%  dodge=0.00%|0.00%(0)  parry=0.00%|0.00%(0)  block=5.00%|5.00%(0) crit=0.00%|0.00%
@@ -122,12 +122,12 @@ Waiting:
     All players active 100% of the time.
 
 Baseline Performance:
-  TotalEvents   = 4169731
+  TotalEvents   = 4161200
   MaxEventQueue = 29
-  TargetHealth  = 16309211
-  SimSeconds    = 454129
-  CpuSeconds    = 1.665
-  SpeedUp       = 272750
+  TargetHealth  = 16318032
+  SimSeconds    = 453416
+  CpuSeconds    = 1.874
+  SpeedUp       = 241951
 
-RNG global Actual/Expected Roll=0.998183 Range=1.000000 Gauss=0.999570
+RNG global Actual/Expected Roll=1.001818 Range=1.000000 Gauss=0.999656
 

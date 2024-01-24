@@ -9,15 +9,15 @@ Generating baseline...
 Generating reports...
 
 DPS Ranking:
-  27600 100.0%  Raid
-  27600  100.0%  Warrior_Fury_1h_T11H
+  27616 100.0%  Raid
+  27616  100.0%  Warrior_Fury_1h_T11H
 
 HPS Ranking:
-    687 100.0%  Raid
-    687  100.0%  Warrior_Fury_1h_T11H
+    686 100.0%  Raid
+    686  100.0%  Warrior_Fury_1h_T11H
 
 Player: Warrior_Fury_1h_T11H worgen warrior fury 85
-  DPS: 27599.7  DPS-Error=59.4/0.2% HPS: 687.1 HPS-Error=1.1/0.2% DPS-Range=3128/11.3%  DPS-Convergence=70.6%  DPR=2224.1  RPS-Out=12.4 RPS-In=12.5  Resource=(rage) Waiting=12.1 ApM=44.1
+  DPS: 27615.7  DPS-Error=60.6/0.2% HPS: 686.3 HPS-Error=1.1/0.2% DPS-Range=3385/12.3%  DPS-Convergence=70.6%  DPR=2223.5  RPS-Out=12.4 RPS-In=12.5  Resource=(rage) Waiting=12.1 ApM=44.1
   Origin: http://chardev.org/?profile=36557
   Talents: http://www.wowhead.com/talent#warrior-3200030000000000000003222203130111022320120000000000000000000
   Core Stats:  strength=6222|4940(4513)  agility=729|145(20)  stamina=7572|5953(5780)  intellect=55|53(20)  spirit=82|82(20)  mastery=6.51|6.51(809)  health=149033|126367  mana=2246|120
@@ -37,24 +37,24 @@ Player: Warrior_Fury_1h_T11H worgen warrior fury 85
     berserker_rage,if=!(buff.death_wish.up|buff.enrage.up|buff.unholy_frenzy.up)&rage>15&cooldown.raging_blow.remains<1
     raging_blow/battle_shout,if=rage<70
   Actions:
-    battle_shout      Count= 10.4|44.57sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    berserker_rage    Count=  7.4|52.99sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    bloodthirst       Count=116.5| 3.87sec  DPE= 30514|29%  DPET= 19853  DPR=1526.1  pDPS=7872  Miss=0.00%  Hit=22292|14284|48923  Crit=46903|29425|100782|33.4%
-    bloodthirst_heal  Count=346.9| 1.44sec  DPE=   895|100%  DPET=     0  DPR=   0.0  pDPS= 687  Miss=0.00%  Hit= 745| 745| 745  Crit= 1490| 1490| 1490|20.2%
-    colossus_smash    Count= 22.4|20.61sec  DPE= 10420| 2%  DPET=  6780  DPR= 528.1  pDPS= 517  Miss=0.00%  Hit=8234|6221|12572  Crit=17025|12815|25899|24.9%
-    death_wish        Count=  3.6|144.82sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    deep_wounds       Count=  0.0| 0.00sec  DPE=     0| 8%  DPET=     0  DPR=   0.0  pDPS=2141  Miss=0.00%  TickCount=432  MissTick=0.0%  Tick=2235|335|8274  UpTime=95.6%
-    execute           Count= 21.3| 3.61sec  DPE= 38810| 7%  DPET= 25250  DPR=1311.1  pDPS=1837  Miss=0.00%  Hit=31490|7974|66520  Crit=63542|22467|137031|22.8%
-    heroic_strike     Count= 53.3| 8.21sec  DPE= 22137| 9%  DPET=     0  DPR=1045.6  pDPS=2620  Miss=0.00%  Hit=15198|9320|31909  Crit=30851|19200|65732|44.3%
-    melee_main_hand   Count=260.0| 1.74sec  DPE=  8621|18%  DPET=  4967  DPR=   0.0  pDPS=4969  Miss=18.82%  Hit=8911|5948|17239  Crit=18326|12252|35513|20.4%  Glance=6678|24.0%
-    melee_off_hand    Count=259.4| 1.74sec  DPE=  5375|11%  DPET=  3091  DPR=   0.0  pDPS=3090  Miss=18.81%  Hit=5565|3717|10774  Crit=11451| 7657|22195|20.3%  Glance=4168|24.1%
-    raging_blow       Count= 54.0| 8.16sec  DPE= 20279| 9%  DPET= 13194  DPR=1051.5  pDPS=2426  Miss=0.00%
-    raging_blow_mh    Count= 54.0| 8.16sec  DPE= 12486| 5%  DPET=     0  DPR=   0.0  pDPS=1494  Miss=0.00%  Hit=9483|6319|18132  Crit=19901|13017|37352|28.8%
-    raging_blow_oh    Count= 54.0| 8.16sec  DPE=  7794| 3%  DPET=     0  DPR=   0.0  pDPS= 932  Miss=0.00%  Hit=5940|3949|11332  Crit=12471| 8135|23345|28.4%
-    recklessness      Count=  2.3|240.87sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    slam              Count= 34.5|12.74sec  DPE= 27820| 8%  DPET= 18101  DPR=   0.0  pDPS=2127  Miss=0.00%
-    slam_mh           Count= 34.5|12.74sec  DPE= 16782| 5%  DPET=     0  DPR=   0.0  pDPS=1283  Miss=0.00%  Hit=12854|8927|24677  Crit=26758|18390|50835|28.3%
-    slam_oh           Count= 34.5|12.74sec  DPE= 11038| 3%  DPET=     0  DPR=   0.0  pDPS= 844  Miss=0.00%  Hit=8469|5905|16005  Crit=17603|12165|32971|28.1%
+    battle_shout      Count= 10.4|44.56sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    berserker_rage    Count=  7.5|52.82sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    bloodthirst       Count=116.5| 3.87sec  DPE= 30511|29%  DPET= 19851  DPR=1526.1  pDPS=7867  Miss=0.00%  Hit=22315|14284|48923  Crit=46818|29425|100782|33.4%
+    bloodthirst_heal  Count=346.8| 1.44sec  DPE=   895|100%  DPET=     0  DPR=   0.0  pDPS= 686  Miss=0.00%  Hit= 745| 745| 745  Crit= 1490| 1490| 1490|20.1%
+    colossus_smash    Count= 22.4|20.61sec  DPE= 10421| 2%  DPET=  6780  DPR= 528.4  pDPS= 517  Miss=0.00%  Hit=8235|6221|12572  Crit=17021|12815|25899|24.9%
+    death_wish        Count=  3.6|144.83sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    deep_wounds       Count=  0.0| 0.00sec  DPE=     0| 8%  DPET=     0  DPR=   0.0  pDPS=2142  Miss=0.00%  TickCount=432  MissTick=0.0%  Tick=2235|339|8597  UpTime=95.6%
+    execute           Count= 21.3| 3.60sec  DPE= 38975| 7%  DPET= 25358  DPR=1314.7  pDPS=1846  Miss=0.00%  Hit=31706|8225|66520  Crit=63248|18133|137031|23.0%
+    heroic_strike     Count= 53.4| 8.22sec  DPE= 22158| 9%  DPET=     0  DPR=1041.5  pDPS=2626  Miss=0.00%  Hit=15176|9320|31909  Crit=30861|19200|65732|44.5%
+    melee_main_hand   Count=260.0| 1.74sec  DPE=  8615|18%  DPET=  4963  DPR=   0.0  pDPS=4963  Miss=18.79%  Hit=8917|5948|17239  Crit=18334|12252|35513|20.3%  Glance=6682|24.0%
+    melee_off_hand    Count=259.4| 1.74sec  DPE=  5393|11%  DPET=  3101  DPR=   0.0  pDPS=3100  Miss=18.68%  Hit=5561|3717|10774  Crit=11461| 7657|22195|20.4%  Glance=4169|24.1%
+    raging_blow       Count= 54.0| 8.17sec  DPE= 20242| 9%  DPET= 13170  DPR=1050.5  pDPS=2418  Miss=0.00%
+    raging_blow_mh    Count= 54.0| 8.17sec  DPE= 12455| 5%  DPET=     0  DPR=   0.0  pDPS=1488  Miss=0.00%  Hit=9466|6319|18132  Crit=19907|13017|37352|28.6%
+    raging_blow_oh    Count= 54.0| 8.17sec  DPE=  7787| 3%  DPET=     0  DPR=   0.0  pDPS= 930  Miss=0.00%  Hit=5933|3949|11332  Crit=12452| 8135|23345|28.4%
+    recklessness      Count=  2.3|240.81sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    slam              Count= 34.6|12.72sec  DPE= 27873| 8%  DPET= 18134  DPR=   0.0  pDPS=2136  Miss=0.00%
+    slam_mh           Count= 34.6|12.72sec  DPE= 16780| 5%  DPET=     0  DPR=   0.0  pDPS=1286  Miss=0.00%  Hit=12842|8927|24677  Crit=26828|18390|50835|28.2%
+    slam_oh           Count= 34.6|12.72sec  DPE= 11092| 3%  DPET=     0  DPR=   0.0  pDPS= 850  Miss=0.00%  Hit=8458|5905|16005  Crit=17662|12165|32971|28.6%
   Constant Buffs: abominations_might/arcane_brilliance/arcane_tactics/battle_shout/berserker_stance/blessing_of_kings
   Constant Buffs: blessing_of_might/blessing_of_might_regen/communion/demonic_pact/devotion_aura/elemental_oath
   Constant Buffs: fel_intelligence/ferocious_inspiration/flametongue_totem/fortitude/honor_among_thieves/horn_of_winter
@@ -63,35 +63,35 @@ Player: Warrior_Fury_1h_T11H worgen warrior fury 85
   Constant Buffs: windfury_totem/wrath_of_air
   Dynamic Buffs:
     battle_stance       : start=1.0  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 0%
-    battle_trance       : start=17.5 refresh=0.0   interval= 24.2 trigger=24.2  uptime= 7%  benefit= 8%
-    berserker_rage      : start=7.4  refresh=0.0   interval= 53.0 trigger=53.0  uptime=16%
+    battle_trance       : start=17.5 refresh=0.0   interval= 24.4 trigger=24.4  uptime= 7%  benefit= 8%
+    berserker_rage      : start=7.5  refresh=0.0   interval= 52.8 trigger=52.8  uptime=17%
     blackwing_dragonkin : start=4.0  refresh=0.0   interval=123.2 trigger=123.2 uptime=17%
     bloodlust           : start=1.0  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 9%  benefit=10%
-    bloodsurge          : start=34.7 refresh=0.2   interval= 12.7 trigger=12.6  uptime=14%
-    bloodthirst         : start=114.9 refresh=1.6   interval=  3.9 trigger=3.9   uptime=48%
-    death_wish          : start=3.6  refresh=0.0   interval=144.8 trigger=144.8 uptime=23%  benefit=24%
-    enrage              : start=14.4 refresh=41.8  interval= 29.5 trigger=7.4   uptime=58%  benefit=57%
-    executioner_talent  : start=1.0  refresh=20.3  interval= 59.7 trigger=3.6   uptime=17%
-    flurry              : start=77.2 refresh=147.0 interval=  5.9 trigger=2.0   uptime=69%  benefit=65%
-    golemblood_potion   : start=2.0  refresh=0.0   interval=358.4 trigger=0.0   uptime=10%
-    heart_of_rage       : start=4.7  refresh=0.0   interval=105.0 trigger=105.0 uptime=21%
-    incite              : start=9.8  refresh=0.0   interval= 40.5 trigger=40.5  uptime=11%  benefit=17%
-    landslide_mh        : start=13.3 refresh=12.2  interval= 33.4 trigger=17.0  uptime=50%  benefit=48%
-    landslide_oh        : start=9.5  refresh=3.5   interval= 44.7 trigger=32.0  uptime=29%  benefit=28%
-    recklessness        : start=2.3  refresh=0.0   interval=240.8 trigger=240.9 uptime= 6%  benefit= 8%
-    tier11_4pc_melee    : start=1.6  refresh=52.5  interval=400.0 trigger=8.2   uptime=97%  benefit=97%
+    bloodsurge          : start=34.8 refresh=0.2   interval= 12.7 trigger=12.6  uptime=14%
+    bloodthirst         : start=114.9 refresh=1.5   interval=  3.9 trigger=3.9   uptime=48%
+    death_wish          : start=3.6  refresh=0.0   interval=144.8 trigger=144.8 uptime=23%  benefit=23%
+    enrage              : start=14.3 refresh=41.7  interval= 29.7 trigger=7.4   uptime=57%  benefit=57%
+    executioner_talent  : start=1.0  refresh=20.3  interval= 56.3 trigger=3.6   uptime=17%
+    flurry              : start=77.1 refresh=147.4 interval=  5.9 trigger=2.0   uptime=69%  benefit=65%
+    golemblood_potion   : start=2.0  refresh=0.0   interval=358.5 trigger=0.0   uptime=10%
+    heart_of_rage       : start=4.7  refresh=0.0   interval=105.1 trigger=105.1 uptime=21%
+    incite              : start=9.8  refresh=0.0   interval= 40.7 trigger=40.7  uptime=11%  benefit=17%
+    landslide_mh        : start=13.3 refresh=12.2  interval= 33.5 trigger=17.1  uptime=50%  benefit=48%
+    landslide_oh        : start=9.4  refresh=3.6   interval= 45.5 trigger=32.1  uptime=29%  benefit=28%
+    recklessness        : start=2.3  refresh=0.0   interval=240.8 trigger=240.8 uptime= 6%  benefit= 8%
+    tier11_4pc_melee    : start=1.6  refresh=52.4  interval=395.6 trigger=8.2   uptime=97%  benefit=96%
   Benefits:
       1.1% : rage_cap                      
   Up-Times:
-      0.4% : rage_cap                      
+      0.6% : rage_cap                      
   Procs:
-     50.8 |   9.33sec : munched_deep_wounds
-    108.2 |   4.41sec : rolled_deep_wounds
+     50.8 |   9.35sec : munched_deep_wounds
+    108.0 |   4.41sec : rolled_deep_wounds
   Gains:
-       312.6 : battle_shout   
-        50.2 : berserker_rage   (overflow=1.1%)
-      3521.7 : melee_main_hand  (overflow=1.3%)
-      1757.7 : melee_off_hand   (overflow=1.3%)
+       312.2 : battle_shout   
+        50.9 : berserker_rage   (overflow=1.1%)
+      3523.3 : melee_main_hand  (overflow=1.3%)
+      1760.8 : melee_off_hand   (overflow=1.2%)
 
 
  *** Targets *** 
@@ -99,7 +99,7 @@ Player: Warrior_Fury_1h_T11H worgen warrior fury 85
 
 Target: Fluffy_Pillow humanoid enemy Unknown 88
   DPS: 0.0  DPS-Error=0.0/0.0% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=0/0.0%  DPS-Convergence=0.0%
-  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|14865395  mana=0|0
+  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|14872144  mana=0|0
   Spell Stats:  power=0|0(0)  hit=0.00%|0.00%(0)  crit=0.00%|0.00%(0)  penetration=0|0(0)  haste=0.00%|0.00%(0)  mp5=0|0(0)
   Attack Stats  power=0|0(0)  hit=0.00%|0.00%(0)  crit=5.00%|5.00%(0)  expertise=0.00|0.00(0)  haste=0.00%|0.00%(0)  speed=0.00%|0.00%(0)
   Defense Stats:  armor=10540|11977(0) miss=0.00%|0.00%  dodge=0.00%|0.00%(0)  parry=0.00%|0.00%(0)  block=5.00%|5.00%(0) crit=0.00%|0.00%
@@ -121,12 +121,12 @@ Waiting:
     12.1% : Warrior_Fury_1h_T11H
 
 Baseline Performance:
-  TotalEvents   = 5257731
-  MaxEventQueue = 32
-  TargetHealth  = 14865395
-  SimSeconds    = 451935
-  CpuSeconds    = 2.609
-  SpeedUp       = 173222
+  TotalEvents   = 5259498
+  MaxEventQueue = 33
+  TargetHealth  = 14872144
+  SimSeconds    = 452013
+  CpuSeconds    = 2.593
+  SpeedUp       = 174320
 
-RNG global Actual/Expected Roll=1.001120 Range=1.000000 Gauss=0.999863
+RNG global Actual/Expected Roll=1.000455 Range=1.000000 Gauss=1.000085
 
