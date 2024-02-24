@@ -1,7 +1,7 @@
 
 SimulationCraft 433-2 for World of Warcraft 4.3.3 Live (build level 15354)
 
-Simulating... ( iterations=1000, max_time=450, vary_combat_length=0.20, optimal_raid=1, fight_style=Patchwerk )
+Simulating... ( iterations=10000, max_time=450, vary_combat_length=0.20, optimal_raid=1, fight_style=Patchwerk )
 
 Generating baseline... 
 
@@ -12,14 +12,14 @@ Player Druid_Feral_T11H_hitcap unable to find glyph shred
 Generating reports...
 
 DPS Ranking:
-  28354 100.0%  Raid
-  28354  100.0%  Druid_Feral_T11H_hitcap
+  28330 100.0%  Raid
+  28330  100.0%  Druid_Feral_T11H_hitcap
 
 HPS Ranking:
       0 100.0%  Raid
 
 Player: Druid_Feral_T11H_hitcap worgen druid feral 85
-  DPS: 28353.7  DPS-Error=37.6/0.1% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=1756/6.2%  DPS-Convergence=70.7%  DPR=1931.1  RPS-Out=14.7 RPS-In=14.5  Resource=(energy) Waiting=48.1 ApM=33.6
+  DPS: 28330.2  DPS-Error=11.9/0.0% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=2632/9.3%  DPS-Convergence=70.7%  DPR=1929.4  RPS-Out=14.7 RPS-In=14.5  Resource=(energy) Waiting=48.1 ApM=33.6
   Origin: http://chardev.org/?profile=35430
   Talents: http://www.wowhead.com/talent#druid-000000000000000000002320322312011221202301020301000000000000000
   Core Stats:  strength=701|119(20)  agility=7018|5427(5336)  stamina=7572|5953(5847)  intellect=191|182(20)  spirit=192|192(20)  mastery=20.18|20.18(2184)  health=145281|122615  mana=26526|24245
@@ -51,49 +51,49 @@ Player: Druid_Feral_T11H_hitcap worgen druid feral 85
     ravage,if=buff.stampede_cat.up&!buff.omen_of_clarity.react&buff.tigers_fury.up
     shred
   Actions:
-    berserk         Count=  2.8|196.31sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    cat_melee       Count=546.2| 0.83sec  DPE=  4977|21%  DPET=  6030  DPR=   0.0  pDPS=6028  Miss=0.00%  Hit=3604|1899|4522  Crit= 7448| 3912| 9316|44.9%  Glance=2708|23.9%  Dodge=3.8%
-    ferocious_bite  Count=  9.1|10.96sec  DPE= 37698| 3%  DPET= 36354  DPR=1175.4  pDPS= 763  Miss=0.00%  Hit=22086|3279|38107  Crit=46320| 6518|78501|67.9%  Dodge=3.8%
-    fury_swipes     Count= 54.6| 8.21sec  DPE=  8926| 4%  DPET=     0  DPR=   0.0  pDPS=1081  Miss=0.00%  Hit=6283|5887|7789  Crit=13012|12126|16045|43.0%  Dodge=4.0%
-    mangle_cat      Count= 20.3|23.92sec  DPE= 16294| 3%  DPET= 15713  DPR= 509.1  pDPS= 734  Miss=0.00%  Hit=11492|10485|13833  Crit=23742|21599|28496|42.8%  Dodge=3.9%
-    rake            Count= 31.1|14.55sec  DPE= 84722|21%  DPET= 81699  DPR=2864.3  pDPS=5848  Miss=0.00%  Hit=9327|8724|11759  Crit=19318|17971|24223|43.5%  Dodge=3.9%  TickCount=147  MissTick=0.0%  Tick=10246|9596|12935  CritTick=21230|19768|26645|44.7%  UpTime=97.5%
-    ravage          Count=  1.0| 0.00sec  DPE= 37293| 0%  DPET= 35966  DPR=   0.0  pDPS=  84  Miss=0.00%  Hit=24336|24336|24336  Crit=50132|50132|50132|54.0%  Dodge=4.0%
-    rip             Count= 21.6|18.67sec  DPE=136507|23%  DPET=131643  DPR=5282.4  pDPS=6537  Miss=0.00%  Dodge=4.1%  TickCount=202  MissTick=0.0%  Tick=9823|9006|11988  CritTick=20344|18553|24696|45.2%  UpTime=89.7%
-    savage_roar     Count= 13.6|34.08sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    shred           Count=129.8| 3.43sec  DPE= 25270|26%  DPET= 24368  DPR= 849.6  pDPS=7279  Miss=0.00%  Hit=17743|16701|21580  Crit=36710|34404|44455|43.3%  Dodge=3.8%
-    tigers_fury     Count= 16.5|28.06sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    berserk         Count=  2.8|196.38sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    cat_melee       Count=546.3| 0.83sec  DPE=  4973|21%  DPET=  6025  DPR=   0.0  pDPS=6023  Miss=0.00%  Hit=3605|1899|4522  Crit= 7448| 3912| 9316|44.8%  Glance=2709|24.0%  Dodge=3.9%
+    ferocious_bite  Count=  9.1|11.00sec  DPE= 37797| 3%  DPET= 36450  DPR=1178.0  pDPS= 764  Miss=0.00%  Hit=22186|3161|38107  Crit=46346| 6505|78501|68.1%  Dodge=3.8%
+    fury_swipes     Count= 54.4| 8.24sec  DPE=  8922| 4%  DPET=     0  DPR=   0.0  pDPS=1076  Miss=0.00%  Hit=6285|5887|7789  Crit=12998|12126|16045|43.0%  Dodge=3.9%
+    mangle_cat      Count= 20.3|23.89sec  DPE= 16388| 3%  DPET= 15803  DPR= 511.4  pDPS= 739  Miss=0.00%  Hit=11502|10485|13833  Crit=23734|21599|28496|43.6%  Dodge=3.9%
+    rake            Count= 31.2|14.55sec  DPE= 84713|21%  DPET= 81692  DPR=2857.1  pDPS=5852  Miss=0.00%  Hit=9324|8724|11759  Crit=19322|17971|24223|43.2%  Dodge=3.9%  TickCount=147  MissTick=0.0%  Tick=10249|9596|12935  CritTick=21219|19768|26645|44.9%  UpTime=97.5%
+    ravage          Count=  1.0| 0.00sec  DPE= 37088| 0%  DPET= 35767  DPR=   0.0  pDPS=  83  Miss=0.00%  Hit=24332|21162|24336  Crit=50124|43593|50132|53.1%  Dodge=3.8%
+    rip             Count= 21.6|18.69sec  DPE=136425|23%  DPET=131558  DPR=5287.1  pDPS=6527  Miss=0.00%  Dodge=3.9%  TickCount=202  MissTick=0.0%  Tick=9829|9006|11988  CritTick=20341|18553|24696|45.0%  UpTime=89.6%
+    savage_roar     Count= 13.6|34.06sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    shred           Count=129.8| 3.43sec  DPE= 25246|26%  DPET= 24345  DPR= 848.7  pDPS=7267  Miss=0.00%  Hit=17741|16701|21580  Crit=36700|34404|44455|43.2%  Dodge=3.9%
+    tigers_fury     Count= 16.5|28.07sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
   Constant Buffs: abominations_might/arcane_brilliance/arcane_tactics/battle_shout/blessing_of_kings/blessing_of_might
   Constant Buffs: blessing_of_might_regen/cat_form/communion/demonic_pact/devotion_aura/elemental_oath/fel_intelligence
   Constant Buffs: ferocious_inspiration/flametongue_totem/fortitude/honor_among_thieves/horn_of_winter/hunting_party
   Constant Buffs: improved_icy_talons/leader_of_the_pack/mana_spring_totem/mark_of_the_wild/moonkin/qiraji_fortitude/rampage
   Constant Buffs: replenishment/roar_of_courage/strength_of_earth/trueshot/unleashed_rage/windfury_totem/wrath_of_air
   Dynamic Buffs:
-    berserk                          : start=2.8  refresh=0.0   interval=196.3 trigger=196.3 uptime= 9%
+    berserk                          : start=2.8  refresh=0.0   interval=196.4 trigger=196.4 uptime= 9%
     bloodlust                        : start=1.0  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 9%  benefit=10%
-    essence_of_the_cyclone           : start=8.4  refresh=0.0   interval= 56.3 trigger=56.3  uptime=18%
-    omen_of_clarity                  : start=30.5 refresh=0.3   interval= 14.3 trigger=14.2  uptime= 3%  benefit= 5%
+    essence_of_the_cyclone           : start=8.4  refresh=0.0   interval= 56.3 trigger=56.3  uptime=19%
+    omen_of_clarity                  : start=30.5 refresh=0.3   interval= 14.4 trigger=14.2  uptime= 3%  benefit= 4%
     prestors_talisman_of_machination : start=6.0  refresh=0.0   interval= 81.3 trigger=81.3  uptime=20%
     primal_madness_cat               : start=19.3 refresh=0.0   interval= 23.9 trigger=23.9  uptime=31%
-    savage_roar                      : start=4.7  refresh=8.9   interval=108.6 trigger=34.1  uptime=97%  benefit=97%
+    savage_roar                      : start=4.7  refresh=8.9   interval=109.6 trigger=34.1  uptime=97%  benefit=97%
     stampede_cat                     : start=1.0  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 1%  benefit= 0%
-    t11_4pc_melee                    : start=1.5  refresh=18.0  interval=232.8 trigger=24.9  uptime=100%
+    t11_4pc_melee                    : start=1.5  refresh=18.0  interval=226.3 trigger=24.9  uptime=100%
     tigers_fury                      : start=16.5 refresh=0.0   interval= 28.1 trigger=28.1  uptime=22%  benefit=28%
-    tolvir_potion                    : start=2.0  refresh=0.0   interval=354.2 trigger=0.0   uptime=10%
+    tolvir_potion                    : start=2.0  refresh=0.0   interval=354.4 trigger=0.0   uptime=10%
   Benefits:
       0.0% : energy_cap                    
   Up-Times:
       0.0% : energy_cap                    
   Procs:
-     56.1 |   9.99sec : combo_points_wasted
-     54.6 |   8.21sec : fury_swipes
+     55.9 |  10.02sec : combo_points_wasted
+     54.4 |   8.24sec : fury_swipes
      79.0 |   5.73sec : primal_fury
   Gains:
-       192.1 : energy_refund  
-      4968.1 : energy_regen   
+       193.2 : energy_refund  
+      4969.2 : energy_regen   
          0.0 : lotp_health      (overflow=100.0%)
          0.0 : lotp_mana        (overflow=100.0%)
-      1160.3 : omen_of_clarity
-       991.2 : tigers_fury    
+      1158.7 : omen_of_clarity
+       990.1 : tigers_fury    
 
 
  *** Targets *** 
@@ -101,7 +101,7 @@ Player: Druid_Feral_T11H_hitcap worgen druid feral 85
 
 Target: Fluffy_Pillow humanoid enemy Unknown 88
   DPS: 0.0  DPS-Error=0.0/0.0% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=0/0.0%  DPS-Convergence=0.0%
-  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|15287304  mana=0|0
+  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|15278576  mana=0|0
   Spell Stats:  power=0|0(0)  hit=0.00%|0.00%(0)  crit=0.00%|0.00%(0)  penetration=0|0(0)  haste=0.00%|0.00%(0)  mp5=0|0(0)
   Attack Stats  power=0|0(0)  hit=0.00%|0.00%(0)  crit=5.00%|5.00%(0)  expertise=0.00|0.00(0)  haste=0.00%|0.00%(0)  speed=0.00%|0.00%(0)
   Defense Stats:  armor=10540|11977(0) miss=0.00%|0.00%  dodge=0.00%|0.00%(0)  parry=0.00%|0.00%(0)  block=5.00%|5.00%(0) crit=0.00%|0.00%
@@ -123,12 +123,12 @@ Waiting:
     48.1% : Druid_Feral_T11H_hitcap
 
 Baseline Performance:
-  TotalEvents   = 4823737
-  MaxEventQueue = 19
-  TargetHealth  = 15287304
-  SimSeconds    = 451302
-  CpuSeconds    = 3.189
-  SpeedUp       = 141518
+  TotalEvents   = 48240620
+  MaxEventQueue = 21
+  TargetHealth  = 15278576
+  SimSeconds    = 4513559
+  CpuSeconds    = 37.123
+  SpeedUp       = 121584
 
-RNG global Actual/Expected Roll=1.001027 Range=1.000000 Gauss=1.017980
+RNG global Actual/Expected Roll=1.000145 Range=1.000000 Gauss=0.999593
 

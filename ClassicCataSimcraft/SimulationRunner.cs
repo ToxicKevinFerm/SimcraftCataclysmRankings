@@ -12,7 +12,7 @@ public class SimulationRunner(IOptions<SimcraftOptions> options, ReportsReader r
         var outputFilePath = Path.Combine(options.Value.OutputPath, $"{fileName}.result.txt");
 
         var command = Path.Combine(options.Value.SimcPath, $"simc.exe");
-        var arguments = $"\"{inputFilePath}\" iterations=1000";
+        var arguments = $"\"{inputFilePath}\" iterations=10000";
 
         using var process = new Process();
         process.StartInfo.FileName = command;

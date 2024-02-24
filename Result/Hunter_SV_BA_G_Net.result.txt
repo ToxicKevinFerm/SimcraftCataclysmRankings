@@ -1,7 +1,7 @@
 
 SimulationCraft 433-2 for World of Warcraft 4.3.3 Live (build level 15354)
 
-Simulating... ( iterations=1000, max_time=450, vary_combat_length=0.20, optimal_raid=1, fight_style=Patchwerk )
+Simulating... ( iterations=10000, max_time=450, vary_combat_length=0.20, optimal_raid=1, fight_style=Patchwerk )
 
 Generating baseline... 
 
@@ -12,14 +12,14 @@ Player Hunter_SV_BA_SS_Net unable to find glyph serpent_string
 Generating reports...
 
 DPS Ranking:
-  31420 100.0%  Raid
-  31420  100.0%  Hunter_SV_BA_SS_Net
+  31413 100.0%  Raid
+  31413  100.0%  Hunter_SV_BA_SS_Net
 
 HPS Ranking:
       0 100.0%  Raid
 
 Player: Hunter_SV_BA_SS_Net troll hunter survival 85
-  DPS: 31420.5  DPS-Error=33.0/0.1% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=1714/5.5%  DPS-Convergence=70.7%  DPR=2842.2  RPS-Out=9.7 RPS-In=9.6  Resource=(focus) Waiting=0.0 ApM=51.4
+  DPS: 31413.0  DPS-Error=10.5/0.0% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=2162/6.9%  DPS-Convergence=70.7%  DPR=2841.2  RPS-Out=9.7 RPS-In=9.6  Resource=(focus) Waiting=0.0 ApM=51.4
   Talents: http://www.wowhead.com/talent#hunter-0300000000000000000230200000000000000023203003023022121311
   Core Stats:  strength=682|101(20)  agility=8058|6568(5375)  stamina=8354|6573(5836)  intellect=118|113(20)  spirit=126|126(20)  mastery=10.64|10.64(473)  health=155733|130785  mana=2246|120
   Spell Stats:  power=0|0(0)  hit=9.43%|9.43%(966)  crit=17.87%|12.87%(2307)  penetration=0|0(0)  haste=16.52%|10.97%(1405)  mp5=0|0(0)
@@ -37,19 +37,19 @@ Player: Hunter_SV_BA_SS_Net troll hunter survival 85
     black_arrow,if=target.time_to_die>=8
     arcane_shot,if=focus>=76&buff.lock_and_load.down/cobra_shot
   Actions:
-    arcane_shot          Count= 41.9|10.62sec  DPE= 16705| 5%  DPET= 16109  DPR= 759.3  pDPS=1550  Miss=0.00%  Hit=11638|11196|13669  Crit=24115|23063|28157|40.9%
-    black_arrow          Count= 18.0|25.22sec  DPE= 48235| 6%  DPET= 46515  DPR=1378.1  pDPS=1925  Miss=0.00%  TickCount=178  MissTick=0.0%  Tick=3417|3300|4155  CritTick=7167|6897|8684|38.9%  UpTime=78.9%
-    cobra_shot           Count=192.4| 2.33sec  DPE= 15781|21%  DPET= 11549  DPR=   0.0  pDPS=6713  Miss=0.00%  Hit=11078|10772|13066  Crit=22893|22191|26917|39.9%
-    explosive_shot       Count=107.0| 4.22sec  DPE= 43468|33%  DPET= 41917  DPR=1652.6  pDPS=10291  Miss=0.00%  TickCount=320  MissTick=0.0%  Tick=9731|9394|12083  CritTick=20426|19634|25254|45.0%  UpTime=56.7%
-    kill_shot            Count= 14.6| 5.62sec  DPE= 37836| 4%  DPET= 36486  DPR=   0.0  pDPS=1224  Miss=0.00%  Hit=23897|23160|29137  Crit=49385|47709|60021|56.0%
-    ranged               Count=216.2| 2.10sec  DPE=  8674|13%  DPET=  4155  DPR=   0.0  pDPS=4152  Miss=0.00%  Hit=6065|5868|7147  Crit=12554|12089|14724|40.2%
+    arcane_shot          Count= 41.8|10.63sec  DPE= 16643| 5%  DPET= 16049  DPR= 756.5  pDPS=1544  Miss=0.00%  Hit=11641|11196|13669  Crit=24110|23063|28157|40.4%
+    black_arrow          Count= 18.0|25.22sec  DPE= 48204| 6%  DPET= 46483  DPR=1377.2  pDPS=1922  Miss=0.00%  TickCount=178  MissTick=0.0%  Tick=3417|3300|4155  CritTick=7167|6897|8684|38.8%  UpTime=78.9%
+    cobra_shot           Count=192.2| 2.33sec  DPE= 15785|21%  DPET= 11551  DPR=   0.0  pDPS=6714  Miss=0.00%  Hit=11076|10772|13066  Crit=22899|22191|26917|39.9%
+    explosive_shot       Count=106.9| 4.22sec  DPE= 43493|33%  DPET= 41942  DPR=1653.6  pDPS=10303  Miss=0.00%  TickCount=320  MissTick=0.0%  Tick=9731|9394|12083  CritTick=20430|19634|25254|45.0%  UpTime=56.7%
+    kill_shot            Count= 14.6| 5.62sec  DPE= 37639| 4%  DPET= 36296  DPR=   0.0  pDPS=1213  Miss=0.00%  Hit=23906|23160|29137  Crit=49395|47709|60021|55.0%
+    ranged               Count=216.0| 2.10sec  DPE=  8672|13%  DPET=  4155  DPR=   0.0  pDPS=4152  Miss=0.00%  Hit=6066|5868|7147  Crit=12555|12089|14724|40.2%
     rapid_fire           Count=  2.0|300.73sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    serpent_sting        Count=  1.0| 0.00sec  DPE=796704| 6%  DPET=768079  DPR=31868.1  pDPS=1762  Miss=0.00%  TickCount=150  MissTick=0.0%  Tick=3310|3213|4005  CritTick=6945|6714|8371|53.7%  UpTime=99.4%
-    serpent_sting_burst  Count=  1.0| 0.00sec  DPE=  7593| 0%  DPET=     0  DPR=   0.0  pDPS=  17  Miss=0.00%  Hit=5297|5266|5319  Crit=10910|10849|10957|40.9%
-   cat  (DPS=3803.1)
+    serpent_sting        Count=  1.0| 0.00sec  DPE=796656| 6%  DPET=768211  DPR=31866.2  pDPS=1764  Miss=0.00%  TickCount=150  MissTick=0.0%  Tick=3311|3213|4005  CritTick=6945|6714|8371|53.8%  UpTime=99.4%
+    serpent_sting_burst  Count=  1.0| 0.00sec  DPE=  7564| 0%  DPET=     0  DPR=   0.0  pDPS=  17  Miss=0.00%  Hit=5296|5266|5319  Crit=10910|10849|10957|40.4%
+   cat  (DPS=3802.4)
     call_of_the_wild     Count=  2.0| 0.00sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
-    claw                 Count=137.6| 3.30sec  DPE=  6493| 6%  DPET=  4224  DPR= 320.3  pDPS=1976  Miss=0.00%  Hit=4182|2292|5785  Crit= 8400| 4585|11570|54.8%
-    melee                Count=325.6| 1.39sec  DPE=  2537| 6%  DPET=  1829  DPR=   0.0  pDPS=1827  Miss=0.00%  Hit=1693|1479|2346  Crit= 3414| 2957| 4691|54.9%  Glance=1276|24.1%
+    claw                 Count=137.4| 3.30sec  DPE=  6491| 6%  DPET=  4223  DPR= 319.6  pDPS=1975  Miss=0.00%  Hit=4178|2292|5785  Crit= 8397| 4585|11570|54.8%
+    melee                Count=325.3| 1.39sec  DPE=  2536| 6%  DPET=  1829  DPR=   0.0  pDPS=1827  Miss=0.00%  Hit=1693|1479|2346  Crit= 3412| 2957| 4691|54.9%  Glance=1277|23.9%
     rabid                Count= 10.3|46.10sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
     roar_of_courage      Count= 10.3|46.10sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
   Constant Buffs: abominations_might/arcane_brilliance/arcane_tactics/aspect_of_the_hawk/battle_shout/blessing_of_kings
@@ -61,31 +61,31 @@ Player: Hunter_SV_BA_SS_Net troll hunter survival 85
   Dynamic Buffs:
     berserking                       : start=3.0  refresh=0.0   interval=180.7 trigger=180.7 uptime= 7%  benefit= 7%
     bloodlust                        : start=1.0  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 9%  benefit= 9%
-    call_of_the_wild                 : start=2.0  refresh=0.0   interval=301.1 trigger=0.0   uptime= 9%  benefit=10%
-    culling_the_herd                 : start=7.9  refresh=67.5  interval= 57.9 trigger=6.0   uptime=90%  benefit=90%
-    essence_of_the_cyclone           : start=8.3  refresh=0.0   interval= 57.6 trigger=57.6  uptime=18%
+    call_of_the_wild                 : start=2.0  refresh=0.0   interval=301.0 trigger=0.0   uptime= 9%  benefit=10%
+    culling_the_herd                 : start=7.8  refresh=67.5  interval= 58.2 trigger=6.0   uptime=90%  benefit=90%
+    essence_of_the_cyclone           : start=8.2  refresh=0.0   interval= 57.6 trigger=57.6  uptime=18%
     lock_and_load                    : start=21.6 refresh=0.0   interval= 20.6 trigger=20.6  uptime=10%  benefit=40%
-    prestors_talisman_of_machination : start=5.9  refresh=0.0   interval= 83.0 trigger=83.0  uptime=19%
+    prestors_talisman_of_machination : start=5.9  refresh=0.0   interval= 82.8 trigger=82.8  uptime=19%
     rapid_fire                       : start=2.0  refresh=0.0   interval=300.7 trigger=300.7 uptime= 7%  benefit= 7%
-    tolvir_potion                    : start=2.0  refresh=0.0   interval=353.7 trigger=0.0   uptime=10%
-    xray_targeting                   : start=7.8  refresh=0.0   interval= 59.3 trigger=59.3  uptime=17%  benefit=17%
+    tolvir_potion                    : start=2.0  refresh=0.0   interval=353.4 trigger=0.0   uptime=10%
+    xray_targeting                   : start=7.8  refresh=0.0   interval= 59.4 trigger=59.4  uptime=17%  benefit=17%
     cat-bloodlust                    : start=1.0  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 9%  benefit= 8%
-    cat-call_of_the_wild             : start=2.0  refresh=0.0   interval=301.1 trigger=0.0   uptime= 9%  benefit= 9%
-    cat-culling_the_herd             : start=7.9  refresh=67.5  interval= 57.9 trigger=6.0   uptime=90%  benefit=90%
-    cat-rabid                        : start=5.2  refresh=0.0   interval= 81.3 trigger=79.2  uptime=22%  benefit=23%
-    cat-rabid_power_stack            : start=5.2  refresh=99.6  interval= 81.4 trigger=3.4   uptime=49%  benefit=49%
-    cat-sic_em                       : start=94.2 refresh=66.7  interval=  4.8 trigger=2.8   uptime=42%  benefit=68%
+    cat-call_of_the_wild             : start=2.0  refresh=0.0   interval=301.0 trigger=0.0   uptime= 9%  benefit= 9%
+    cat-culling_the_herd             : start=7.8  refresh=67.5  interval= 58.2 trigger=6.0   uptime=90%  benefit=90%
+    cat-rabid                        : start=5.2  refresh=0.0   interval= 81.3 trigger=80.0  uptime=22%  benefit=23%
+    cat-rabid_power_stack            : start=5.2  refresh=99.1  interval= 81.4 trigger=3.4   uptime=49%  benefit=49%
+    cat-sic_em                       : start=93.8 refresh=67.0  interval=  4.8 trigger=2.8   uptime=42%  benefit=68%
   Procs:
-      2.0 | 108.76sec : black_arrow_focus_starved
-      2.5 |  94.38sec : explosive_shot_focus_starved
-     21.6 |  20.62sec : lock_and_load
-     25.0 |  17.38sec : thrill_of_the_hunt
+      2.1 | 108.38sec : black_arrow_focus_starved
+      2.5 |  94.89sec : explosive_shot_focus_starved
+     21.6 |  20.60sec : lock_and_load
+     24.9 |  17.41sec : thrill_of_the_hunt
   Gains:
-      1731.7 : cobra_shot        
-      2258.8 : focus_regen       
-       364.7 : thrill_of_the_hunt  (overflow=2.8%)
+      1729.7 : cobra_shot        
+      2256.9 : focus_regen       
+       363.7 : thrill_of_the_hunt  (overflow=2.8%)
   Pet "cat" Gains:
-     2764.9 : focus_regen  (overflow=16.3%)
+     2766.8 : focus_regen  (overflow=16.1%)
 
 
  *** Targets *** 
@@ -93,7 +93,7 @@ Player: Hunter_SV_BA_SS_Net troll hunter survival 85
 
 Target: Fluffy_Pillow humanoid enemy Unknown 88
   DPS: 0.0  DPS-Error=0.0/0.0% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=0/0.0%  DPS-Convergence=0.0%
-  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|16945015  mana=0|0
+  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|16946473  mana=0|0
   Spell Stats:  power=0|0(0)  hit=0.00%|0.00%(0)  crit=0.00%|0.00%(0)  penetration=0|0(0)  haste=0.00%|0.00%(0)  mp5=0|0(0)
   Attack Stats  power=0|0(0)  hit=0.00%|0.00%(0)  crit=5.00%|5.00%(0)  expertise=0.00|0.00(0)  haste=0.00%|0.00%(0)  speed=0.00%|0.00%(0)
   Defense Stats:  armor=10540|11977(0) miss=0.00%|0.00%  dodge=0.00%|0.00%(0)  parry=0.00%|0.00%(0)  block=5.00%|5.00%(0) crit=0.00%|0.00%
@@ -113,12 +113,12 @@ Waiting:
     All players active 100% of the time.
 
 Baseline Performance:
-  TotalEvents   = 5578946
+  TotalEvents   = 55736051
   MaxEventQueue = 26
-  TargetHealth  = 16945015
-  SimSeconds    = 452363
-  CpuSeconds    = 3.153
-  SpeedUp       = 143471
+  TargetHealth  = 16946473
+  SimSeconds    = 4518984
+  CpuSeconds    = 33.382
+  SpeedUp       = 135372
 
-RNG global Actual/Expected Roll=0.999870 Range=1.000000 Gauss=1.002482
+RNG global Actual/Expected Roll=0.999943 Range=1.000000 Gauss=1.000242
 

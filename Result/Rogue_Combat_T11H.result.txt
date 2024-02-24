@@ -1,7 +1,7 @@
 
 SimulationCraft 433-2 for World of Warcraft 4.3.3 Live (build level 15354)
 
-Simulating... ( iterations=1000, max_time=450, vary_combat_length=0.20, optimal_raid=1, fight_style=Patchwerk )
+Simulating... ( iterations=10000, max_time=450, vary_combat_length=0.20, optimal_raid=1, fight_style=Patchwerk )
 
 Generating baseline... 
 Player Rogue_Combat_T11H attempting 'use_item' action with item 'blackfang_battleweave_gloves' which is not currently equipped.
@@ -13,14 +13,14 @@ Rogue_Combat_T11H tricks_of_the_trade: Unable to locate target 'if=set_bonus.tie
 Generating reports...
 
 DPS Ranking:
-  30743 100.0%  Raid
-  30743  100.0%  Rogue_Combat_T11H
+  30710 100.0%  Raid
+  30710  100.0%  Rogue_Combat_T11H
 
 HPS Ranking:
       0 100.0%  Raid
 
 Player: Rogue_Combat_T11H troll rogue combat 85
-  DPS: 30742.6  DPS-Error=43.9/0.1% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=2263/7.4%  DPS-Convergence=70.5%  DPR=1134.2  RPS-Out=27.1 RPS-In=26.9  Resource=(energy) Waiting=22.9 ApM=46.6
+  DPS: 30710.0  DPS-Error=13.7/0.0% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=2549/8.3%  DPS-Convergence=70.7%  DPR=1133.5  RPS-Out=27.1 RPS-In=26.9  Resource=(energy) Waiting=22.9 ApM=46.6
   Origin: http://chardev.org/?profile=55921
   Talents: http://www.wowhead.com/talent#rogue-023200000000000000023320303120300123210030000000000000000
   Core Stats:  strength=726|143(20)  agility=6597|5297(4837)  stamina=7515|5899(5785)  intellect=65|62(20)  spirit=92|92(20)  mastery=13.90|13.90(1057)  health=145479|122855  mana=2246|120
@@ -44,19 +44,19 @@ Player: Rogue_Combat_T11H troll rogue combat 85
     revealing_strike,if=combo_points=4&buff.revealing_strike.down
     sinister_strike,if=combo_points<5
   Actions:
-    deadly_poison     Count=190.2| 2.38sec  DPE=  5911| 8%  DPET=     0  DPR=   0.0  pDPS=2476  Miss=0.00%  TickCount=149  MissTick=0.0%  Tick=6972|1120|11072  CritTick=10767|1731|17106|15.3%  UpTime=98.3%
-    eviscerate        Count= 36.9|12.17sec  DPE= 34242| 9%  DPET= 33021  DPR= 978.4  pDPS=2787  Miss=0.00%  Hit=23860|14702|32073  Crit=49072|30287|66070|41.2%
-    instant_poison    Count=493.8| 0.98sec  DPE=  3977|14%  DPET=     0  DPR=   0.0  pDPS=4331  Miss=0.40%  Hit=3687|2886|5703  Crit= 5701| 4460| 8811|15.2%
-    killing_spree     Count=  7.6|62.79sec  DPE= 61931| 3%  DPET= 59714  DPR=   0.0  pDPS=1035  Miss=0.00%  TickCount=38  UpTime=4.1%
-    killing_spree_mh  Count= 37.7|11.29sec  DPE=  7842| 2%  DPET=     0  DPR=   0.0  pDPS= 652  MissTick=0.0%  Tick=6076|4294|8266  CritTick=12535|8846|17028|27.3%
-    killing_spree_oh  Count= 37.7|11.29sec  DPE=  4598| 1%  DPET=     0  DPR=   0.0  pDPS= 383  MissTick=0.0%  Tick=3560|2508|4884  CritTick=7363|5167|10061|27.3%
-    main_gauche       Count=181.7| 2.49sec  DPE=  7010| 9%  DPET=     0  DPR=   0.0  pDPS=2812  Miss=0.00%  Hit=5438|4294|8266  Crit=11225| 8846|17028|27.2%
-    melee_main_hand   Count=362.7| 1.25sec  DPE=  6394|17%  DPET=  5112  DPR=   0.0  pDPS=5113  Miss=12.04%  Hit=5763|4566|8820  Crit=11908| 9406|18170|27.2%  Glance=4328|24.1%
-    melee_off_hand    Count=672.7| 0.67sec  DPE=  3019|15%  DPET=  4475  DPR=   0.0  pDPS=4476  Miss=11.93%  Hit=2716|2152|4156  Crit= 5615| 4432| 8562|27.2%  Glance=2041|24.0%
-    revealing_strike  Count= 41.8|10.77sec  DPE=  9226| 3%  DPET=  8897  DPR= 230.7  pDPS= 851  Miss=0.00%  Hit=7173|5707|9188  Crit=14808|11756|18926|26.9%
-    rupture           Count= 19.5|23.00sec  DPE= 26648| 4%  DPET= 25696  DPR=1065.9  pDPS=1142  Miss=0.00%  TickCount=155  MissTick=0.0%  Tick=2589|1640|3582  CritTick=5361|3378|7378|27.2%  UpTime=68.4%
-    sinister_strike   Count=216.5| 2.10sec  DPE= 11979|19%  DPET= 11551  DPR= 307.1  pDPS=5718  Miss=0.00%  Hit=8300|6673|10636  Crit=19763|15869|25291|32.1%
-    slice_and_dice    Count= 16.0|29.17sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
+    deadly_poison     Count=188.7| 2.39sec  DPE=  5944| 8%  DPET=     0  DPR=   0.0  pDPS=2475  Miss=0.00%  TickCount=149  MissTick=0.0%  Tick=6970|1120|11072  CritTick=10769|1731|17106|15.3%  UpTime=98.3%
+    eviscerate        Count= 36.8|12.16sec  DPE= 34203| 9%  DPET= 32982  DPR= 977.2  pDPS=2787  Miss=0.00%  Hit=23866|14702|32073  Crit=49161|30287|66070|40.9%
+    instant_poison    Count=490.2| 0.98sec  DPE=  3978|14%  DPET=     0  DPR=   0.0  pDPS=4308  Miss=0.40%  Hit=3687|2886|5703  Crit= 5697| 4460| 8811|15.2%
+    killing_spree     Count=  7.5|62.89sec  DPE= 61923| 3%  DPET= 59715  DPR=   0.0  pDPS=1032  Miss=0.00%  TickCount=38  UpTime=4.1%
+    killing_spree_mh  Count= 37.5|11.30sec  DPE=  7844| 2%  DPET=     0  DPR=   0.0  pDPS= 651  MissTick=0.0%  Tick=6068|4294|8266  CritTick=12525|8846|17028|27.5%
+    killing_spree_oh  Count= 37.5|11.30sec  DPE=  4598| 1%  DPET=     0  DPR=   0.0  pDPS= 381  MissTick=0.0%  Tick=3558|2508|4884  CritTick=7344|5167|10061|27.5%
+    main_gauche       Count=180.8| 2.50sec  DPE=  7012| 9%  DPET=     0  DPR=   0.0  pDPS=2803  Miss=0.00%  Hit=5437|4294|8266  Crit=11229| 8846|17028|27.2%
+    melee_main_hand   Count=362.0| 1.25sec  DPE=  6401|17%  DPET=  5117  DPR=   0.0  pDPS=5117  Miss=11.98%  Hit=5762|4566|8820  Crit=11910| 9406|18170|27.2%  Glance=4328|24.0%
+    melee_off_hand    Count=671.4| 0.67sec  DPE=  3020|15%  DPET=  4476  DPR=   0.0  pDPS=4478  Miss=11.95%  Hit=2717|2152|4156  Crit= 5616| 4432| 8562|27.3%  Glance=2041|24.0%
+    revealing_strike  Count= 41.8|10.75sec  DPE=  9257| 3%  DPET=  8927  DPR= 231.4  pDPS= 855  Miss=0.00%  Hit=7174|5707|9188  Crit=14814|11756|18926|27.3%
+    rupture           Count= 19.3|23.08sec  DPE= 26643| 4%  DPET= 25692  DPR=1065.7  pDPS=1137  Miss=0.00%  TickCount=154  MissTick=0.0%  Tick=2589|1640|3582  CritTick=5351|3378|7378|27.2%  UpTime=68.0%
+    sinister_strike   Count=215.9| 2.10sec  DPE= 11991|19%  DPET= 11564  DPR= 307.5  pDPS=5720  Miss=0.00%  Hit=8298|6673|10636  Crit=19769|15869|25291|32.2%
+    slice_and_dice    Count= 16.0|29.18sec  DPE=     0| 0%  DPET=     0  DPR=   0.0  pDPS=   0  Miss=0.00%
   Constant Buffs: abominations_might/arcane_brilliance/arcane_tactics/battle_shout/blessing_of_kings/blessing_of_might
   Constant Buffs: blessing_of_might_regen/communion/demonic_pact/devotion_aura/elemental_oath/fel_intelligence
   Constant Buffs: ferocious_inspiration/flametongue_totem/fortitude/honor_among_thieves/horn_of_winter/hunting_party
@@ -66,33 +66,33 @@ Player: Rogue_Combat_T11H troll rogue combat 85
     adrenaline_rush                  : start=5.8  refresh=0.0   interval= 83.6 trigger=83.6  uptime=25%  benefit=47%
     berserking                       : start=3.0  refresh=0.0   interval=180.6 trigger=180.6 uptime= 7%  benefit= 8%
     bloodlust                        : start=1.0  refresh=0.0   interval=  0.0 trigger=0.0   uptime= 9%  benefit=10%
-    deadly_proc                      : start=176.1 refresh=0.0   interval=  2.5 trigger=2.5   uptime= 0%
-    fluid_death                      : start=1.0  refresh=747.8 interval=  0.0 trigger=0.6   uptime=100%
-    killing_spree                    : start=7.6  refresh=0.0   interval= 62.8 trigger=62.8  uptime= 3%  benefit= 8%
-    landslide_mh                     : start=13.7 refresh=15.2  interval= 33.1 trigger=15.3  uptime=53%  benefit=53%
-    landslide_oh                     : start=10.0 refresh=4.5   interval= 43.6 trigger=29.2  uptime=32%  benefit=32%
-    prestors_talisman_of_machination : start=6.2  refresh=0.0   interval= 79.2 trigger=79.2  uptime=20%
+    deadly_proc                      : start=174.4 refresh=0.0   interval=  2.5 trigger=2.5   uptime= 0%
+    fluid_death                      : start=1.0  refresh=746.3 interval=  0.0 trigger=0.6   uptime=100%
+    killing_spree                    : start=7.5  refresh=0.0   interval= 62.9 trigger=62.9  uptime= 3%  benefit= 8%
+    landslide_mh                     : start=13.6 refresh=15.1  interval= 33.1 trigger=15.3  uptime=53%  benefit=53%
+    landslide_oh                     : start=10.0 refresh=4.6   interval= 43.3 trigger=28.8  uptime=32%  benefit=32%
+    prestors_talisman_of_machination : start=6.2  refresh=0.0   interval= 79.1 trigger=79.1  uptime=20%
     revealing_strike                 : start=41.8 refresh=0.0   interval= 10.8 trigger=10.8  uptime=16%  benefit=85%
-    slice_and_dice                   : start=1.2  refresh=14.8  interval=214.2 trigger=29.2  uptime=100%
-    tier11_4pc                       : start=8.1  refresh=1.1   interval= 50.3 trigger=43.6  uptime=13%  benefit=19%
-    tolvir_potion                    : start=2.0  refresh=0.0   interval=352.4 trigger=0.0   uptime=10%
+    slice_and_dice                   : start=1.2  refresh=14.7  interval=215.4 trigger=29.2  uptime=100%
+    tier11_4pc                       : start=8.0  refresh=1.2   interval= 51.1 trigger=43.9  uptime=13%  benefit=19%
+    tolvir_potion                    : start=2.0  refresh=0.0   interval=351.7 trigger=0.0   uptime=10%
   Benefits:
      41.0% : deep_insight                  
       2.1% : energy_cap                    
-     20.5% : moderate_insight              
-     20.7% : shallow_insight               
+     20.4% : moderate_insight              
+     20.8% : shallow_insight               
   Up-Times:
-      1.3% : energy_cap                    
+      0.9% : energy_cap                    
   Procs:
-    190.2 |   2.38sec : deadly_poisons
-    181.7 |   2.49sec : main_gauche
-     29.0 |  15.36sec : ruthlessness
-     43.4 |  10.31sec : sinister_strike_glyph
+    188.7 |   2.39sec : deadly_poisons
+    180.8 |   2.50sec : main_gauche
+     28.8 |  15.42sec : ruthlessness
+     43.3 |  10.34sec : sinister_strike_glyph
   Gains:
-      1563.1 : adrenaline_rush     (overflow=7.4%)
-      2250.6 : combat_potency      (overflow=2.8%)
-      6775.2 : energy_regen        (overflow=1.5%)
-      1634.5 : relentless_strikes
+      1557.3 : adrenaline_rush     (overflow=7.3%)
+      2249.2 : combat_potency      (overflow=2.8%)
+      6761.8 : energy_regen        (overflow=1.6%)
+      1629.0 : relentless_strikes
 
 
  *** Targets *** 
@@ -100,7 +100,7 @@ Player: Rogue_Combat_T11H troll rogue combat 85
 
 Target: Fluffy_Pillow humanoid enemy Unknown 88
   DPS: 0.0  DPS-Error=0.0/0.0% HPS: 0.0 HPS-Error=0.0/0.0% DPS-Range=0/0.0%  DPS-Convergence=0.0%
-  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|16576809  mana=0|0
+  Core Stats:  strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  mastery=8.00|8.00(0)  health=0|16563861  mana=0|0
   Spell Stats:  power=0|0(0)  hit=0.00%|0.00%(0)  crit=0.00%|0.00%(0)  penetration=0|0(0)  haste=0.00%|0.00%(0)  mp5=0|0(0)
   Attack Stats  power=0|0(0)  hit=0.00%|0.00%(0)  crit=5.00%|5.00%(0)  expertise=0.00|0.00(0)  haste=0.00%|0.00%(0)  speed=0.00%|0.00%(0)
   Defense Stats:  armor=10540|11977(0) miss=0.00%|0.00%  dodge=0.00%|0.00%(0)  parry=0.00%|0.00%(0)  block=5.00%|5.00%(0) crit=0.00%|0.00%
@@ -116,21 +116,21 @@ Target: Fluffy_Pillow humanoid enemy Unknown 88
   Constant Buffs: replenishment/roar_of_courage/savage_combat/scarlet_fever/shadow_and_flame/strength_of_earth/sunder_armor
   Constant Buffs: tailspin/tear_armor/tendon_rip/thunder_clap/trueshot/unleashed_rage/vindication/windfury_totem/wrath_of_air
   Dynamic Buffs:
-    poison_doses:Rogue_Combat_T11H : start=2.7  refresh=186.7 interval=137.4 trigger=2.4   uptime=99%
+    poison_doses:Rogue_Combat_T11H : start=2.8  refresh=185.2 interval=138.8 trigger=2.4   uptime=99%
   Procs:
-    330.7 |   1.58sec : combo_points
-      1.5 | 118.56sec : combo_points_wasted
+    329.8 |   1.58sec : combo_points
+      1.4 | 117.48sec : combo_points_wasted
 
 Waiting:
     22.9% : Rogue_Combat_T11H
 
 Baseline Performance:
-  TotalEvents   = 6001633
-  MaxEventQueue = 23
-  TargetHealth  = 16576809
-  SimSeconds    = 454193
-  CpuSeconds    = 4.093
-  SpeedUp       = 110968
+  TotalEvents   = 59906096
+  MaxEventQueue = 24
+  TargetHealth  = 16563861
+  SimSeconds    = 4533139
+  CpuSeconds    = 43.628
+  SpeedUp       = 103904
 
-RNG global Actual/Expected Roll=1.001645 Range=1.000000 Gauss=0.999915
+RNG global Actual/Expected Roll=0.999832 Range=1.000000 Gauss=1.000240
 
